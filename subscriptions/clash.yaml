@@ -6,20 +6,16 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: ws
   port: 8080
-  server: 8.222.166.72
+  server: tgju.org
   type: vmess
-  uuid: 089240e2-7a2f-45ff-a107-516fb721009e
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 8080
-  server: 47.239.248.15
-  type: vmess
-  uuid: 1159c36a-38c4-4398-94cf-ac2bf4b0baba
+  uuid: nasnet
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -110,6 +106,17 @@ proxies:
   uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
 - alterId: 0
   cipher: auto
+  name: 🇸🇪[openproxylist.com] vmess-SE
+  network: ws
+  port: 443
+  server: 46.246.126.154
+  type: vmess
+  uuid: f2fd0786-1059-4f64-d54e-3f3a568c6c68
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
@@ -134,14 +141,6 @@ proxies:
     headers:
       Host: www.bing.com
     path: /a89feda9-ec30-48c1-ae6b-1a6f5b573f6b-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 110
-  server: 216.75.145.237
-  type: vmess
-  uuid: a5a25715-1553-4586-949d-3bb0fb87cbcd
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -172,6 +171,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇿🇦[openproxylist.com] vmess-ZA
+  network: ws
+  port: 443
+  server: boogeyman.chomba.tech
+  tls: true
+  type: vmess
+  uuid: 9b6a87ed-9949-49f6-ab6f-cf9ab15177d7
+  ws-opts:
+    headers:
+      Host: boogeyman.chomba.tech
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -198,12 +210,25 @@ proxies:
     headers:
       Host: n1761214919.mv7wh.tech
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1747624282.lie5d.cyou
+  servername: n1747624282.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 30109222-8c53-41bc-9781-a01cdeb68e4c
+  ws-opts:
+    headers:
+      Host: n1747624282.lie5d.cyou
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
@@ -212,10 +237,12 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇿🇦[openproxylist.com] vmess-ZA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -223,8 +250,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
@@ -233,10 +259,12 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇿🇦[openproxylist.com] vmess-ZA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
