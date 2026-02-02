@@ -6,6 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
+- alterId: 0
+  cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
   network: ws
   port: 443
@@ -72,7 +86,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: seoul03.zgjok.com
@@ -86,7 +100,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 8080
   server: tgju.org
@@ -118,6 +132,14 @@ proxies:
   server: 160.191.245.48
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳[openproxylist.com] vmess-IN
+  network: tcp
+  port: 15834
+  server: 20.193.153.19
+  type: vmess
+  uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -170,16 +192,18 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
+  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -188,16 +212,18 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
+  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
