@@ -48,7 +48,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -65,16 +65,16 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 8080
-  server: 188.114.98.0
+  server: tgju.org
   type: vmess
   uuid: nasnet
   ws-opts:
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+    path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 8080
   server: digitalocean.com
@@ -94,7 +94,7 @@ proxies:
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 2086
   server: 154.83.2.156
@@ -157,7 +157,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇻🇳[openproxylist.com] vmess-VN
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 58623
   server: 160.191.245.48
@@ -177,20 +177,6 @@ proxies:
     headers:
       Host: n1753598445.74qxv.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 8443
-  server: 162.159.152.4
-  servername: frsys.fl-dl.com
-  tls: true
-  type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
 proxy-groups:
 - name: PROXY
   proxies:
@@ -199,18 +185,17 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
   - 🇲🇽[openproxylist.com] vmess-MX
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇻🇳[openproxylist.com] vmess-VN
   - 🏳[openproxylist.com] vmess-
-  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
@@ -219,18 +204,17 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
   - 🇲🇽[openproxylist.com] vmess-MX
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇻🇳[openproxylist.com] vmess-VN
   - 🏳[openproxylist.com] vmess-
-  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
