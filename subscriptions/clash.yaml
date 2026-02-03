@@ -20,6 +20,48 @@ proxies:
     path: /3/device/
 - alterId: 0
   cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -30,6 +72,20 @@ proxies:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
     path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: vmess.lionandsunflag.com
+  tls: true
+  type: vmess
+  uuid: 2502de49-9f51-40a4-8b1a-a41aa9e8d19d
+  ws-opts:
+    headers:
+      Host: vmess.lionandsunflag.com
+    path: /3/device/
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -123,6 +179,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇺[openproxylist.com] vmess-HU
+  network: ws
+  port: 80
+  server: pq-Hungary1.09vpn.com
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  ws-opts:
+    headers: {}
+    path: /vmess/
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -165,6 +232,20 @@ proxies:
   uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
 - alterId: 0
   cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: ws
+  port: 443
+  server: n1753598445.74qxv.top
+  servername: n1753598445.74qxv.top
+  tls: true
+  type: vmess
+  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
+  ws-opts:
+    headers:
+      Host: n1753598445.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 24943
@@ -175,47 +256,16 @@ proxies:
     headers:
       Host: www.bing.com
     path: /a89feda9-ec30-48c1-ae6b-1a6f5b573f6b-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 110
-  server: 216.75.145.237
-  type: vmess
-  uuid: a5a25715-1553-4586-949d-3bb0fb87cbcd
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 8443
-  server: 172.64.152.23
-  servername: frsys.fl-dl.com
-  tls: true
-  type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
-- alterId: 0
-  cipher: auto
-  name: 🇿🇦[openproxylist.com] vmess-ZA
-  network: ws
-  port: 443
-  server: boogeyman.chomba.tech
-  tls: true
-  type: vmess
-  uuid: 9b6a87ed-9949-49f6-ab6f-cf9ab15177d7
-  ws-opts:
-    headers:
-      Host: boogeyman.chomba.tech
-    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -224,20 +274,23 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇿🇦[openproxylist.com] vmess-ZA
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -246,14 +299,13 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇿🇦[openproxylist.com] vmess-ZA
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
