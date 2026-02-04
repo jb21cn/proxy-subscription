@@ -33,17 +33,6 @@ proxies:
   uuid: 74035447-585c-4e3e-a8f4-a47853b9767d
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 55185
-  server: 47.243.135.74
-  type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
-  ws-opts:
-    headers: {}
-    path: /Notif_Chat
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -84,25 +73,13 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 8080
-  server: 188.114.98.0
+  server: tgju.org
   type: vmess
   uuid: nasnet
   ws-opts:
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
+    path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇲🇽[openproxylist.com] vmess-MX
@@ -111,18 +88,6 @@ proxies:
   server: 216.238.86.158
   type: vmess
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2086
-  server: 154.83.2.156
-  type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -130,14 +95,11 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -145,14 +107,11 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
