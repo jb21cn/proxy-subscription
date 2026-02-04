@@ -99,6 +99,14 @@ proxies:
     path: /NASNET/cdn?ed=2560
 - alterId: 0
   cipher: auto
+  name: 🇲🇽[openproxylist.com] vmess-MX
+  network: tcp
+  port: 34460
+  server: 216.238.86.158
+  type: vmess
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2086
@@ -180,6 +188,7 @@ proxy-groups:
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇺[openproxylist.com] vmess-HU
@@ -198,6 +207,7 @@ proxy-groups:
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇲🇽[openproxylist.com] vmess-MX
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇺[openproxylist.com] vmess-HU
