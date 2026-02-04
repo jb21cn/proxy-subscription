@@ -21,7 +21,6 @@ proxies:
   network: ws
   port: 443
   server: www.visa.com.hk
-  servername: choice-poetry-mug-bluetooth.trycloudflare.com
   tls: true
   type: vmess
   uuid: 95037be4-a578-4d31-a0a0-951cb09c746f
@@ -126,6 +125,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇺[openproxylist.com] vmess-HU
+  network: ws
+  port: 80
+  server: pq-Hungary1.09vpn.com
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  ws-opts:
+    headers: {}
+    path: /vmess/
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -172,6 +182,7 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
@@ -189,6 +200,7 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
