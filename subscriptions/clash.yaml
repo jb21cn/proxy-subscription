@@ -111,6 +111,18 @@ proxies:
   server: 216.238.86.158
   type: vmess
   uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 2086
+  server: 154.83.2.156
+  type: vmess
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -125,6 +137,7 @@ proxy-groups:
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -139,6 +152,7 @@ proxy-groups:
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
