@@ -42,18 +42,10 @@ proxies:
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
   ws-opts:
     headers: {}
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: tcp
-  port: 29360
-  server: 64.176.56.21
-  type: vmess
-  uuid: 74035447-585c-4e3e-a8f4-a47853b9767d
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -102,30 +94,6 @@ proxies:
     headers:
       Host: seoul02.zgjok.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 8080
-  server: tgju.org
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
 proxy-groups:
 - name: PROXY
   proxies:
@@ -134,13 +102,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
@@ -149,13 +114,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
