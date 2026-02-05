@@ -6,15 +6,18 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
-  port: 55185
-  server: 8.210.79.212
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
   type: vmess
-  uuid: aa3c3018-288b-46f3-af1c-9044e18d6e5b
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   ws-opts:
-    headers: {}
-    path: /Notif_Chat
+    headers:
+      Host: app.hajmyab.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -29,12 +32,20 @@ proxies:
     path: /vitRvGVofV7ia41dH
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 31769
+  server: 8.217.13.74
+  type: vmess
+  uuid: cf1ad6c7-5987-4314-82bb-b4399040d047
+- alterId: 0
+  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers: {}
     path: ''
@@ -49,6 +60,29 @@ proxies:
   ws-opts:
     headers: {}
     path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 8080
+  server: 172.64.149.182
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 80
+  server: 18.168.124.58
+  type: vmess
+  uuid: ff7be42d-7d09-445e-b89f-96d7712eb4bf
+  ws-opts:
+    headers: {}
+    path: /graphql
 - alterId: 0
   cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
@@ -68,13 +102,13 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 8080
-  server: tgju.org
+  server: 188.114.98.0
   type: vmess
   uuid: nasnet
   ws-opts:
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
+    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -99,10 +133,13 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -111,10 +148,13 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
