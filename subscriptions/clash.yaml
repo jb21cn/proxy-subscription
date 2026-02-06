@@ -6,29 +6,27 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
-  tls: true
+  port: 5059
+  server: 45.141.148.143
   type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  uuid: e720d2b6-80dd-4664-b64e-6cc784bce329
   ws-opts:
     headers:
-      Host: app.hajmyab.ir
+      Host: bmi.ir
     path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 80
-  server: hhnmj.890404.indevs.in
+  server: gggbnhj.890404.indevs.in
   type: vmess
   uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
   ws-opts:
     headers:
-      Host: HHNMJ.890404.InDEvS.in
+      Host: GGgbNHj.890404.InDevS.iN
     path: /vitRvGVofV7ia41dH
 - alterId: 0
   cipher: auto
@@ -71,7 +69,7 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
+    path: /nasnet/cdn
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -101,7 +99,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
@@ -113,7 +111,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
