@@ -18,18 +18,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 80
-  server: gggbnhj.890404.indevs.in
-  type: vmess
-  uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
-  ws-opts:
-    headers:
-      Host: GGgbNHj.890404.InDevS.iN
-    path: /vitRvGVofV7ia41dH
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 31769
@@ -43,7 +31,7 @@ proxies:
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
   ws-opts:
     headers: {}
     path: ''
@@ -81,44 +69,26 @@ proxies:
   ws-opts:
     headers: {}
     path: /graphql
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
-  network: ws
-  port: 443
-  server: seoul02.zgjok.com
-  servername: seoul02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
-  ws-opts:
-    headers:
-      Host: seoul02.zgjok.com
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇰🇷[openproxylist.com] vmess-KR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇰🇷[openproxylist.com] vmess-KR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
