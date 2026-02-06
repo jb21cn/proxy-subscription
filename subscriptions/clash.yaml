@@ -69,7 +69,7 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn
+    path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
