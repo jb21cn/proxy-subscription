@@ -97,38 +97,6 @@ proxies:
     headers:
       Host: seoul02.zgjok.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇲🇽[openproxylist.com] vmess-MX
-  network: tcp
-  port: 34460
-  server: 216.238.86.158
-  type: vmess
-  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 proxy-groups:
 - name: PROXY
   proxies:
@@ -141,9 +109,6 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇲🇽[openproxylist.com] vmess-MX
   type: select
 - interval: 300
   name: 自动选择
@@ -156,9 +121,6 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇲🇽[openproxylist.com] vmess-MX
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
