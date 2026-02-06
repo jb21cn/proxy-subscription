@@ -18,6 +18,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 31769
@@ -31,7 +45,7 @@ proxies:
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers: {}
     path: ''
@@ -57,38 +71,27 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: ws
-  port: 80
-  server: 18.168.124.58
-  type: vmess
-  uuid: ff7be42d-7d09-445e-b89f-96d7712eb4bf
-  ws-opts:
-    headers: {}
-    path: /graphql
+    path: /nasnet/cdn
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
