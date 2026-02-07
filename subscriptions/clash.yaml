@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 2087
+  server: s1.fastly4wards.com
+  type: vmess
+  uuid: f69943c7-69b8-476c-b1ca-48c374c66a38
+- alterId: 0
+  cipher: auto
   name: 🇦🇪[openproxylist.com] vmess-AE
   network: ws
   port: 443
@@ -56,7 +64,7 @@ proxies:
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
   ws-opts:
     headers: {}
     path: ''
@@ -113,7 +121,7 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 8080
-  server: tgju.org
+  server: 188.114.98.0
   type: vmess
   uuid: nasnet
   ws-opts:
@@ -152,10 +160,37 @@ proxies:
     headers:
       Host: v205.19740822.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: ws
+  port: 443
+  server: seoul03.zgjok.com
+  servername: seoul03.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  ws-opts:
+    headers:
+      Host: seoul03.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 8080
+  server: tgju.org
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn?ed=2560
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -169,10 +204,13 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -186,6 +224,8 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
