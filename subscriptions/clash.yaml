@@ -32,6 +32,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 55185
+  server: 8.210.79.212
+  type: vmess
+  uuid: aa3c3018-288b-46f3-af1c-9044e18d6e5b
+  ws-opts:
+    headers: {}
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 80
@@ -44,7 +69,7 @@ proxies:
     path: /vitRvGVofV7ia41dH
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 31769
   server: 8.217.13.74
@@ -57,7 +82,7 @@ proxies:
   port: 80
   server: tr1-smart.adelping.com
   type: vmess
-  uuid: 68c8f462-8468-4931-90a8-680c3d6cb3c1
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
     headers: {}
     path: ''
@@ -161,6 +186,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇺[openproxylist.com] vmess-HU
+  network: ws
+  port: 80
+  server: pq-Hungary1.09vpn.com
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  ws-opts:
+    headers: {}
+    path: /vmess/
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -173,42 +209,36 @@ proxies:
     path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  ws-opts:
+    headers:
+      Host: n1753598446.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇻🇳[openproxylist.com] vmess-VN
   network: tcp
   port: 58623
   server: 160.191.245.48
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: tcp
-  port: 15834
-  server: 20.193.153.19
-  type: vmess
-  uuid: 39a8c374-76b1-4e90-ab85-85cd9a42ded2
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 443
-  server: n1753598445.74qxv.top
-  servername: n1753598445.74qxv.top
-  tls: true
-  type: vmess
-  uuid: f53b95dc-3ec3-49a2-803a-510e614ae577
-  ws-opts:
-    headers:
-      Host: n1753598445.74qxv.top
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🏳[openproxylist.com] vmess-
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -218,18 +248,20 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🏳[openproxylist.com] vmess-
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -239,10 +271,10 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
