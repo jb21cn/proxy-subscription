@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 33014
+  server: sophia.sub-info.com
+  type: vmess
+  uuid: 76a837fa-a90f-4aee-9025-bc8d9d2943c6
+- alterId: 0
+  cipher: auto
   name: 🇦🇪[openproxylist.com] vmess-AE
   network: ws
   port: 443
@@ -18,6 +26,20 @@ proxies:
     headers:
       Host: bedrid.denizhosting.me
     path: ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 2053
+  server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
+  tls: true
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  ws-opts:
+    headers:
+      Host: app.hajmyab.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -54,13 +76,12 @@ proxies:
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 80
-  server: turk1.net.net
+  server: tr1-smart.adelping.com
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    headers: {}
+    path: ''
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -83,7 +104,18 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-5712964102.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 80
+  server: 18.168.124.58
+  type: vmess
+  uuid: ff7be42d-7d09-445e-b89f-96d7712eb4bf
+  ws-opts:
+    headers: {}
+    path: /graphql
 - alterId: 0
   cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
@@ -109,7 +141,7 @@ proxies:
   ws-opts:
     headers:
       Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+    path: /nasnet/cdn?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -158,17 +190,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇺[openproxylist.com] vmess-HU
-  network: ws
-  port: 80
-  server: pq-Hungary1.09vpn.com
-  type: vmess
-  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8080
@@ -205,20 +226,22 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇦🇪[openproxylist.com] vmess-AE
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
@@ -226,20 +249,22 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇦🇪[openproxylist.com] vmess-AE
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇭🇺[openproxylist.com] vmess-HU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇻🇳[openproxylist.com] vmess-VN
