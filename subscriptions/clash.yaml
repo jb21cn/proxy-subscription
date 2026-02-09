@@ -21,7 +21,6 @@ proxies:
   network: ws
   port: 2053
   server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
   tls: true
   type: vmess
   uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
@@ -108,44 +107,6 @@ proxies:
     headers:
       Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8080
-  server: digitalocean.com
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-571299667.rahavard365.co
-    path: /NASNET/cdn?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 443
-  server: frankfurt02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
-  ws-opts:
-    headers:
-      Host: frankfurt02.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 443
-  server: frankfurt01.zgjok.com
-  tls: true
-  type: vmess
-  uuid: b71579b1-6593-426d-90ac-f002fa96ade1
-  ws-opts:
-    headers:
-      Host: frankfurt01.zgjok.com
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -159,9 +120,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
@@ -175,9 +133,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
