@@ -17,15 +17,6 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 2083
-  server: de-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: fe37b441-8a52-4530-a52c-a0358e8143ec
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 8080
@@ -81,13 +72,12 @@ proxies:
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 80
-  server: turk1.net.net
+  server: tr1-smart.adelping.com
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
-    headers:
-      Host: tr1-smart.adelping.com.
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    headers: {}
+    path: ''
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -122,24 +112,11 @@ proxies:
   ws-opts:
     headers: {}
     path: /graphql
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 8080
-  server: 188.114.98.0
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    path: /nasnet/cdn?ed=2560
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -149,13 +126,11 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇫🇷[openproxylist.com] vmess-FR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -165,7 +140,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇫🇷[openproxylist.com] vmess-FR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
