@@ -79,6 +79,7 @@ proxies:
   network: ws
   port: 2053
   server: nextmi.hajmyab.ir
+  servername: yakxvtfbyk.hajmyab.ir
   tls: true
   type: vmess
   uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
