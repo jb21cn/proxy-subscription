@@ -44,25 +44,6 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 8080
-  server: 217.60.247.108
-  type: vmess
-  uuid: 4ab0e496-3ef5-43fd-9886-12434541fa42
-- alterId: 0
-  cipher: auto
-  name: 🇦🇱[openproxylist.com] vmess-AL
-  network: ws
-  port: 80
-  server: 45.15.170.237
-  type: vmess
-  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 5059
@@ -75,7 +56,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 2053
   server: nextmi.hajmyab.ir
@@ -88,15 +69,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 80
-  server: tr1-smart.adelping.com
+  server: turk1.net.net
   type: vmess
   uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   ws-opts:
-    headers: {}
-    path: ''
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -128,11 +110,9 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
@@ -143,11 +123,9 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
