@@ -6,6 +6,28 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 24448
+  server: 62.60.245.128
+  type: vmess
+  uuid: 25aaa1fa-e7f6-4af6-b393-c3d5c5a5d129
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺[openproxylist.com] vmess-RU
+  network: ws
+  port: 46103
+  server: 94.156.181.190
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2086
@@ -105,7 +127,6 @@ proxies:
   network: ws
   port: 2053
   server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
   tls: true
   type: vmess
   uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
@@ -124,10 +145,20 @@ proxies:
   ws-opts:
     headers: {}
     path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 31769
+  server: 8.217.13.74
+  type: vmess
+  uuid: cf1ad6c7-5987-4314-82bb-b4399040d047
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -139,10 +170,13 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🏳[openproxylist.com] vmess-
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -154,6 +188,7 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🏳[openproxylist.com] vmess-
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
