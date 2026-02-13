@@ -77,7 +77,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇮🇷[openproxylist.com] vmess-IR
   network: ws
   port: 80
   server: adelmeli.com
@@ -97,7 +97,7 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🏳[openproxylist.com] vmess-
+  - 🇮🇷[openproxylist.com] vmess-IR
   type: select
 - interval: 300
   name: 自动选择
@@ -109,7 +109,7 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🏳[openproxylist.com] vmess-
+  - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
