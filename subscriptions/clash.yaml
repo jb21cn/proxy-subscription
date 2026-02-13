@@ -31,9 +31,17 @@ proxies:
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 42152
-  server: 95.216.183.113
+  server: 95.217.25.69
   type: vmess
   uuid: 018f4459-056e-4c41-90ce-12cbc2c670b2
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 18188
+  server: 62.60.245.128
+  type: vmess
+  uuid: 7ba52802-3108-4cfa-8d44-917965ff61dd
 - alterId: 0
   cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
@@ -69,7 +77,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 🇮🇷[openproxylist.com] vmess-IR
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 80
   server: adelmeli.com
@@ -85,10 +93,11 @@ proxy-groups:
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
+  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
@@ -96,10 +105,11 @@ proxy-groups:
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
+  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
