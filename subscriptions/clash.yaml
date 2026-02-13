@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: tcp
-  port: 2085
-  server: Cpannel.iranucshop.ir
-  type: vmess
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 8443
@@ -31,7 +23,7 @@ proxies:
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 42152
-  server: 95.217.25.69
+  server: 95.216.183.113
   type: vmess
   uuid: 018f4459-056e-4c41-90ce-12cbc2c670b2
 - alterId: 0
@@ -42,28 +34,6 @@ proxies:
   server: 62.60.245.128
   type: vmess
   uuid: 7ba52802-3108-4cfa-8d44-917965ff61dd
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: 172.236.154.50
-  servername: sg.dalxy.eu.org
-  tls: true
-  type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  ws-opts:
-    headers:
-      Host: sg.dalxy.eu.org
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 16623
-  server: 85.17.192.110
-  type: vmess
-  uuid: ef984d19-4df7-4592-8ca8-a3f658b78c0a
 - alterId: 0
   cipher: auto
   name: 🇦🇺[openproxylist.com] vmess-AU
@@ -90,11 +60,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
@@ -102,11 +69,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
