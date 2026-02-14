@@ -28,7 +28,7 @@ proxies:
   uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
   ws-opts:
     headers: {}
-    path: /#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
