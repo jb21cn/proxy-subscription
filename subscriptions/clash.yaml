@@ -14,7 +14,7 @@ proxies:
   uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
   ws-opts:
     headers: {}
-    path: /
+    path: /#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN---#TELEGRAM-PULAVPN
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -50,44 +50,6 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18188
-  server: 62.60.245.128
-  type: vmess
-  uuid: 7ba52802-3108-4cfa-8d44-917965ff61dd
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 16623
-  server: 85.17.192.110
-  type: vmess
-  uuid: ef984d19-4df7-4592-8ca8-a3f658b78c0a
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺[openproxylist.com] vmess-AU
-  network: ws
-  port: 80
-  server: 45.15.185.17
-  type: vmess
-  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇮🇷[openproxylist.com] vmess-IR
-  network: ws
-  port: 80
-  server: adelmeli.com
-  type: vmess
-  uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
-  ws-opts:
-    headers: {}
-    path: ''
 proxy-groups:
 - name: PROXY
   proxies:
@@ -96,10 +58,6 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
   type: select
 - interval: 300
   name: 自动选择
@@ -108,10 +66,6 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
