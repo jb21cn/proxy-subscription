@@ -42,34 +42,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: tcp
-  port: 2085
-  server: Cpannel.iranucshop.ir
-  type: vmess
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
+  port: 443
+  server: 172.236.154.50
+  servername: sg.dalxy.eu.org
   tls: true
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 16623
-  server: 85.17.192.110
-  type: vmess
-  uuid: ef984d19-4df7-4592-8ca8-a3f658b78c0a
+      Host: sg.dalxy.eu.org
+    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -89,6 +73,17 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇮🇷[openproxylist.com] vmess-IR
+  network: ws
+  port: 80
+  server: adelmeli.com
+  type: vmess
+  uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
+  ws-opts:
+    headers: {}
+    path: ''
 proxy-groups:
 - name: PROXY
   proxies:
@@ -96,11 +91,10 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇮🇷[openproxylist.com] vmess-IR
   type: select
 - interval: 300
   name: 自动选择
@@ -108,11 +102,10 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
