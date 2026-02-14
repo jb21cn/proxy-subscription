@@ -6,6 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: ws
+  port: 2096
+  server: dv4.789900.xyz
+  servername: dv4.789900.xyz
+  tls: true
+  type: vmess
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  ws-opts:
+    headers:
+      Host: dv4.789900.xyz
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+- alterId: 0
+  cipher: auto
   name: 🇷🇺[openproxylist.com] vmess-RU
   network: ws
   port: 443
@@ -54,6 +68,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -62,6 +77,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
