@@ -8,6 +8,17 @@ proxies:
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
+  port: 20104
+  server: 109.104.153.12
+  type: vmess
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
+  ws-opts:
+    headers: {}
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
   port: 80
   server: 45.13.227.118
   type: vmess
@@ -16,6 +27,20 @@ proxies:
     headers:
       Host: '......................................................................................()...........................................................................................................................................................................................................................................................'
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: ws
+  port: 2096
+  server: dv4.789900.xyz
+  servername: dv4.789900.xyz
+  tls: true
+  type: vmess
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  ws-opts:
+    headers:
+      Host: dv4.789900.xyz
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
 - alterId: 0
   cipher: auto
   name: 🇷🇺[openproxylist.com] vmess-RU
@@ -64,20 +89,6 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: 172.236.154.50
-  servername: sg.dalxy.eu.org
-  tls: true
-  type: vmess
-  uuid: a88a71fa-ed7c-48d3-89e0-74a00d605d88
-  ws-opts:
-    headers:
-      Host: sg.dalxy.eu.org
-    path: a88a71fa-ed7c-48d3-89e0-74a00d605d88-vm
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 16623
@@ -108,17 +119,6 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 🇦🇱[openproxylist.com] vmess-AL
-  network: ws
-  port: 80
-  server: 45.15.170.237
-  type: vmess
-  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 5059
@@ -134,30 +134,30 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
   type: url-test
   url: http://www.gstatic.com/generate_204
