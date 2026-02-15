@@ -8,6 +8,22 @@ proxies:
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
+  port: 17356
+  server: freedom.vipgsmteam.info
+  type: vmess
+  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
   port: 31350
   server: c86s3.portablesubmarines.com
   type: vmess
@@ -72,14 +88,6 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 16623
-  server: 85.17.192.110
-  type: vmess
-  uuid: ef984d19-4df7-4592-8ca8-a3f658b78c0a
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 44329
@@ -113,12 +121,13 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
@@ -127,12 +136,13 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
