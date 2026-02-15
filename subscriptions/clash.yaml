@@ -14,14 +14,6 @@ proxies:
   uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
   port: 80
@@ -34,28 +26,18 @@ proxies:
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
 - alterId: 0
   cipher: auto
-  name: 🇷🇺[openproxylist.com] vmess-RU
+  name: 🇰🇷[openproxylist.com] vmess-KR
   network: ws
-  port: 443
-  server: 213.183.54.243
-  type: vmess
-  uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 8443
-  server: dll.avaaaal.ir
+  port: 2096
+  server: dv4.789900.xyz
+  servername: dv4.789900.xyz
   tls: true
   type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
   ws-opts:
     headers:
-      Host: cdge.avaaaal.ir
-    path: /
+      Host: dv4.789900.xyz
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -113,10 +95,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -127,10 +107,8 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
