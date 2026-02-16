@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 2085
+  server: Cpannel.iranucshop.ir
+  type: vmess
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -90,33 +98,11 @@ proxies:
   ws-opts:
     headers: {}
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 🇦🇱[openproxylist.com] vmess-AL
-  network: ws
-  port: 80
-  server: 45.15.170.237
-  type: vmess
-  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
-  network: ws
-  port: 5059
-  server: 45.141.148.143
-  type: vmess
-  uuid: e720d2b6-80dd-4664-b64e-6cc784bce329
-  ws-opts:
-    headers:
-      Host: bmi.ir
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
@@ -125,12 +111,11 @@ proxy-groups:
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇦🇱[openproxylist.com] vmess-AL
-  - 🇹🇷[openproxylist.com] vmess-TR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
@@ -139,8 +124,6 @@ proxy-groups:
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇮🇷[openproxylist.com] vmess-IR
-  - 🇦🇱[openproxylist.com] vmess-AL
-  - 🇹🇷[openproxylist.com] vmess-TR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
