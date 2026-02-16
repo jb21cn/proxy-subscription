@@ -17,7 +17,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 193.227.99.199
+  server: 198.62.62.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
@@ -134,20 +134,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 2053
-  server: nextmi.hajmyab.ir
-  servername: yakxvtfbyk.hajmyab.ir
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: app.hajmyab.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 55185
@@ -157,20 +143,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /Notif_Chat
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: llllllllo.890404.indevs.in
-  servername: llllllllo.890404.indevs.in
-  tls: true
-  type: vmess
-  uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
-  ws-opts:
-    headers:
-      Host: llllllllo.890404.indevs.in
-    path: /vitRvGVofV7ia41dH
 proxy-groups:
 - name: PROXY
   proxies:
@@ -187,9 +159,7 @@ proxy-groups:
   - 🇮🇷[openproxylist.com] vmess-IR
   - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -206,9 +176,7 @@ proxy-groups:
   - 🇮🇷[openproxylist.com] vmess-IR
   - 🇦🇱[openproxylist.com] vmess-AL
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
