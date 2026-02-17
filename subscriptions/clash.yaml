@@ -28,14 +28,6 @@ proxies:
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 17356
-  server: freedom.vipgsmteam.info
-  type: vmess
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
-- alterId: 0
-  cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
   network: tcp
   port: 35034
@@ -107,7 +99,6 @@ proxy-groups:
   - 自动选择
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
@@ -119,7 +110,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
