@@ -6,23 +6,12 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇵🇱[openproxylist.com] vmess-PL
-  network: ws
-  port: 57878
-  server: 85.194.243.117
-  type: vmess
-  uuid: 1423fa54-1256-4cbb-9663-e0ccab46f02a
-  ws-opts:
-    headers: {}
-    path: /vmess-argo?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
-  port: 2085
-  server: Cpannel.iranucshop.ir
+  port: 9970
+  server: fi.srvtogo.com
   type: vmess
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+  uuid: 704dfc67-26ff-4a5c-9e39-c1f614c7b3a1
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -37,14 +26,6 @@ proxies:
     headers:
       Host: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 17356
-  server: freedom.vipgsmteam.info
-  type: vmess
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
 - alterId: 0
   cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
@@ -105,9 +86,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇵🇱[openproxylist.com] vmess-PL
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -118,9 +97,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇵🇱[openproxylist.com] vmess-PL
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
