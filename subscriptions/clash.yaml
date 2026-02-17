@@ -25,7 +25,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 209.46.30.199
+  server: 198.62.62.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
@@ -100,14 +100,6 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 13852
-  server: 45.207.157.29
-  type: vmess
-  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
-- alterId: 0
-  cipher: auto
   name: 🇮🇷[openproxylist.com] vmess-IR
   network: ws
   port: 80
@@ -130,7 +122,6 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇮🇷[openproxylist.com] vmess-IR
   type: select
 - interval: 300
@@ -145,7 +136,6 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
   url: http://www.gstatic.com/generate_204
