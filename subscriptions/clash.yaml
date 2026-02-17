@@ -14,14 +14,6 @@ proxies:
   uuid: 704dfc67-26ff-4a5c-9e39-c1f614c7b3a1
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 2085
-  server: Cpannel.iranucshop.ir
-  type: vmess
-  uuid: 2c72c667-093c-47a5-a108-493c93282b57
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -114,7 +106,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
@@ -128,7 +119,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
