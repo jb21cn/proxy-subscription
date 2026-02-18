@@ -84,14 +84,6 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 16623
-  server: 85.17.192.110
-  type: vmess
-  uuid: ef984d19-4df7-4592-8ca8-a3f658b78c0a
-- alterId: 0
-  cipher: auto
   name: 🇦🇺[openproxylist.com] vmess-AU
   network: ws
   port: 80
@@ -106,7 +98,7 @@ proxies:
   name: 🇮🇷[openproxylist.com] vmess-IR
   network: ws
   port: 80
-  server: adelmeli.com
+  server: 85.133.204.67
   type: vmess
   uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
   ws-opts:
@@ -123,7 +115,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
   type: select
@@ -137,7 +128,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
