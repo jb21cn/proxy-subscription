@@ -35,7 +35,7 @@ proxies:
   uuid: 98689724-deb2-4a3d-b83b-602221995baf
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
   server: 198.62.62.199
@@ -142,7 +142,7 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
@@ -158,7 +158,7 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
