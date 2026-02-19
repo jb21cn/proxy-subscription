@@ -64,7 +64,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 8.34.146.199
+  server: 198.62.62.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
@@ -142,7 +142,7 @@ proxies:
   name: 🇮🇷[openproxylist.com] vmess-IR
   network: ws
   port: 80
-  server: adelmeli.com
+  server: 85.133.204.67
   type: vmess
   uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
   ws-opts:
