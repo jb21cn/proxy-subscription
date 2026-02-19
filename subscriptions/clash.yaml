@@ -77,11 +77,21 @@ proxies:
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - alterId: 0
   cipher: auto
+  name: 🇷🇺[openproxylist.com] vmess-RU
+  network: ws
+  port: 443
+  server: 213.183.54.243
+  type: vmess
+  uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8443
   server: dll.avaaaal.ir
-  servername: dll.avaaaal.ir
   tls: true
   type: vmess
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
@@ -103,6 +113,17 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺[openproxylist.com] vmess-AU
+  network: ws
+  port: 80
+  server: 45.15.185.17
+  type: vmess
+  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+  ws-opts:
+    headers: {}
+    path: /vmess/
 proxy-groups:
 - name: PROXY
   proxies:
@@ -114,8 +135,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: select
 - interval: 300
   name: 自动选择
@@ -127,8 +150,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
