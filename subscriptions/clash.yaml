@@ -6,6 +6,19 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇷🇺[openproxylist.com] vmess-RU
+  network: ws
+  port: 443
+  server: xg1a5.waimaohots.com
+  tls: true
+  type: vmess
+  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
+  ws-opts:
+    headers:
+      Host: xg1a5.waimaohots.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 18355
@@ -113,40 +126,11 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18188
-  server: 62.60.245.128
-  type: vmess
-  uuid: 7ba52802-3108-4cfa-8d44-917965ff61dd
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺[openproxylist.com] vmess-AU
-  network: ws
-  port: 80
-  server: 45.15.185.17
-  type: vmess
-  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
-  ws-opts:
-    headers: {}
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇮🇷[openproxylist.com] vmess-IR
-  network: ws
-  port: 80
-  server: 85.133.204.67
-  type: vmess
-  uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
-  ws-opts:
-    headers: {}
-    path: ''
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -157,13 +141,11 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -174,9 +156,6 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇮🇷[openproxylist.com] vmess-IR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
