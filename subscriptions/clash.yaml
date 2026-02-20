@@ -9,6 +9,19 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
+  server: usa.spacegate.ir
+  servername: usa.spacegate.ir
+  tls: true
+  type: vmess
+  uuid: a9402592-434d-4599-974d-5f46f9fe205b
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
   server: xg1a6.waimaohots.com
   tls: true
   type: vmess
@@ -32,7 +45,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇷🇺[openproxylist.com] vmess-RU
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: xg1a5.waimaohots.com
@@ -43,14 +56,6 @@ proxies:
     headers:
       Host: xg1a5.waimaohots.com
     path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18355
-  server: 92.246.87.170
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -142,7 +147,7 @@ proxies:
   name: 🇮🇷[openproxylist.com] vmess-IR
   network: ws
   port: 80
-  server: 85.133.204.67
+  server: adelmeli.com
   type: vmess
   uuid: 89e25562-d0f1-4f54-8afb-6ee374e30fbb
   ws-opts:
@@ -153,9 +158,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
@@ -170,9 +175,9 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
