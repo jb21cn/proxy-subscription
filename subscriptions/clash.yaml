@@ -18,7 +18,6 @@ proxies:
   network: ws
   port: 8443
   server: dll.avaaaal.ir
-  servername: dll.avaaaal.ir
   tls: true
   type: vmess
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
@@ -47,7 +46,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 198.62.62.199
+  server: 94.247.142.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
@@ -86,17 +85,6 @@ proxies:
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - alterId: 0
   cipher: auto
-  name: 🇷🇺[openproxylist.com] vmess-RU
-  network: ws
-  port: 443
-  server: 213.183.54.243
-  type: vmess
-  uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 8443
@@ -130,6 +118,14 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 57449
+  server: 157.173.206.47
+  type: vmess
+  uuid: 4f6d0ce6-0406-447c-f307-21a6aa7fe6b2
+- alterId: 0
+  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: ws
   port: 5059
@@ -152,10 +148,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   type: select
 - interval: 300
@@ -169,10 +165,10 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   type: url-test
   url: http://www.gstatic.com/generate_204
