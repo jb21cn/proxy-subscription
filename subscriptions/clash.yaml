@@ -45,17 +45,18 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇦🇪[openproxylist.com] vmess-AE
   network: ws
-  port: 443
-  server: xg1a5.waimaohots.com
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: dll.avaaaal.ir
   tls: true
   type: vmess
-  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   ws-opts:
     headers:
-      Host: xg1a5.waimaohots.com
-    path: /api/v1/graphql
+      Host: cdge.avaaaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
@@ -64,6 +65,19 @@ proxies:
   server: 92.246.87.170
   type: vmess
   uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: xg1a1.waimaohots.com
+  tls: true
+  type: vmess
+  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
+  ws-opts:
+    headers:
+      Host: xg1a1.waimaohots.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -138,8 +152,9 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
@@ -153,8 +168,9 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
