@@ -6,50 +6,10 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇷🇺[openproxylist.com] vmess-RU
-  network: ws
-  port: 443
-  server: xg1a5.waimaohots.com
-  tls: true
-  type: vmess
-  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
-  ws-opts:
-    headers:
-      Host: xg1a5.waimaohots.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: xg1a6.waimaohots.com
-  tls: true
-  type: vmess
-  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
-  ws-opts:
-    headers:
-      Host: xg1a6.waimaohots.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: xg1a6.waimaohots.com
-  tls: true
-  type: vmess
-  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
-  ws-opts:
-    headers:
-      Host: xg1a6.waimaohots.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
   name: 🇦🇪[openproxylist.com] vmess-AE
   network: ws
   port: 8443
   server: dll.avaaaal.ir
-  servername: dll.avaaaal.ir
   tls: true
   type: vmess
   uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
@@ -149,9 +109,6 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
@@ -165,9 +122,6 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
