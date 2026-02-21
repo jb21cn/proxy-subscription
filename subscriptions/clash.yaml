@@ -27,19 +27,6 @@ proxies:
   uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: xg1a1.waimaohots.com
-  tls: true
-  type: vmess
-  uuid: 374bf01b-17cf-4e26-a7e8-6d1110e04978
-  ws-opts:
-    headers:
-      Host: xg1a1.waimaohots.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 52190
@@ -79,7 +66,7 @@ proxies:
   ws-opts:
     headers:
       Host: '......................................................................................()...........................................................................................................................................................................................................................................................'
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇷🇺[openproxylist.com] vmess-RU
@@ -91,46 +78,28 @@ proxies:
   ws-opts:
     headers: {}
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
