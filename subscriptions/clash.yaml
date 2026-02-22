@@ -189,14 +189,6 @@ proxies:
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 17356
-  server: 193.151.146.232
-  type: vmess
-  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
-- alterId: 0
-  cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
   network: tcp
   port: 35034
@@ -234,7 +226,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   type: select
@@ -255,7 +246,6 @@ proxy-groups:
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
