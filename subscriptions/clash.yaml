@@ -177,7 +177,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 199.34.230.199
+  server: 198.62.62.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
