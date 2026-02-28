@@ -18,7 +18,6 @@ proxies:
   network: ws
   port: 443
   server: neva.azlan.biz.id
-  servername: neva.azlan.biz.id
   tls: true
   type: vmess
   uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
@@ -63,7 +62,7 @@ proxies:
   servername: cdn.olaf.space
   tls: true
   type: vmess
-  uuid: 9bd3b246-212d-4994-b1c3-cda8ed02fce6
+  uuid: 81cf583b-c113-4f94-8bf9-6042373f15db
   ws-opts:
     headers:
       Host: cdn.olaf.space
@@ -110,7 +109,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: n1761296897.lie5d.cyou
@@ -219,6 +218,7 @@ proxies:
   network: ws
   port: 443
   server: n1761296880.lie5d.cyou
+  servername: n1761296880.lie5d.cyou
   tls: true
   type: vmess
   uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
@@ -238,7 +238,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -259,7 +259,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
