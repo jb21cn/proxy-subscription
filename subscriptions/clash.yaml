@@ -21,7 +21,6 @@ proxies:
   network: ws
   port: 443
   server: neva.azlan.biz.id
-  servername: neva.azlan.biz.id
   tls: true
   type: vmess
   uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
@@ -57,6 +56,59 @@ proxies:
     headers:
       Host: cdn.olaf.space
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1761296877.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087
+  ws-opts:
+    headers:
+      Host: n1761296877.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1752248946.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: ef167986-d154-4409-88b1-757efb6ae823
+  ws-opts:
+    headers:
+      Host: n1752248946.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753356378.4u9ma.icu
+  servername: n1753356378.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  ws-opts:
+    headers:
+      Host: n1753356378.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1761296897.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 5ecc3086-93cf-42e3-956b-f2180e042537
+  ws-opts:
+    headers:
+      Host: n1761296897.lie5d.cyou
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -65,6 +117,10 @@ proxy-groups:
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
@@ -73,6 +129,10 @@ proxy-groups:
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
