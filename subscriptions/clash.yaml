@@ -6,23 +6,15 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: tcp
-  port: 44030
-  server: 94.232.247.164
-  type: vmess
-  uuid: 22c396a3-95da-4be8-beef-834d17d75784
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
-  port: 14466
-  server: 45.141.151.236
+  port: 20104
+  server: 51.158.151.24
   type: vmess
-  uuid: f429d63c-ae81-49a8-ef17-7351dc4abd8b
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
   ws-opts:
     headers: {}
-    path: /api/v3
+    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
@@ -69,8 +61,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -78,8 +69,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
