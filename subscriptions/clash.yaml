@@ -6,31 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2053
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
-  ws-opts:
-    headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 20104
-  server: 51.158.151.24
-  type: vmess
-  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
   port: 443
@@ -103,7 +78,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 8.210.141.149
+  server: n1761296897.lie5d.cyou
   tls: true
   type: vmess
   uuid: 5ecc3086-93cf-42e3-956b-f2180e042537
@@ -174,7 +149,8 @@ proxies:
   type: vmess
   uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
   ws-opts:
-    headers: {}
+    headers:
+      Host: n1753348736.lie5d.cyou
     path: /
 - alterId: 0
   cipher: auto
@@ -205,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: n1761296880.lie5d.cyou
@@ -221,8 +197,6 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -236,13 +210,11 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -256,7 +228,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
