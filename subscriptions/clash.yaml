@@ -14,6 +14,22 @@ proxies:
   uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  type: vmess
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  type: vmess
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+- alterId: 0
+  cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
   port: 443
@@ -26,14 +42,6 @@ proxies:
     headers:
       Host: mn1ray.jagoanvip.xyz
     path: /vvip
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 31350
-  server: 93.179.97.126
-  type: vmess
-  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -116,7 +124,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: n1761296897.lie5d.cyou
+  server: 8.210.141.149
   tls: true
   type: vmess
   uuid: 5ecc3086-93cf-42e3-956b-f2180e042537
@@ -230,43 +238,14 @@ proxies:
     headers:
       Host: n1761296880.lie5d.cyou
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18355
-  server: 92.246.87.170
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
-  type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -282,16 +261,14 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇼[openproxylist.com] vmess-TW
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -307,9 +284,6 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇼[openproxylist.com] vmess-TW
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
