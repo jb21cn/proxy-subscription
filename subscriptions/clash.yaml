@@ -53,20 +53,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 443
-  server: ip3.phonoma.ir
-  servername: cdn.olaf.space
-  tls: true
-  type: vmess
-  uuid: 9bd3b246-212d-4994-b1c3-cda8ed02fce6
-  ws-opts:
-    headers:
-      Host: cdn.olaf.space
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -198,7 +184,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: n1753101272.lie5d.cyou
@@ -276,6 +262,69 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 55185
+  server: 8.210.79.212
+  type: vmess
+  uuid: aa3c3018-288b-46f3-af1c-9044e18d6e5b
+  ws-opts:
+    headers: {}
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 31769
+  server: 8.217.13.74
+  type: vmess
+  uuid: cf1ad6c7-5987-4314-82bb-b4399040d047
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 55185
+  server: 47.243.135.74
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  ws-opts:
+    headers: {}
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 27641
+  server: 192.227.249.227
+  type: vmess
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: ws
+  port: 80
+  server: pq-hungary1.09vpn.com
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  ws-opts:
+    headers: {}
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: ws
+  port: 443
+  server: n1753598446.wpg27.xyz
+  servername: n1753598446.wpg27.xyz
+  tls: true
+  type: vmess
+  uuid: a5047d95-24b8-451a-93e3-f2a387b93d5a
+  ws-opts:
+    headers:
+      Host: n1753598446.wpg27.xyz
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -284,7 +333,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -295,13 +343,19 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
@@ -310,7 +364,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -321,13 +374,19 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
