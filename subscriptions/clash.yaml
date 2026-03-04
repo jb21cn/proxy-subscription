@@ -28,17 +28,6 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 20104
-  server: 51.158.151.24
-  type: vmess
-  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: tcp
   port: 44030
@@ -235,18 +224,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: 198.62.62.199
-  servername: ous3.dean52.top
-  tls: true
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 18355
+  server: 92.246.87.170
   type: vmess
-  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
-  ws-opts:
-    headers:
-      Host: ous3.dean52.top
-    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 - alterId: 0
   cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
@@ -261,7 +244,6 @@ proxy-groups:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -277,7 +259,7 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   type: select
 - interval: 300
@@ -285,7 +267,6 @@ proxy-groups:
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -301,7 +282,7 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   type: url-test
   url: http://www.gstatic.com/generate_204
