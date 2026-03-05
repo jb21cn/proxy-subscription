@@ -21,8 +21,8 @@ proxies:
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
-  port: 17534
-  server: 213.35.127.9
+  port: 8443
+  server: 38.55.193.207
   servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
@@ -42,14 +42,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: tcp
-  port: 44030
-  server: 94.232.247.164
-  type: vmess
-  uuid: 22c396a3-95da-4be8-beef-834d17d75784
 - alterId: 0
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
@@ -223,14 +215,6 @@ proxies:
     headers:
       Host: n1761296880.lie5d.cyou
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18355
-  server: 92.246.87.170
-  type: vmess
-  uuid: caf921c7-ac63-40bc-faa1-cda097fd7e42
 proxy-groups:
 - name: PROXY
   proxies:
@@ -238,7 +222,6 @@ proxy-groups:
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -252,7 +235,6 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
@@ -260,7 +242,6 @@ proxy-groups:
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -274,7 +255,6 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
