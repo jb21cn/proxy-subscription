@@ -9,7 +9,7 @@ proxies:
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 443
-  server: 209.200.246.179
+  server: ca2.xvmess.site
   tls: true
   type: vmess
   uuid: I_Love_🇵🇸_SSHMax_8ccf9b1
@@ -19,16 +19,15 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.COM-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
+  port: 20104
+  server: 51.158.151.24
   type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
   ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+    headers: {}
+    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -210,12 +209,34 @@ proxies:
     headers:
       Host: n1761296880.lie5d.cyou
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: 198.62.62.199
+  servername: ous3.dean52.top
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      Host: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -230,12 +251,14 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇼[openproxylist.com] vmess-TW
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -250,6 +273,8 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇼[openproxylist.com] vmess-TW
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
