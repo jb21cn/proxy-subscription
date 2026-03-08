@@ -16,14 +16,14 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
-  port: 443
-  server: udtzy.cmvvb.online
+  port: 8443
+  server: hwtqcp.uhomdex.shop
   tls: true
   type: vmess
-  uuid: 9fc9b94d-6b44-4029-bc41-09e4ac92e508
+  uuid: eddebc92-b9f7-4019-8a11-0d733bfe665d
   ws-opts:
     headers:
-      Host: udtzy.cmvvb.online
+      Host: hwtqcp.uhomdex.shop
     path: /
 - alterId: 0
   cipher: auto
