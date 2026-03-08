@@ -9,27 +9,28 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 8443
-  server: hwtqcp.uhomdex.shop
+  server: zdqbk.cmvvb.online
   tls: true
   type: vmess
-  uuid: eddebc92-b9f7-4019-8a11-0d733bfe665d
+  uuid: 3d74c959-2a4c-4df8-887a-4f9736a77b6f
   ws-opts:
     headers:
-      Host: hwtqcp.uhomdex.shop
+      Host: zdqbk.cmvvb.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
+  port: 12596
+  server: 213.35.108.135
+  servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
-  uuid: f2bd433f-70d0-470f-b271-1df1794ca955
+  uuid: 462d9694-62b5-4781-a287-61a422b920e8
   ws-opts:
     headers:
-      Host: zzrt.uhomdex.shop
-    path: /
+      Host: mn1ray.jagoanvip.xyz
+    path: /vvip
 - alterId: 0
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
@@ -214,6 +215,7 @@ proxies:
   network: ws
   port: 443
   server: n1761296880.lie5d.cyou
+  servername: n1761296880.lie5d.cyou
   tls: true
   type: vmess
   uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
@@ -226,7 +228,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 198.62.62.199
+  server: 193.227.99.199
   servername: ous3.dean52.top
   tls: true
   type: vmess
@@ -248,7 +250,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
@@ -271,7 +273,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
