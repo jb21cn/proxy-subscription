@@ -12,7 +12,7 @@ proxies:
   server: zdqbk.cmvvb.online
   tls: true
   type: vmess
-  uuid: 3d74c959-2a4c-4df8-887a-4f9736a77b6f
+  uuid: f200c1d9-4060-4784-8c45-87358b255c87
   ws-opts:
     headers:
       Host: zdqbk.cmvvb.online
