@@ -6,12 +6,26 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
-  port: 8443
-  server: 31.58.223.134
+  port: 31976
+  server: 49.51.184.74
   type: vmess
-  uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
+  uuid: cde69f5b-2641-469d-8930-fd290d084adf
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 2053
+  server: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  ws-opts:
+    headers:
+      Host: usaapp1.jisuyun.top
+    path: /usavm
 - alterId: 0
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
@@ -223,7 +237,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -244,7 +259,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
