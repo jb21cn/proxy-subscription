@@ -19,14 +19,6 @@ proxies:
     path: /gredfbgr
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: tcp
-  port: 8443
-  server: 31.58.223.134
-  type: vmess
-  uuid: 78cdc6b7-8b14-47d6-bf09-3167bc5124fb
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2053
@@ -67,6 +59,17 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 20104
+  server: 51.158.151.24
+  type: vmess
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
+  ws-opts:
+    headers: {}
+    path: /arki
+- alterId: 0
+  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: tcp
   port: 44030
@@ -87,28 +90,43 @@ proxies:
     headers:
       Host: neva.azlan.biz.id
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1761296877.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087
+  ws-opts:
+    headers:
+      Host: n1761296877.lie5d.cyou
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
