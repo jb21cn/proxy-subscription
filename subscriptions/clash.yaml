@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 64018
-  server: pub.ap20260228.com
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 50521
@@ -36,6 +28,17 @@ proxies:
     headers:
       Host: mn1ray.jagoanvip.xyz
     path: /vvip
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 20104
+  server: 51.158.151.24
+  type: vmess
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
+  ws-opts:
+    headers: {}
+    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -130,6 +133,19 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
+  server: n1753356361.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: cdfd9787-dac8-4c1e-9ae5-104e23a9d994
+  ws-opts:
+    headers:
+      Host: n1753356361.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
   server: n1752248951.lie5d.cyou
   tls: true
   type: vmess
@@ -208,11 +224,12 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -228,11 +245,12 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
