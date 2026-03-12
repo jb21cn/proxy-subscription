@@ -28,17 +28,6 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 20104
-  server: 51.158.151.24
-  type: vmess
-  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
-  ws-opts:
-    headers: {}
-    path: /arki
-- alterId: 0
-  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: tcp
   port: 44030
@@ -65,7 +54,6 @@ proxy-groups:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: select
@@ -74,7 +62,6 @@ proxy-groups:
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
