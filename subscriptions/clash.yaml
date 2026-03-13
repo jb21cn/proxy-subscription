@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10411
-  server: 107.175.134.127
-  type: vmess
-  uuid: f91c1cc2-05fe-4efd-ba09-86cb6bec19e3
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 17858
@@ -36,8 +28,8 @@ proxies:
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
-  port: 17534
-  server: 213.35.127.9
+  port: 443
+  server: 43.134.87.15
   servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
@@ -159,11 +151,90 @@ proxies:
     headers:
       Host: n1753356361.lie5d.cyou
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1752248951.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: bf2ce3c2-339f-4926-b92d-b7d83af1b3b6
+  ws-opts:
+    headers:
+      Host: n1752248951.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1752833184.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 6c7d09e3-9cfa-41c8-8194-e81eb21bfb88
+  ws-opts:
+    headers:
+      Host: n1752833184.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753348736.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
+  ws-opts:
+    headers:
+      Host: n1753348736.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: n1751468092.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 7ace1873-9822-46af-9920-bd64f725212c
+  ws-opts:
+    headers:
+      Host: n1751468092.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753101272.lie5d.cyou
+  servername: n1753101272.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1761296880.lie5d.cyou
+  servername: n1761296880.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  ws-opts:
+    headers:
+      Host: n1761296880.lie5d.cyou
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇮🇩[openproxylist.com] vmess-ID
@@ -174,13 +245,18 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇮🇩[openproxylist.com] vmess-ID
@@ -191,6 +267,12 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
