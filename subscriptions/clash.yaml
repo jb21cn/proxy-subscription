@@ -8,10 +8,11 @@ proxies:
   cipher: auto
   name: 🇱🇺[openproxylist.com] vmess-LU
   network: ws
-  port: 34972
+  port: 53469
   server: 107.189.7.176
+  tls: true
   type: vmess
-  uuid: 4814b7d2-b478-4482-a1ab-6cea34b6581b
+  uuid: 2d7f32b9-5722-4d12-9325-6a4ef95c78df
   ws-opts:
     headers: {}
     path: /
@@ -33,10 +34,24 @@ proxies:
   uuid: 7e1ebb0d-68c0-4d26-94fd-04d14ca55351
 - alterId: 0
   cipher: auto
-  name: 🇮🇩[openproxylist.com] vmess-ID
+  name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
-  port: 443
-  server: 38.55.194.138
+  port: 8443
+  server: kwtgm.cmvvb.online
+  servername: kwtgm.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: a2852e93-7255-4aae-9412-38273fdacd31
+  ws-opts:
+    headers:
+      Host: kwtgm.cmvvb.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: ws
+  port: 17534
+  server: 213.35.127.9
   servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
@@ -47,7 +62,7 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 20104
   server: 51.158.151.24
@@ -85,8 +100,9 @@ proxy-groups:
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: select
@@ -96,8 +112,9 @@ proxy-groups:
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
