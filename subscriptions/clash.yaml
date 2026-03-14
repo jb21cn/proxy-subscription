@@ -8,11 +8,10 @@ proxies:
   cipher: auto
   name: 🇱🇺[openproxylist.com] vmess-LU
   network: ws
-  port: 53469
+  port: 34972
   server: 107.189.7.176
-  tls: true
   type: vmess
-  uuid: 2d7f32b9-5722-4d12-9325-6a4ef95c78df
+  uuid: 4814b7d2-b478-4482-a1ab-6cea34b6581b
   ws-opts:
     headers: {}
     path: /
@@ -48,10 +47,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
-  port: 17534
-  server: 213.35.127.9
+  port: 2053
+  server: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  ws-opts:
+    headers:
+      Host: usaapp1.jisuyun.top
+    path: /usavm
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩[openproxylist.com] vmess-ID
+  network: ws
+  port: 2087
+  server: 103.224.80.7
   servername: mn1ray.jagoanvip.xyz
   tls: true
   type: vmess
@@ -62,7 +75,7 @@ proxies:
     path: /vvip
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
   port: 20104
   server: 51.158.151.24
@@ -84,8 +97,7 @@ proxies:
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
   port: 443
-  server: neva.azlan.biz.id
-  servername: neva.azlan.biz.id
+  server: 103.126.226.194
   tls: true
   type: vmess
   uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
@@ -101,8 +113,9 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: select
@@ -113,8 +126,9 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
