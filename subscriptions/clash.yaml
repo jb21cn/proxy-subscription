@@ -6,25 +6,9 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 6001
-  server: cn02.365cloud5878.com
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
-  port: 6004
-  server: cn02.365cloud5878.com
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: 🇦🇹[openproxylist.com] vmess-AT
-  network: tcp
-  port: 6043
+  port: 6003
   server: cn02.365cloud5878.com
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
@@ -49,18 +33,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇮🇩[openproxylist.com] vmess-ID
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 17858
+  server: 151.243.3.59
+  type: vmess
+  uuid: 488e87ee-074c-4e53-98ea-6392288bdc71
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
-  port: 2087
-  server: 103.224.80.7
-  servername: mn1ray.jagoanvip.xyz
+  port: 443
+  server: qvxbtx.uhomdex.shop
+  servername: qvxbtx.uhomdex.shop
   tls: true
   type: vmess
-  uuid: 462d9694-62b5-4781-a287-61a422b920e8
+  uuid: 847e9159-9716-4213-97a9-50d5db3fd74a
   ws-opts:
     headers:
-      Host: mn1ray.jagoanvip.xyz
-    path: /vvip
+      Host: qvxbtx.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 20104
+  server: 51.158.151.24
+  type: vmess
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
+  ws-opts:
+    headers: {}
+    path: /arki
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -86,24 +101,26 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇦🇹[openproxylist.com] vmess-AT
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇱🇺[openproxylist.com] vmess-LU
-  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇦🇹[openproxylist.com] vmess-AT
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇱🇺[openproxylist.com] vmess-LU
-  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
