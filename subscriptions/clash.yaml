@@ -28,7 +28,7 @@ proxies:
   server: 107.189.7.176
   tls: true
   type: vmess
-  uuid: 19aaa3f5-67e7-4473-ac13-4df3adf34cc2
+  uuid: 65425d87-4a9c-4e0e-b58c-20cb0426f2b9
   ws-opts:
     headers: {}
     path: /
@@ -37,14 +37,14 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 443
-  server: qvxbtx.uhomdex.shop
-  servername: qvxbtx.uhomdex.shop
+  server: udtzy.cmvvb.online
+  servername: udtzy.cmvvb.online
   tls: true
   type: vmess
-  uuid: 847e9159-9716-4213-97a9-50d5db3fd74a
+  uuid: eddebc92-b9f7-4019-8a11-0d733bfe665d
   ws-opts:
     headers:
-      Host: qvxbtx.uhomdex.shop
+      Host: udtzy.cmvvb.online
     path: /
 - alterId: 0
   cipher: auto
@@ -77,6 +77,20 @@ proxies:
   server: 94.232.247.164
   type: vmess
   uuid: 22c396a3-95da-4be8-beef-834d17d75784
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩[openproxylist.com] vmess-ID
+  network: ws
+  port: 443
+  server: neva.azlan.biz.id
+  servername: neva.azlan.biz.id
+  tls: true
+  type: vmess
+  uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
+  ws-opts:
+    headers:
+      Host: neva.azlan.biz.id
+    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
@@ -88,6 +102,7 @@ proxy-groups:
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: select
 - interval: 300
   name: 自动选择
@@ -99,6 +114,7 @@ proxy-groups:
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
