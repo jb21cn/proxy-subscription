@@ -322,14 +322,6 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 6002
-  server: cn02.365cloud5878.com
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
   name: 🇭🇺[openproxylist.com] vmess-HU
   network: tcp
   port: 6029
@@ -414,7 +406,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇦🇹[openproxylist.com] vmess-AT
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -463,7 +454,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇦🇹[openproxylist.com] vmess-AT
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
