@@ -238,7 +238,7 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: 🇧🇬[openproxylist.com] vmess-BG
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 6050
   server: cn02.365cloud5878.com
@@ -317,7 +317,7 @@ proxies:
   name: 🇦🇹[openproxylist.com] vmess-AT
   network: tcp
   port: 6043
-  server: 5.34.216.149
+  server: cn02.365cloud5878.com
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
@@ -325,7 +325,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 6001
-  server: 5.34.216.148
+  server: cn02.365cloud5878.com
   type: vmess
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
@@ -356,12 +356,14 @@ proxies:
   cipher: auto
   name: 🇱🇺[openproxylist.com] vmess-LU
   network: ws
-  port: 34972
+  port: 53469
   server: 107.189.7.176
+  tls: true
   type: vmess
-  uuid: 4814b7d2-b478-4482-a1ab-6cea34b6581b
+  uuid: 19aaa3f5-67e7-4473-ac13-4df3adf34cc2
   ws-opts:
-    headers: {}
+    headers:
+      Host: 107.189.7.176
     path: /
 proxy-groups:
 - name: PROXY
@@ -396,7 +398,7 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇱🇮[openproxylist.com] vmess-LI
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇧🇬[openproxylist.com] vmess-BG
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇦🇲[openproxylist.com] vmess-AM
   - 🇮🇱[openproxylist.com] vmess-IL
@@ -444,7 +446,7 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇱🇮[openproxylist.com] vmess-LI
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇧🇬[openproxylist.com] vmess-BG
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇦🇲[openproxylist.com] vmess-AM
   - 🇮🇱[openproxylist.com] vmess-IL
