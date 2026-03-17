@@ -98,6 +98,14 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 6035
+  server: cn02.365cloud5878.com
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
   name: 🇲🇰[openproxylist.com] vmess-MK
   network: tcp
   port: 6049
@@ -366,22 +374,6 @@ proxies:
   uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 6001
-  server: cn02.365cloud5878.com
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
-  port: 6004
-  server: cn02.365cloud5878.com
-  type: vmess
-  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-- alterId: 0
-  cipher: auto
   name: 🇱🇺[openproxylist.com] vmess-LU
   network: ws
   port: 34972
@@ -414,6 +406,7 @@ proxy-groups:
   - 🇱🇻[openproxylist.com] vmess-LV
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇲🇰[openproxylist.com] vmess-MK
   - 🇵🇹[openproxylist.com] vmess-PT
   - 🇮🇪[openproxylist.com] vmess-IE
@@ -447,8 +440,6 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
@@ -466,6 +457,7 @@ proxy-groups:
   - 🇱🇻[openproxylist.com] vmess-LV
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇲🇰[openproxylist.com] vmess-MK
   - 🇵🇹[openproxylist.com] vmess-PT
   - 🇮🇪[openproxylist.com] vmess-IE
@@ -499,8 +491,6 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
