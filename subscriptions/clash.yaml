@@ -36,11 +36,10 @@ proxies:
   cipher: auto
   name: 🇱🇺[openproxylist.com] vmess-LU
   network: ws
-  port: 53469
+  port: 34972
   server: 107.189.7.176
-  tls: true
   type: vmess
-  uuid: 2d7f32b9-5722-4d12-9325-6a4ef95c78df
+  uuid: 4814b7d2-b478-4482-a1ab-6cea34b6581b
   ws-opts:
     headers: {}
     path: /
@@ -56,6 +55,18 @@ proxies:
   ws-opts:
     headers:
       Host: nqzkb.cmvvb.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
@@ -99,6 +110,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
@@ -111,6 +123,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇱🇺[openproxylist.com] vmess-LU
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
