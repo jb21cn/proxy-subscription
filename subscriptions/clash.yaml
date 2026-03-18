@@ -14,19 +14,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 21879
-  server: 103.143.238.196
-  tls: true
-  type: vmess
-  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-  ws-opts:
-    headers:
-      Host: www.cloudflare.com
-    path: /vmesswss
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
@@ -55,6 +42,27 @@ proxies:
   uuid: 4814b7d2-b478-4482-a1ab-6cea34b6581b
   ws-opts:
     headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: tcp
+  port: 8881
+  server: 167.172.158.100
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 443
+  server: nqzkb.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: 16604b48-7497-428c-a6d4-b017b3a30ce4
+  ws-opts:
+    headers:
+      Host: nqzkb.cmvvb.online
     path: /
 - alterId: 0
   cipher: auto
@@ -215,10 +223,11 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇱🇺[openproxylist.com] vmess-LU
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
@@ -236,10 +245,11 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇱🇺[openproxylist.com] vmess-LU
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇩[openproxylist.com] vmess-ID
