@@ -6,20 +6,24 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 80
+  server: abm96f00fby3.jkhkgj.xyz
+  type: vmess
+  uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /market/jp1
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 6001
   server: cn01.365cloud8754.com
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -110,12 +114,26 @@ proxies:
   server: 94.232.247.164
   type: vmess
   uuid: 22c396a3-95da-4be8-beef-834d17d75784
+- alterId: 0
+  cipher: auto
+  name: 🇮🇩[openproxylist.com] vmess-ID
+  network: ws
+  port: 443
+  server: neva.azlan.biz.id
+  servername: neva.azlan.biz.id
+  tls: true
+  type: vmess
+  uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
+  ws-opts:
+    headers:
+      Host: neva.azlan.biz.id
+    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -124,12 +142,13 @@ proxy-groups:
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -138,6 +157,7 @@ proxy-groups:
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
