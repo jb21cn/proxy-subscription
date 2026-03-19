@@ -21,7 +21,7 @@ proxies:
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 16618
-  server: t.cnmjcn.cyou
+  server: planb.mojcn.com
   type: vmess
   uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
   ws-opts:
@@ -98,18 +98,6 @@ proxies:
     headers:
       Host: cxsfvn.uhomdex.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
-  network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
-  type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -123,7 +111,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇳[openproxylist.com] vmess-CN
   type: select
 - interval: 300
   name: 自动选择
@@ -137,7 +124,6 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇳[openproxylist.com] vmess-CN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
