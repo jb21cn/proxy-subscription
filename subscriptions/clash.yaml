@@ -39,18 +39,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-  ws-opts:
-    headers:
-      Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 16617
@@ -107,17 +95,15 @@ proxies:
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇨🇳[openproxylist.com] vmess-CN
   network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  servername: cxsfvn.uhomdex.shop
-  tls: true
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
   type: vmess
-  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
   ws-opts:
     headers:
-      Host: cxsfvn.uhomdex.shop
+      Host: tms.dingtalk.com
     path: /
 proxy-groups:
 - name: PROXY
@@ -126,14 +112,13 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
   type: select
 - interval: 300
   name: 自动选择
@@ -141,14 +126,13 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇳[openproxylist.com] vmess-CN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
