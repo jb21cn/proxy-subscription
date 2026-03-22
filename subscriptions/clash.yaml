@@ -65,22 +65,6 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇮🇹[openproxylist.com] vmess-IT
-  network: tcp
-  port: 22324
-  server: 45.92.70.236
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
@@ -100,8 +84,6 @@ proxy-groups:
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
@@ -112,8 +94,6 @@ proxy-groups:
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
