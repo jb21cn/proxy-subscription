@@ -30,25 +30,6 @@ proxies:
     path: /8536cb1926c24bbc99d7bd93350ec564
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 2096
-  server: 164.92.245.167
-  type: vmess
-  uuid: 4c95d617-efd8-4045-98d5-4d00e96667f9
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇪🇸[openproxylist.com] vmess-ES
-  network: tcp
-  port: 22324
-  server: 85.90.217.42
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 🇦🇪[openproxylist.com] vmess-AE
   network: ws
   port: 443
@@ -62,22 +43,6 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇮🇹[openproxylist.com] vmess-IT
-  network: tcp
-  port: 22324
-  server: 45.92.70.236
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
@@ -88,30 +53,38 @@ proxies:
     headers:
       Host: fsdns1.ectunnelvpn.me
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  servername: cxsfvn.uhomdex.shop
+  tls: true
+  type: vmess
+  uuid: bb6e260e-b80d-4365-b252-9fbe466f1f34
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
