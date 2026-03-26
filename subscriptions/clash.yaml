@@ -7,11 +7,14 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 18811
-  server: 156.238.250.91
+  network: ws
+  port: 20521
+  server: 103.229.124.3
   type: vmess
-  uuid: 4a1b829b-8394-42c1-a068-04cd8e6bcb3c
+  uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab
+  ws-opts:
+    headers: {}
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -41,30 +44,18 @@ proxies:
   uuid: 0654d64d-08bf-43e5-ad44-18a7d1a8d6f7
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
+  port: 443
+  server: neva.azlan.biz.id
+  servername: neva.azlan.biz.id
   tls: true
   type: vmess
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
+  uuid: 8072298f-cd28-4a61-8e05-5879c84b9100
   ws-opts:
     headers:
-      Host: zdqbk.cmvvb.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
-  network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
-  type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: neva.azlan.biz.id
+    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
@@ -73,8 +64,7 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: select
 - interval: 300
   name: 自动选择
@@ -83,8 +73,7 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇮🇩[openproxylist.com] vmess-ID
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
