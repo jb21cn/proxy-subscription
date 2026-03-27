@@ -25,17 +25,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 8880
-  server: 35.240.225.23
-  type: vmess
-  uuid: c5dd6680-64ad-4f04-9952-49d94984f9eb
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2096
@@ -67,7 +56,6 @@ proxy-groups:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -77,7 +65,6 @@ proxy-groups:
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
