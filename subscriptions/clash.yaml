@@ -25,12 +25,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
-  port: 2096
-  server: 164.92.245.167
+  port: 8880
+  server: 35.240.225.23
   type: vmess
-  uuid: 4c95d617-efd8-4045-98d5-4d00e96667f9
+  uuid: c5dd6680-64ad-4f04-9952-49d94984f9eb
   ws-opts:
     headers: {}
     path: /
@@ -42,32 +42,22 @@ proxies:
   server: v12.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇸🇬[openproxylist.com] vmess-SG
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇸🇬[openproxylist.com] vmess-SG
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
