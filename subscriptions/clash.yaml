@@ -23,6 +23,14 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
   server: fsdns1.ectunnelvpn.me
@@ -32,6 +40,14 @@ proxies:
     headers:
       Host: fsdns1.ectunnelvpn.me
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 10410
+  server: 46.225.54.75
+  type: vmess
+  uuid: 0654d64d-08bf-43e5-ad44-18a7d1a8d6f7
 proxy-groups:
 - name: PROXY
   proxies:
@@ -39,6 +55,8 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
@@ -46,6 +64,8 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
