@@ -6,6 +6,30 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 31517
+  server: static.ubejiasu.top
+  type: vmess
+  uuid: 957d12d8-048d-4b57-b09c-f19d027484a0
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 31518
+  server: static.ubejiasu.top
+  type: vmess
+  uuid: 957d12d8-048d-4b57-b09c-f19d027484a0
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
   network: ws
   port: 443
@@ -87,6 +111,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -99,6 +125,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
