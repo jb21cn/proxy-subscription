@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 12897
@@ -99,6 +107,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🏳[openproxylist.com] vmess-
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
@@ -112,6 +121,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🏳[openproxylist.com] vmess-
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
