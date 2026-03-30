@@ -6,6 +6,18 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  type: vmess
+  uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇻🇳[openproxylist.com] vmess-VN
   network: ws
   port: 12891
@@ -42,6 +54,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: tcp
   port: 22324
@@ -52,17 +72,21 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
