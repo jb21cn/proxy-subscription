@@ -17,6 +17,18 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
+  name: 🇻🇳[openproxylist.com] vmess-VN
+  network: ws
+  port: 12891
+  server: gtm1.ktmwan.net
+  type: vmess
+  uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
   network: ws
   port: 443
@@ -79,6 +91,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
@@ -90,6 +103,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇻🇳[openproxylist.com] vmess-VN
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
