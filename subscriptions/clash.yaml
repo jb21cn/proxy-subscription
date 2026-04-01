@@ -14,28 +14,33 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🇻🇳[openproxylist.com] vmess-VN
-  network: ws
-  port: 12891
-  server: gtm1.ktmwan.net
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 180
+  server: 82.198.246.46
   type: vmess
-  uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 20521
+  server: 103.229.124.3
+  type: vmess
+  uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab
   ws-opts:
-    headers:
-      Host: baidu.com
+    headers: {}
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
+  name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
-  port: 443
-  server: chuncheon03.zgjok.com
-  tls: true
+  port: 8880
+  server: 35.240.225.23
   type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+  uuid: c5dd6680-64ad-4f04-9952-49d94984f9eb
   ws-opts:
-    headers:
-      Host: chuncheon03.zgjok.com
+    headers: {}
     path: /
 - alterId: 0
   cipher: auto
@@ -60,52 +65,34 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: 🇮🇹[openproxylist.com] vmess-IT
-  network: tcp
-  port: 22324
-  server: 45.92.70.236
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: tcp
   port: 22324
   server: 66.163.117.58
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇹🇼[openproxylist.com] vmess-TW
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇦🇪[openproxylist.com] vmess-AE
-  - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇹🇼[openproxylist.com] vmess-TW
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
