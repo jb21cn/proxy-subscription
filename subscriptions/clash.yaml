@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 30830
   server: v30.hdacd.com
@@ -89,6 +89,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -100,20 +112,6 @@ proxies:
   ws-opts:
     headers:
       Host: n1753356378.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  servername: n1753101277.4u9ma.icu
-  tls: true
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
     path: /
 - alterId: 0
   cipher: auto
@@ -133,7 +131,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -142,14 +140,14 @@ proxy-groups:
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -158,7 +156,7 @@ proxy-groups:
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
