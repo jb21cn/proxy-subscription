@@ -15,6 +15,14 @@ proxies:
   uuid: c4ea2391-095d-407a-9dab-85fc7104b681
 - alterId: 0
   cipher: auto
+  name: 🇵🇪[openproxylist.com] vmess-PE
+  network: tcp
+  port: 443
+  server: pe1.bctuo.top
+  type: vmess
+  uuid: 31801968-9877-4ef5-be87-56503c34a69d
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 30830
@@ -98,6 +106,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 80
+  server: fsdns1.ectunnelvpn.me
+  type: vmess
+  uuid: 6b2d86e5-df05-4511-a79f-82d53ce99b36
+  ws-opts:
+    headers:
+      Host: fsdns1.ectunnelvpn.me
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -165,6 +185,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇵🇪[openproxylist.com] vmess-PE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -173,6 +194,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -184,6 +206,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇵🇪[openproxylist.com] vmess-PE
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -192,6 +215,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
