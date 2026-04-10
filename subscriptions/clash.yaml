@@ -58,6 +58,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: tcp
+  port: 2053
+  server: node-uk.connectsuite.org
+  tls: true
+  type: vmess
+  uuid: c4ea2391-095d-407a-9dab-85fc7104b681
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 30830
@@ -134,6 +143,14 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: tcp
+  port: 44030
+  server: 94.232.247.164
+  type: vmess
+  uuid: 22c396a3-95da-4be8-beef-834d17d75784
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -146,6 +163,14 @@ proxies:
     headers:
       Host: n1753101277.4u9ma.icu
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -162,11 +187,12 @@ proxies:
   name: 🇭🇺[openproxylist.com] vmess-HU
   network: ws
   port: 80
-  server: pq-hungary1.09vpn.com
+  server: 45.12.132.183
   type: vmess
   uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.12.132.183
     path: /vmess/
 - alterId: 0
   cipher: auto
@@ -185,6 +211,7 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -193,7 +220,9 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇫🇷[openproxylist.com] vmess-FR
@@ -206,6 +235,7 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -214,7 +244,9 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
   - 🇫🇷[openproxylist.com] vmess-FR
