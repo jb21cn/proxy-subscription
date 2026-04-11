@@ -68,10 +68,10 @@ proxies:
   cipher: auto
   name: 🇲🇾[openproxylist.com] vmess-MY
   network: ws
-  port: 42012
+  port: 26321
   server: 47.250.153.136
   type: vmess
-  uuid: 20fe66fb-e22c-453e-f7ea-d02021976737
+  uuid: 95158bcb-5c4b-46b0-a9cc-67f9fb7b8dd8
   ws-opts:
     headers:
       Host: 47.250.153.136
@@ -261,11 +261,12 @@ proxies:
   name: 🇭🇺[openproxylist.com] vmess-HU
   network: ws
   port: 80
-  server: pq-hungary1.09vpn.com
+  server: 45.12.132.183
   type: vmess
   uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.12.132.183
     path: /vmess/
 proxy-groups:
 - name: PROXY
