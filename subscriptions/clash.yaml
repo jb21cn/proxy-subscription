@@ -138,18 +138,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
-  network: ws
-  port: 80
-  server: hn.xn--wlqw1swrj04ju56d.com
-  type: vmess
-  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -218,7 +206,8 @@ proxies:
   type: vmess
   uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.15.185.17
     path: /vmess/
 proxy-groups:
 - name: PROXY
@@ -238,7 +227,6 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -263,7 +251,6 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
