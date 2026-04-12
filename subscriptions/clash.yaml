@@ -16,14 +16,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /v2ray-wisp
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 22379
-  server: 98.159.108.13
-  type: vmess
-  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
 - alterId: 1
   cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
@@ -105,7 +97,7 @@ proxies:
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
   port: 30812
-  server: v12.hdacd.com
+  server: 151.242.180.91
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
@@ -191,18 +183,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇦🇺[openproxylist.com] vmess-AU
-  network: ws
-  port: 80
-  server: 45.15.185.17
-  type: vmess
-  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
-  ws-opts:
-    headers:
-      Host: 45.15.185.17
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 55185
@@ -217,29 +197,18 @@ proxies:
   name: 🇭🇺[openproxylist.com] vmess-HU
   network: ws
   port: 80
-  server: pq-hungary1.09vpn.com
+  server: 45.12.132.183
   type: vmess
   uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.12.132.183
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
-  network: ws
-  port: 443
-  server: 46.246.126.154
-  type: vmess
-  uuid: f2fd0786-1059-4f64-d54e-3f3a568c6c68
-  ws-opts:
-    headers: {}
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -256,16 +225,13 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
-  - 🇸🇪[openproxylist.com] vmess-SE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -282,10 +248,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
-  - 🇸🇪[openproxylist.com] vmess-SE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
