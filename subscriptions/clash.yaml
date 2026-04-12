@@ -105,7 +105,7 @@ proxies:
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
   port: 30812
-  server: v12.hdacd.com
+  server: 151.242.180.91
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
@@ -128,6 +128,18 @@ proxies:
     headers:
       Host: fsdns1.ectunnelvpn.me
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -178,17 +190,6 @@ proxies:
   server: 165.154.195.38
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺[openproxylist.com] vmess-RU
-  network: ws
-  port: 443
-  server: 213.183.54.243
-  type: vmess
-  uuid: d7f56688-56a0-448c-bc04-fd83c6ac17d0
-  ws-opts:
-    headers: {}
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -206,11 +207,11 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇷🇺[openproxylist.com] vmess-RU
   type: select
 - interval: 300
   name: 自动选择
@@ -228,11 +229,11 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇷🇺[openproxylist.com] vmess-RU
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
