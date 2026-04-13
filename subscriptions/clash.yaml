@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 7754
+  server: efan.dnsefan04881.com
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -44,15 +52,6 @@ proxies:
     headers:
       Host: 47.250.153.136
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 2053
-  server: node-uk.connectsuite.org
-  tls: true
-  type: vmess
-  uuid: c4ea2391-095d-407a-9dab-85fc7104b681
 - alterId: 0
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
@@ -235,28 +234,18 @@ proxies:
   type: vmess
   uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.15.185.17
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 55185
-  server: 47.243.135.74
-  type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
-  ws-opts:
-    headers: {}
-    path: /Notif_Chat
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇲🇾[openproxylist.com] vmess-MY
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -274,16 +263,15 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇲🇾[openproxylist.com] vmess-MY
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -301,7 +289,6 @@ proxy-groups:
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
