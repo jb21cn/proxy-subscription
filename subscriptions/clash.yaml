@@ -18,6 +18,14 @@ proxies:
     path: /v2ray-wisp
 - alterId: 1
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 22324
+  server: 216.106.183.35
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 1
+  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: tcp
   port: 22324
@@ -204,11 +212,42 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 55185
+  server: 47.243.135.74
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  ws-opts:
+    headers: {}
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽[openproxylist.com] vmess-MX
+  network: tcp
+  port: 34460
+  server: 216.238.86.158
+  type: vmess
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
+- alterId: 0
+  cipher: auto
+  name: 🇭🇺[openproxylist.com] vmess-HU
+  network: ws
+  port: 80
+  server: pq-hungary1.09vpn.com
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  ws-opts:
+    headers: {}
+    path: /vmess/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -227,11 +266,15 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇭🇺[openproxylist.com] vmess-HU
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -250,6 +293,9 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇭🇺[openproxylist.com] vmess-HU
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
