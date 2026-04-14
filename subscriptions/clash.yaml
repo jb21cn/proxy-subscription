@@ -113,6 +113,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇪🇸[openproxylist.com] vmess-ES
+  network: tcp
+  port: 22324
+  server: 85.90.217.42
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
   port: 30812
@@ -223,6 +231,25 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 55185
+  server: 47.243.135.74
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  ws-opts:
+    headers: {}
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽[openproxylist.com] vmess-MX
+  network: tcp
+  port: 34460
+  server: 216.238.86.158
+  type: vmess
+  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
 proxy-groups:
 - name: PROXY
   proxies:
@@ -238,6 +265,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -248,6 +276,8 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
   type: select
 - interval: 300
   name: 自动选择
@@ -263,6 +293,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -273,6 +304,8 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
