@@ -201,14 +201,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: tcp
-  port: 45653
-  server: 94.232.247.165
-  type: vmess
-  uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
 proxy-groups:
 - name: PROXY
   proxies:
@@ -232,7 +224,6 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
-  - 🇫🇷[openproxylist.com] vmess-FR
   type: select
 - interval: 300
   name: 自动选择
@@ -256,7 +247,6 @@ proxy-groups:
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
-  - 🇫🇷[openproxylist.com] vmess-FR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
