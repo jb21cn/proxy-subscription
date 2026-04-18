@@ -42,6 +42,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 🇲🇾[openproxylist.com] vmess-MY
+  network: ws
+  port: 26181
+  server: 47.250.153.136
+  type: vmess
+  uuid: 7249c3be-85ad-46fb-ab98-c4a07f4a724d
+  ws-opts:
+    headers:
+      Host: 47.250.153.136
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 8443
@@ -163,6 +175,33 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: tcp
+  port: 45653
+  server: 94.232.247.165
+  type: vmess
+  uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷[openproxylist.com] vmess-TR
+  network: ws
+  port: 443
+  server: 94.131.108.36
+  type: vmess
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 45050
+  server: haa.dashuai.cyou
+  type: vmess
+  uuid: 45048c5c-9aaa-4e43-a990-bb887672609a
 proxy-groups:
 - name: PROXY
   proxies:
@@ -171,6 +210,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇲🇾[openproxylist.com] vmess-MY
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -183,6 +223,9 @@ proxy-groups:
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -191,6 +234,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇲🇾[openproxylist.com] vmess-MY
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -203,6 +247,9 @@ proxy-groups:
   - 🇦🇺[openproxylist.com] vmess-AU
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇺[openproxylist.com] vmess-HU
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
