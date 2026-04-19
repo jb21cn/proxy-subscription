@@ -6,15 +6,16 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
-  port: 8080
-  server: sg111cf.885397.xyz
+  port: 443
+  server: n1761296889.4u9ma.icu
+  tls: true
   type: vmess
-  uuid: 638239ae-5ec4-44f6-9b89-1bd69bb5ee74
+  uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f
   ws-opts:
     headers:
-      Host: de.885397.xyz
+      Host: n1761296889.4u9ma.icu
     path: /
 - alterId: 1
   cipher: auto
@@ -129,6 +130,44 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 80
+  server: fsdns1.ectunnelvpn.me
+  type: vmess
+  uuid: 6b2d86e5-df05-4511-a79f-82d53ce99b36
+  ws-opts:
+    headers:
+      Host: fsdns1.ectunnelvpn.me
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  type: vmess
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753356378.4u9ma.icu
+  servername: n1753356378.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  ws-opts:
+    headers:
+      Host: n1753356378.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -143,6 +182,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753348736.lie5d.cyou
+  servername: n1753348736.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
+  ws-opts:
+    headers:
+      Host: n1753348736.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
   network: tcp
   port: 35034
@@ -151,31 +204,21 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 55185
-  server: 47.243.135.74
-  type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
-  ws-opts:
-    headers: {}
-    path: /Notif_Chat
-- alterId: 0
-  cipher: auto
-  name: 🇭🇺[openproxylist.com] vmess-HU
+  name: 🇦🇺[openproxylist.com] vmess-AU
   network: ws
   port: 80
-  server: pq-hungary1.09vpn.com
+  server: 45.15.185.17
   type: vmess
-  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.15.185.17
     path: /vmess/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
@@ -188,15 +231,18 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇺[openproxylist.com] vmess-HU
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
@@ -209,10 +255,13 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇭🇺[openproxylist.com] vmess-HU
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
