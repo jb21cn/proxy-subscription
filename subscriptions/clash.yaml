@@ -30,9 +30,9 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 7754
-  server: efan.dnsefan04881.com
+  server: vm51544542.dns8656815.com
   type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
