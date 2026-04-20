@@ -9,6 +9,14 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 180
+  server: 82.198.246.214
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 180
   server: 82.198.246.233
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -115,7 +123,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 180
   server: 82.198.246.46
@@ -227,33 +235,12 @@ proxies:
     headers:
       Host: n1753348736.lie5d.cyou
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -264,7 +251,7 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
@@ -274,13 +261,12 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -291,7 +277,7 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
@@ -301,8 +287,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
