@@ -77,7 +77,7 @@ proxies:
   port: 7754
   server: efan.dnsefan04881.com
   type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -239,20 +239,6 @@ proxies:
     headers:
       Host: n1753348736.lie5d.cyou
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 proxy-groups:
 - name: PROXY
   proxies:
@@ -280,7 +266,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -308,7 +293,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
