@@ -267,6 +267,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
   name: 🇦🇺[openproxylist.com] vmess-AU
   network: ws
   port: 80
@@ -276,17 +284,6 @@ proxies:
   ws-opts:
     headers:
       Host: 45.15.185.17
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 🇦🇱[openproxylist.com] vmess-AL
-  network: ws
-  port: 80
-  server: 45.15.170.237
-  type: vmess
-  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
-  ws-opts:
-    headers: {}
     path: /vmess/
 proxy-groups:
 - name: PROXY
@@ -317,8 +314,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇦🇱[openproxylist.com] vmess-AL
   type: select
 - interval: 300
   name: 自动选择
@@ -348,8 +345,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇦🇺[openproxylist.com] vmess-AU
-  - 🇦🇱[openproxylist.com] vmess-AL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
