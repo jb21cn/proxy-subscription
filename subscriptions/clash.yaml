@@ -89,9 +89,9 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 7754
-  server: efan.dnsefan04881.com
+  server: vm51544542.dns8656815.com
   type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -253,12 +253,41 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1753348736.lie5d.cyou
+  servername: n1753348736.lie5d.cyou
+  tls: true
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
+  ws-opts:
+    headers:
+      Host: n1753348736.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺[openproxylist.com] vmess-AU
+  network: ws
+  port: 80
+  server: 45.15.185.17
+  type: vmess
+  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+  ws-opts:
+    headers:
+      Host: 45.15.185.17
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇦🇱[openproxylist.com] vmess-AL
+  network: ws
+  port: 80
+  server: 45.15.170.237
+  type: vmess
+  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
+  ws-opts:
+    headers: {}
+    path: /vmess/
 proxy-groups:
 - name: PROXY
   proxies:
@@ -287,7 +316,9 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇦🇱[openproxylist.com] vmess-AL
   type: select
 - interval: 300
   name: 自动选择
@@ -316,7 +347,9 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇦🇱[openproxylist.com] vmess-AL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
