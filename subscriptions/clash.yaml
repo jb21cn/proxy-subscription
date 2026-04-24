@@ -131,7 +131,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 7754
-  server: vm51544542.dns8656815.com
+  server: efan.dnsefan04881.com
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
 - alterId: 0
@@ -201,17 +201,6 @@ proxies:
   ws-opts:
     headers:
       Host: chuncheon03.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 20521
-  server: 103.229.124.3
-  type: vmess
-  uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab
-  ws-opts:
-    headers: {}
     path: /
 - alterId: 0
   cipher: auto
@@ -325,6 +314,18 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺[openproxylist.com] vmess-AU
+  network: ws
+  port: 80
+  server: 45.15.185.17
+  type: vmess
+  uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
+  ws-opts:
+    headers:
+      Host: 45.15.185.17
+    path: /vmess/
 proxy-groups:
 - name: PROXY
   proxies:
@@ -349,7 +350,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -360,6 +360,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: select
 - interval: 300
   name: 自动选择
@@ -384,7 +385,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇪🇸[openproxylist.com] vmess-ES
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -395,6 +395,7 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇺[openproxylist.com] vmess-AU
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
