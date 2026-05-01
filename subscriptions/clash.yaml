@@ -41,6 +41,20 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
+  name: 🇦🇹[openproxylist.com] vmess-AT
+  network: ws
+  port: 443
+  server: ::ffff:bc72:6200
+  servername: www.mydriverlicence.com
+  tls: true
+  type: vmess
+  uuid: ffece2a9-0296-46a9-8db8-742d29d240ff
+  ws-opts:
+    headers:
+      Host: www.mydriverlicence.com
+    path: E2ciWyh2PFlbIzNXI08qRFt0Z1QRSCcxVixNBVdZBTchOXswf20xLX0HR2ZGFxh0
+- alterId: 0
+  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 80
@@ -117,9 +131,9 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 10022
-  server: us1-ss.flyparts.cn
+  server: 43.162.105.30
   type: vmess
-  uuid: 941a7999-68bc-45d8-bb7f-b0a2f1d16fe4
+  uuid: 91a988dc-99d5-4c0d-a999-a1d4dd72ad21
   ws-opts:
     headers:
       Host: us1-ss.flyparts.cn
@@ -261,6 +275,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇹[openproxylist.com] vmess-AT
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
@@ -289,6 +304,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇦🇹[openproxylist.com] vmess-AT
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
