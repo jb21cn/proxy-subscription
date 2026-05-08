@@ -10,25 +10,13 @@ proxies:
   network: ws
   port: 443
   server: node33.ourfast.asia
+  servername: node33.ourfast.asia
   tls: true
   type: vmess
-  uuid: 360470f4-8c38-4934-b690-4458c0834604
+  uuid: 8c8fb661-7b16-49ef-aabb-dad053397c8d
   ws-opts:
     headers:
       Host: node33.ourfast.asia
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: node7.ourfast.asia
-  tls: true
-  type: vmess
-  uuid: 360470f4-8c38-4934-b690-4458c0834604
-  ws-opts:
-    headers:
-      Host: node7.ourfast.asia
     path: /
 - alterId: 0
   cipher: auto
@@ -265,12 +253,16 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 🇮🇹[openproxylist.com] vmess-IT
-  network: tcp
-  port: 22324
-  server: 45.92.70.236
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -384,7 +376,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -408,7 +399,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇪🇸[openproxylist.com] vmess-ES
-  - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -423,7 +414,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -447,7 +437,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇪🇸[openproxylist.com] vmess-ES
-  - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
