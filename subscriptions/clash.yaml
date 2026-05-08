@@ -6,6 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: ws
+  port: 443
+  server: node33.ourfast.asia
+  servername: node33.ourfast.asia
+  tls: true
+  type: vmess
+  uuid: 8c8fb661-7b16-49ef-aabb-dad053397c8d
+  ws-opts:
+    headers:
+      Host: node33.ourfast.asia
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
@@ -318,6 +332,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -351,6 +366,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇳🇱[openproxylist.com] vmess-NL
