@@ -46,14 +46,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 30830
-  server: v30.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
@@ -151,7 +143,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 80
   server: jp01.a0a.xyz
@@ -280,7 +272,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇰🇷[openproxylist.com] vmess-KR
   network: ws
   port: 443
   server: chuncheon03.zgjok.com
@@ -293,7 +285,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇪🇸[openproxylist.com] vmess-ES
   network: tcp
   port: 22324
   server: 85.90.217.42
@@ -346,7 +338,6 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -355,7 +346,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -369,8 +360,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -382,7 +373,6 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -391,7 +381,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -405,8 +395,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇪🇸[openproxylist.com] vmess-ES
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
