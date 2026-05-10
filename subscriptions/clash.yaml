@@ -145,6 +145,14 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -169,18 +177,14 @@ proxies:
     headers:
       Host: n1761296889.4u9ma.icu
     path: /
-- alterId: 0
+- alterId: 1
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 10022
-  server: us1-ss.flyparts.cn
+  network: tcp
+  port: 22324
+  server: 67.220.72.237
   type: vmess
-  uuid: e3ac1293-c58b-438e-9d09-dfc131c9fa11
-  ws-opts:
-    headers:
-      Host: us1-ss.flyparts.cn
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -294,18 +298,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmesswss
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 80
-  server: fsdns1.ectunnelvpn.me
-  type: vmess
-  uuid: 6b2d86e5-df05-4511-a79f-82d53ce99b36
-  ws-opts:
-    headers:
-      Host: fsdns1.ectunnelvpn.me
-    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
@@ -324,6 +316,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -338,7 +331,6 @@ proxy-groups:
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
@@ -357,6 +349,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -371,7 +364,6 @@ proxy-groups:
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
