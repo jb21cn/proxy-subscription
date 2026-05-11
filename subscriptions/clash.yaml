@@ -151,13 +151,25 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 10022
-  server: us1-ss.flyparts.cn
+  server: 43.162.105.30
   type: vmess
-  uuid: 941a7999-68bc-45d8-bb7f-b0a2f1d16fe4
+  uuid: 91a988dc-99d5-4c0d-a999-a1d4dd72ad21
   ws-opts:
     headers:
       Host: us1-ss.flyparts.cn
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: 107.175.91.118
+  tls: true
+  type: vmess
+  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
+  ws-opts:
+    headers: {}
+    path: /v2ray-wisp
 - alterId: 1
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -291,6 +303,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇲🇾[openproxylist.com] vmess-MY
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -319,6 +332,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
