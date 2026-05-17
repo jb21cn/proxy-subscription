@@ -119,14 +119,6 @@ proxies:
     headers:
       Host: jp01.a0a.xyz
     path: /cctv13.m3u8
-- alterId: 1
-  cipher: auto
-  name: 🇧🇷[openproxylist.com] vmess-BR
-  network: tcp
-  port: 22324
-  server: 172.233.17.76
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -376,7 +368,8 @@ proxies:
   type: vmess
   uuid: c503a96a-a2f5-4847-a31f-20c17ecf3be4
   ws-opts:
-    headers: {}
+    headers:
+      Host: 45.15.185.17
     path: /vmess/
 proxy-groups:
 - name: PROXY
@@ -393,7 +386,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇹[openproxylist.com] vmess-AT
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -434,7 +426,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇦🇹[openproxylist.com] vmess-AT
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇧🇷[openproxylist.com] vmess-BR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
