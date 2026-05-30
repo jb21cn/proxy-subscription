@@ -18,7 +18,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
   port: 443
   server: renderer-stream-1-411.mirra.now
@@ -60,7 +60,7 @@ proxies:
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
   port: 443
-  server: 103.31.79.186
+  server: 104.18.32.47
   servername: sctest1.dr-ping.ir
   tls: true
   type: vmess
@@ -73,10 +73,11 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
-  port: 2080
-  server: 91.107.179.170
+  port: 2053
+  server: node-de.connectsuite.org
+  tls: true
   type: vmess
-  uuid: cd682302-c9d7-4c0d-bada-52e7d652c22c
+  uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -133,16 +134,26 @@ proxies:
   uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇲🇾[openproxylist.com] vmess-MY
   network: ws
-  port: 80
-  server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
+  port: 50018
+  server: 47.250.149.51
   type: vmess
-  uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a
+  uuid: 9665280c-a3d1-4aab-ef9f-a3a497337d91
   ws-opts:
-    headers:
-      Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-    path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp
+    headers: {}
+    path: /9665280c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 48060
+  server: 66.154.106.185
+  type: vmess
+  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  ws-opts:
+    headers: {}
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -333,26 +344,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇹🇷[openproxylist.com] vmess-TR
   network: tcp
-  port: 180
-  server: 82.198.246.250
+  port: 22324
+  server: 5.188.190.252
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 180
-  server: 82.198.246.46
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -364,7 +367,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -388,14 +392,13 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇷[openproxylist.com] vmess-TR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -407,7 +410,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -431,8 +435,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇷[openproxylist.com] vmess-TR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
