@@ -175,10 +175,10 @@ proxies:
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 32221
+  port: 49803
   server: 153.121.73.175
   type: vmess
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
 - alterId: 1
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
@@ -275,7 +275,7 @@ proxies:
   server: 67.220.95.3
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 1
+- alterId: 0
   cipher: auto
   name: 🇧🇷[openproxylist.com] vmess-BR
   network: tcp
@@ -339,6 +339,14 @@ proxies:
   server: 82.198.246.250
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 proxy-groups:
 - name: PROXY
   proxies:
@@ -381,6 +389,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -416,6 +425,7 @@ proxy-groups:
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
