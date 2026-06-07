@@ -31,29 +31,22 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10086
-  server: 57.151.100.27
-  type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
-  port: 80
-  server: speedtest.org
+  port: 10011
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
     headers:
-      Host: de2.ping-game.ir
-    path: /IOebhLMhl1CTbFHbL95myfRX2
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: renderer-stream-1-411.mirra.now
+  servername: renderer-stream-1-411.mirra.now
   tls: true
   type: vmess
   uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
@@ -118,7 +111,7 @@ proxies:
     path: /9665280c
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 48060
   server: 66.154.106.185
@@ -250,15 +243,14 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇲🇾[openproxylist.com] vmess-MY
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -280,15 +272,14 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇲🇾[openproxylist.com] vmess-MY
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇯🇵[openproxylist.com] vmess-JP
