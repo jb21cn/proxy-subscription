@@ -6,51 +6,25 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 80
-  server: 51.254.133.152
-  type: vmess
-  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-  ws-opts:
-    headers:
-      Host: fr5.niekotin.de
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10086
-  server: 57.151.100.27
-  type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
-  port: 443
-  server: renderer-stream-1-411.mirra.now
-  servername: renderer-stream-1-411.mirra.now
-  tls: true
+  port: 80
+  server: myvpshosting.name.ng
   type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
   ws-opts:
     headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
+      Host: myvpshosting.name.ng
+    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
