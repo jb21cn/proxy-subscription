@@ -16,26 +16,16 @@ proxies:
     headers:
       Host: fr5.niekotin.de
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10086
-  server: 57.151.100.27
-  type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
