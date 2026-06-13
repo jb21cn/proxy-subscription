@@ -6,6 +6,17 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 44855
+  server: 45.63.75.211
+  type: vmess
+  uuid: 5164f226-f833-4e5b-8903-094a3460cd41
+  ws-opts:
+    headers: {}
+    path: /5164f226
+- alterId: 0
+  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 80
@@ -20,11 +31,13 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
   type: url-test
   url: http://www.gstatic.com/generate_204
