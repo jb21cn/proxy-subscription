@@ -6,36 +6,12 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 30022
-  server: 186.244.208.78
-  type: vmess
-  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 25944
+  port: 34017
   server: 43.167.162.191
   type: vmess
-  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 25213
-  server: 23.138.148.96
-  type: vmess
-  uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 29633
-  server: 23.141.204.132
-  type: vmess
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+  uuid: dbe306b3-f28c-4176-83d7-b75506c38488
 - alterId: 0
   cipher: auto
   name: 🇻🇳[openproxylist.com] vmess-VN
@@ -49,31 +25,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: ws
-  port: 10000
-  server: uk.vpnjantit.com
-  type: vmess
-  uuid: 3c05ef9e-6582-11f1-a6e5-1727059cff63
-  ws-opts:
-    headers: {}
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 33366
   server: 65.109.221.245
   type: vmess
   uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 4443
-  server: 89.167.82.102
-  type: vmess
-  uuid: 88553247-c1c8-4e80-9db6-56bff7efc33b
 - alterId: 0
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
@@ -87,46 +44,22 @@ proxies:
     headers:
       Host: polartime.link
     path: /ws/
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 80
-  server: myvpshosting.name.ng
-  type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
-  ws-opts:
-    headers:
-      Host: myvpshosting.name.ng
-    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
