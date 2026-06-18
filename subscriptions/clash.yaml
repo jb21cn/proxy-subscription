@@ -6,12 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 30022
+  server: 186.244.208.78
+  type: vmess
+  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
+- alterId: 0
+  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 34017
+  port: 25944
   server: 43.167.162.191
   type: vmess
-  uuid: dbe306b3-f28c-4176-83d7-b75506c38488
+  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -83,6 +91,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -95,6 +104,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
