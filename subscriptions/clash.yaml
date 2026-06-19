@@ -16,18 +16,10 @@ proxies:
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 25944
+  port: 34017
   server: 43.167.162.191
   type: vmess
-  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 25213
-  server: 23.138.148.96
-  type: vmess
-  uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e
+  uuid: dbe306b3-f28c-4176-83d7-b75506c38488
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -51,23 +43,10 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
-  port: 4443
+  port: 8880
   server: 89.167.82.102
   type: vmess
   uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
-  server: 8.211.149.30
-  tls: true
-  type: vmess
-  uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
-  ws-opts:
-    headers:
-      Host: polartime.link
-    path: /ws/
 proxy-groups:
 - name: PROXY
   proxies:
@@ -75,10 +54,8 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
@@ -86,10 +63,8 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
