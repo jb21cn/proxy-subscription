@@ -14,14 +14,6 @@ proxies:
   uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: tcp
-  port: 25944
-  server: 43.167.162.191
-  type: vmess
-  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 29633
@@ -77,7 +69,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -88,7 +79,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
