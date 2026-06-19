@@ -6,12 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 30022
+  server: 186.244.208.78
+  type: vmess
+  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
+- alterId: 0
+  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: tcp
-  port: 34017
+  port: 25944
   server: 43.167.162.191
   type: vmess
-  uuid: dbe306b3-f28c-4176-83d7-b75506c38488
+  uuid: a8eec18d-8aab-491f-9743-b588c1cd5e8b
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -43,42 +51,45 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
-  port: 1020
-  server: nlt.reata.ir
+  port: 4443
+  server: 89.167.82.102
   type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+  uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
-  port: 80
-  server: myvpshosting.name.ng
+  port: 443
+  server: 8.211.149.30
+  tls: true
   type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
   ws-opts:
     headers:
-      Host: myvpshosting.name.ng
-    path: /vmess
+      Host: polartime.link
+    path: /ws/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
