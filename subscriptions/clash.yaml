@@ -46,7 +46,7 @@ proxies:
   port: 8880
   server: 89.167.82.102
   type: vmess
-  uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
+  uuid: 38d5f36b-b393-4e3f-a150-4937935c6bb1
 - alterId: 0
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
@@ -60,6 +60,18 @@ proxies:
     headers:
       Host: polartime.link
     path: /ws/
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: ws
+  port: 80
+  server: myvpshosting.name.ng
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: myvpshosting.name.ng
+    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
@@ -70,6 +82,7 @@ proxy-groups:
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
@@ -80,6 +93,7 @@ proxy-groups:
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
