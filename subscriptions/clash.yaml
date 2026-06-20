@@ -73,7 +73,7 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
-  port: 4443
+  port: 8880
   server: 89.167.82.102
   type: vmess
   uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
