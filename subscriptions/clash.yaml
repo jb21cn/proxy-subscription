@@ -17,14 +17,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 110
-  server: 2.26.231.87
-  type: vmess
-  uuid: 6d6595b5-ff7f-4995-abde-b1187299a63d
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
   server: 69.84.182.49
@@ -62,10 +54,10 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
-  port: 4443
+  port: 8880
   server: 89.167.82.102
   type: vmess
-  uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
+  uuid: 449a533a-4a82-44c1-adbd-48e9c2deb22c
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -76,42 +68,41 @@ proxies:
   uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
-  port: 80
-  server: myvpshosting.name.ng
+  port: 443
+  server: 8.211.149.30
+  tls: true
   type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
   ws-opts:
     headers:
-      Host: myvpshosting.name.ng
-    path: /vmess
+      Host: polartime.link
+    path: /ws/
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
