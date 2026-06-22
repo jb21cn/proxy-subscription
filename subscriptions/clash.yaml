@@ -6,18 +6,10 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1546
-  server: vip3.sanaiehdasti.com
-  type: vmess
-  uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 1546
-  server: vip3.sanaiehdasti.com
+  server: pro.sanaiehdasti.com
   type: vmess
   uuid: 6c5fcae3-16e8-4a93-b28e-05588d5d9342
 - alterId: 0
@@ -66,41 +58,26 @@ proxies:
   server: 23.141.204.132
   type: vmess
   uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳[openproxylist.com] vmess-VN
-  network: ws
-  port: 49515
-  server: 163.223.224.68
-  type: vmess
-  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
-  ws-opts:
-    headers: {}
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇻🇳[openproxylist.com] vmess-VN
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇻🇳[openproxylist.com] vmess-VN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
