@@ -6,7 +6,18 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 6666
+  server: 107.173.27.219
+  type: vmess
+  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
+  ws-opts:
+    headers: {}
+    path: /youtube
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 80
   server: 69.84.182.49
@@ -44,7 +55,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -52,7 +64,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
