@@ -6,6 +6,17 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇸🇪[openproxylist.com] vmess-SE
+  network: ws
+  port: 57865
+  server: 62.60.151.41
+  type: vmess
+  uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 6666
@@ -29,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇻🇳[openproxylist.com] vmess-VN
   network: tcp
   port: 49178
   server: 160.250.247.70
@@ -56,38 +67,26 @@ proxies:
     headers:
       Host: polartime.link
     path: /ws/
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
-  port: 80
-  server: myvpshosting.name.ng
-  type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
-  ws-opts:
-    headers:
-      Host: myvpshosting.name.ng
-    path: /vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🏳[openproxylist.com] vmess-
+  - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🏳[openproxylist.com] vmess-
+  - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
