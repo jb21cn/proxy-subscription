@@ -29,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇻🇳[openproxylist.com] vmess-VN
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 49178
   server: 160.250.247.70
@@ -74,7 +74,7 @@ proxy-groups:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇻🇳[openproxylist.com] vmess-VN
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -84,7 +84,7 @@ proxy-groups:
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇻🇳[openproxylist.com] vmess-VN
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇳🇱[openproxylist.com] vmess-NL
