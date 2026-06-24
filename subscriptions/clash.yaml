@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 57865
   server: 62.60.151.41
@@ -17,7 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 110
   server: 2.26.231.87
@@ -55,8 +55,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇸🇪[openproxylist.com] vmess-SE
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
@@ -64,8 +64,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇸🇪[openproxylist.com] vmess-SE
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
