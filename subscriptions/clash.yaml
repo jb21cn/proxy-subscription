@@ -33,7 +33,7 @@ proxies:
   port: 110
   server: 2.26.231.87
   type: vmess
-  uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf
+  uuid: ad7a0934-4d8d-4343-8b6f-efa10ed54fc2
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
