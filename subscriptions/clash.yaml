@@ -13,11 +13,11 @@ proxies:
   servername: manager.xyzxz.qzz.io
   tls: true
   type: vmess
-  uuid: 4e568ba8-1875-422c-b0c4-a78f3656ef86
+  uuid: 86967ca7-c2cf-45d2-b11e-2f815a0d5469
   ws-opts:
     headers:
       Host: manager.xyzxz.qzz.io
-    path: /59747/mehdi
+    path: /59139/mehdi
 - alterId: 0
   cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
@@ -28,15 +28,15 @@ proxies:
   uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
-  port: 6666
-  server: 107.173.27.219
+  port: 57865
+  server: 62.60.151.41
   type: vmess
-  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
+  uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
   ws-opts:
     headers: {}
-    path: /youtube
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -71,7 +71,7 @@ proxy-groups:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
@@ -81,7 +81,7 @@ proxy-groups:
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
