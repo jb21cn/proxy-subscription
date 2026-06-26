@@ -6,6 +6,28 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 443
+  server: manager.xyzxz.qzz.io
+  servername: manager.xyzxz.qzz.io
+  tls: true
+  type: vmess
+  uuid: c469cbcf-fb5c-47cc-8a6b-3ab9f3f8601c
+  ws-opts:
+    headers:
+      Host: manager.xyzxz.qzz.io
+    path: /29930/mehdi
+- alterId: 0
+  cipher: auto
+  name: 🇫🇮[openproxylist.com] vmess-FI
+  network: tcp
+  port: 8088
+  server: 65.109.218.60
+  type: vmess
+  uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 6666
@@ -17,7 +39,7 @@ proxies:
     path: /youtube
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
   server: 69.84.182.49
@@ -47,16 +69,20 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇻🇳[openproxylist.com] vmess-VN
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
