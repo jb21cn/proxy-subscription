@@ -13,11 +13,11 @@ proxies:
   servername: manager.xyzxz.qzz.io
   tls: true
   type: vmess
-  uuid: c469cbcf-fb5c-47cc-8a6b-3ab9f3f8601c
+  uuid: 4e568ba8-1875-422c-b0c4-a78f3656ef86
   ws-opts:
     headers:
       Host: manager.xyzxz.qzz.io
-    path: /29930/mehdi
+    path: /59747/mehdi
 - alterId: 0
   cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
