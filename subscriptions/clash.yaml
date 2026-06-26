@@ -6,12 +6,18 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 8088
-  server: 65.109.218.60
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: yg1.ygkkk.dpdns.org
+  servername: usc-cure-grad-exceptional.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
+  uuid: b98325b3-0bc0-4149-9b0b-bf7dc1668ae9
+  ws-opts:
+    headers:
+      Host: usc-cure-grad-exceptional.trycloudflare.com
+    path: /b98325b3-0bc0-4149-9b0b-bf7dc1668ae9-vm
 - alterId: 0
   cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
@@ -58,7 +64,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -67,7 +73,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
