@@ -20,14 +20,6 @@ proxies:
     path: /6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 8088
-  server: 65.109.218.60
-  type: vmess
-  uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
-- alterId: 0
-  cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
   port: 57865
@@ -65,7 +57,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -74,7 +65,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
