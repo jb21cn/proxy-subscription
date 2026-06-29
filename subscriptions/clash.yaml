@@ -6,20 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 443
-  server: yg1.ygkkk.dpdns.org
-  servername: attitude-interracial-country-gen.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76
-  ws-opts:
-    headers:
-      Host: attitude-interracial-country-gen.trycloudflare.com
-    path: /6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm
-- alterId: 0
-  cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
   port: 57865
@@ -56,7 +42,6 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -64,7 +49,6 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
