@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 433
-  server: 65.109.186.44
-  type: vmess
-  uuid: dee2bb32-00b9-4e54-8287-5b33d22fedb2
-- alterId: 0
-  cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
   port: 57865
@@ -39,14 +31,12 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
