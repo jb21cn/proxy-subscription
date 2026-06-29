@@ -6,7 +6,15 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: tcp
+  port: 8443
+  server: French.r.gamingservice.ir
+  type: vmess
+  uuid: 6d85750e-4ea7-abf2-4626-539e12b433e1
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 57865
   server: 62.60.151.41
@@ -42,14 +50,16 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
