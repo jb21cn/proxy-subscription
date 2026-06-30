@@ -6,6 +6,17 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: ws
+  port: 59525
+  server: 194.60.95.7
+  type: vmess
+  uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
+  ws-opts:
+    headers: {}
+    path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
+- alterId: 0
+  cipher: auto
   name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 18746
@@ -50,6 +61,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🏳[openproxylist.com] vmess-
   - 🏳[openproxylist.com] vmess-
   - 🇸🇪[openproxylist.com] vmess-SE
@@ -58,6 +70,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🏳[openproxylist.com] vmess-
   - 🏳[openproxylist.com] vmess-
   - 🇸🇪[openproxylist.com] vmess-SE
