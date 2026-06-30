@@ -11,13 +11,13 @@ proxies:
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
+  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
   ws-opts:
     headers: {}
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
   port: 57865
   server: 62.60.151.41
@@ -43,14 +43,14 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🏳[openproxylist.com] vmess-
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🏳[openproxylist.com] vmess-
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
