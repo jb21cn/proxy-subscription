@@ -17,7 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 57865
   server: 62.60.151.41
@@ -43,14 +43,14 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🏳[openproxylist.com] vmess-
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🏳[openproxylist.com] vmess-
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
