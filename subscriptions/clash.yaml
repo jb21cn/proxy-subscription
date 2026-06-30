@@ -17,7 +17,7 @@ proxies:
     path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇮🇳[openproxylist.com] vmess-IN
   network: ws
   port: 18746
   server: 138.252.100.85
@@ -28,12 +28,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 433
   server: 65.109.186.44
   type: vmess
-  uuid: ec702875-e1df-490f-8d8e-8f59f83d83f1
+  uuid: 0611401f-a49e-4a55-9954-e74d4af47100
 - alterId: 0
   cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
@@ -62,8 +62,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
@@ -71,8 +71,8 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
