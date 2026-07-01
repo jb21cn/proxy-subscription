@@ -22,7 +22,7 @@ proxies:
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
+  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
   ws-opts:
     headers: {}
     path: /
@@ -42,7 +42,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: yg2.ygkkk.dpdns.org
+  server: 69.84.182.49
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
