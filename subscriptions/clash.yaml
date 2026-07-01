@@ -6,6 +6,25 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: ws
+  port: 48885
+  server: 216.36.115.182
+  type: vmess
+  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 1050
+  server: spt.reata.ir
+  type: vmess
+  uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
+- alterId: 0
+  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 59525
@@ -28,14 +47,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 433
-  server: 65.109.186.44
-  type: vmess
-  uuid: 0611401f-a49e-4a55-9954-e74d4af47100
-- alterId: 0
-  cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
   network: ws
   port: 57865
@@ -50,7 +61,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: 69.84.182.49
+  server: yg2.ygkkk.dpdns.org
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
@@ -61,18 +72,20 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🏳[openproxylist.com] vmess-
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🏳[openproxylist.com] vmess-
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
