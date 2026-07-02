@@ -33,7 +33,7 @@ proxies:
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
   ws-opts:
     headers: {}
     path: /
@@ -44,7 +44,7 @@ proxies:
   port: 44908
   server: 65.109.218.60
   type: vmess
-  uuid: f3115329-e25b-4bcf-b035-52fdfb5371b2
+  uuid: 2bcaee9a-6de8-4e8b-8e35-e815cbce866e
 - alterId: 0
   cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
