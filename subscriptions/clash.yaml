@@ -25,12 +25,23 @@ proxies:
   uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
 - alterId: 0
   cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: ws
+  port: 59525
+  server: 194.60.95.7
+  type: vmess
+  uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
+  ws-opts:
+    headers: {}
+    path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
+- alterId: 0
+  cipher: auto
   name: 🇮🇳[openproxylist.com] vmess-IN
   network: ws
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
   ws-opts:
     headers: {}
     path: /
@@ -50,7 +61,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: cf.tencentapp.cn
+  server: 69.84.182.49
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
@@ -63,6 +74,7 @@ proxy-groups:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -72,6 +84,7 @@ proxy-groups:
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
