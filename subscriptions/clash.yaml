@@ -17,12 +17,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 1050
+  server: spt.reata.ir
+  type: vmess
+  uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
+- alterId: 0
+  cipher: auto
   name: 🇮🇳[openproxylist.com] vmess-IN
   network: ws
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
+  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
   ws-opts:
     headers: {}
     path: /
@@ -54,6 +62,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -62,6 +71,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
