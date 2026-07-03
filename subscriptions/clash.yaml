@@ -14,14 +14,6 @@ proxies:
   uuid: fbd4fc4c-5a2c-4c28-81d1-3d44bb3757f3
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- alterId: 0
-  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 59525
@@ -58,7 +50,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: cf.tencentapp.cn
+  server: yg2.ygkkk.dpdns.org
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
@@ -70,7 +62,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
@@ -80,7 +71,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇸🇪[openproxylist.com] vmess-SE
