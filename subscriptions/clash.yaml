@@ -22,6 +22,14 @@ proxies:
   uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 1050
+  server: spt.reata.ir
+  type: vmess
+  uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
+- alterId: 0
+  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 59525
@@ -38,10 +46,24 @@ proxies:
   port: 18746
   server: 138.252.100.85
   type: vmess
-  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
   ws-opts:
     headers: {}
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 443
+  server: ::ffff:ac40:9bd1
+  servername: bedrid.denizhosting.me
+  tls: true
+  type: vmess
+  uuid: ffece2a9-0296-46a9-8db8-742d29d240ff
+  ws-opts:
+    headers:
+      Host: bedrid.denizhosting.me
+    path: ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn
 - alterId: 0
   cipher: auto
   name: 🇸🇪[openproxylist.com] vmess-SE
@@ -71,8 +93,10 @@ proxy-groups:
   - 自动选择
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
@@ -81,8 +105,10 @@ proxy-groups:
   proxies:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
