@@ -29,32 +29,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 59525
-  server: 194.60.95.7
-  type: vmess
-  uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
-  ws-opts:
-    headers: {}
-    path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: ws
-  port: 18746
-  server: 138.252.100.85
-  type: vmess
-  uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: yg2.ygkkk.dpdns.org
+  server: 69.84.182.49
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
@@ -67,8 +45,6 @@ proxy-groups:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
@@ -76,8 +52,6 @@ proxy-groups:
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
