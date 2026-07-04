@@ -14,15 +14,15 @@ proxies:
   uuid: fbd4fc4c-5a2c-4c28-81d1-3d44bb3757f3
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
-  port: 59525
-  server: 194.60.95.7
+  port: 48885
+  server: 216.36.115.182
   type: vmess
-  uuid: 66ff581f-98d0-43cc-cecb-a7232f411c6d
+  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
   ws-opts:
     headers: {}
-    path: /66ff581f-98d0-43cc-cecb-a7232f411c6d
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇮🇳[openproxylist.com] vmess-IN
@@ -36,21 +36,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷[openproxylist.com] vmess-FR
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers: {}
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: bestcf.030101.xyz
+  server: 69.84.182.49
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
@@ -62,18 +51,16 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇫🇷[openproxylist.com] vmess-FR
   - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
