@@ -54,7 +54,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 80
-  server: cf.tencentapp.cn
+  server: yg2.ygkkk.dpdns.org
   type: vmess
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
