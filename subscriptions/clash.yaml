@@ -22,15 +22,12 @@ proxies:
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2095
-  server: 107.173.7.186
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 18339
+  server: c87s5.portablesubmarines.com
   type: vmess
-  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
-  ws-opts:
-    headers: {}
-    path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
 - alterId: 0
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
@@ -52,24 +49,38 @@ proxies:
     headers:
       Host: n1747624274.4u9ma.icu
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2052
+  server: 157.85.230.247
+  type: vmess
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
