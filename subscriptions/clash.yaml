@@ -6,12 +6,12 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
-  port: 18339
-  server: c87s5.portablesubmarines.com
+  port: 16025
+  server: c722s801.portablesubmarines.com
   type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -54,7 +54,8 @@ proxies:
   type: vmess
   uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
   ws-opts:
-    headers: {}
+    headers:
+      Host: 107.173.7.186
     path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
 - alterId: 0
   cipher: auto
@@ -85,7 +86,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇹[openproxylist.com] vmess-IT
@@ -96,7 +97,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇹[openproxylist.com] vmess-IT
