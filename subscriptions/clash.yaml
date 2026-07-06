@@ -14,6 +14,20 @@ proxies:
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: phoenix0202.zgjok.com
+  servername: phoenix0202.zgjok.com
+  tls: true
+  type: vmess
+  uuid: d9c36b55-447a-4484-882b-d799f5301681
+  ws-opts:
+    headers:
+      Host: phoenix0202.zgjok.com
+    path: /d9c36b55-447a-4484-882b-d799f5301681
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 18339
@@ -28,6 +42,28 @@ proxies:
   server: c87s5.portablesubmarines.com
   type: vmess
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+- alterId: 0
+  cipher: auto
+  name: 🇮🇹[openproxylist.com] vmess-IT
+  network: ws
+  port: 443
+  server: 57.131.35.243
+  type: vmess
+  uuid: 8f9391ed-fede-4ee6-b7c2-89d0939545bd
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 2095
+  server: 107.173.7.186
+  type: vmess
+  uuid: 383737a2-a196-44b6-a9ac-4f8cc23c9637
+  ws-opts:
+    headers: {}
+    path: 383737a2-a196-44b6-a9ac-4f8cc23c9637-vm
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -58,8 +94,11 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   type: select
@@ -67,8 +106,11 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇮🇹[openproxylist.com] vmess-IT
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
