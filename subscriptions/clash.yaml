@@ -69,6 +69,18 @@ proxies:
     headers:
       Host: n1747624274.4u9ma.icu
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2052
+  server: 157.85.230.247
+  type: vmess
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 proxy-groups:
 - name: PROXY
   proxies:
@@ -79,6 +91,7 @@ proxy-groups:
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
@@ -89,6 +102,7 @@ proxy-groups:
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
