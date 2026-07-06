@@ -15,6 +15,14 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 16025
+  server: c722s801.portablesubmarines.com
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
   server: phoenix0202.zgjok.com
@@ -26,22 +34,6 @@ proxies:
     headers:
       Host: phoenix0202.zgjok.com
     path: /d9c36b55-447a-4484-882b-d799f5301681
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18339
-  server: c87s5.portablesubmarines.com
-  type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 18339
-  server: c87s5.portablesubmarines.com
-  type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
 - alterId: 0
   cipher: auto
   name: 🇮🇹[openproxylist.com] vmess-IT
@@ -95,8 +87,7 @@ proxy-groups:
   - 自动选择
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -107,8 +98,7 @@ proxy-groups:
   proxies:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇹[openproxylist.com] vmess-IT
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
