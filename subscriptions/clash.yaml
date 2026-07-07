@@ -8,6 +8,22 @@ proxies:
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
+  port: 1900
+  server: ir.masterlord.ir
+  type: vmess
+  uuid: a5ae0167-b947-4394-a5b8-23a87b63c158
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
   port: 5050
   server: 193.93.169.116
   type: vmess
@@ -61,6 +77,14 @@ proxies:
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 48885
@@ -70,26 +94,42 @@ proxies:
   ws-opts:
     headers: {}
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 1050
+  server: spt.reata.ir
+  type: vmess
+  uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  type: select
-- interval: 300
-  name: 自动选择
-  proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
+  type: select
+- interval: 300
+  name: 自动选择
+  proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
