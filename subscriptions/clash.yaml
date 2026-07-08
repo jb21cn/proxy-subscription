@@ -17,28 +17,6 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 11886
-  server: tttttt.ly123.edu.kg
-  type: vmess
-  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
-- alterId: 0
-  cipher: auto
-  name: 🇰🇿[openproxylist.com] vmess-KZ
-  network: ws
-  port: 443
-  server: vip1314.vip
-  servername: vip1314.vip
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012606
-  ws-opts:
-    headers:
-      Host: vip1314.vip
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 443
@@ -61,20 +39,6 @@ proxies:
   server: 155.103.71.163
   type: vmess
   uuid: b2fcc775-1579-4b4b-9fe8-f8dde771c861
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: phoenix0202.zgjok.com
-  servername: phoenix0202.zgjok.com
-  tls: true
-  type: vmess
-  uuid: d9c36b55-447a-4484-882b-d799f5301681
-  ws-opts:
-    headers:
-      Host: phoenix0202.zgjok.com
-    path: /d9c36b55-447a-4484-882b-d799f5301681
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -112,12 +76,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇰🇿[openproxylist.com] vmess-KZ
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -126,12 +87,9 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇰🇿[openproxylist.com] vmess-KZ
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
