@@ -6,12 +6,28 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 5566
-  server: 47.76.127.88
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: ws
+  port: 80
+  server: runheng.cloud
   type: vmess
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  uuid: 64bd7d62-7c00-4463-954b-3dd20320dded
+  ws-opts:
+    headers:
+      Host: runheng.cloud
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: yg6.ygkkk.dpdns.org
+  type: vmess
+  uuid: dc0672f1-1a09-42ec-8f46-0a7e68349e79
+  ws-opts:
+    headers:
+      Host: remains-istanbul-hide-convention.trycloudflare.com
+    path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -26,6 +42,14 @@ proxies:
     headers:
       Host: gongyilm.dpdns.org
     path: /ws-gongyi
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -73,7 +97,9 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
@@ -83,7 +109,9 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇷[openproxylist.com] vmess-TR
