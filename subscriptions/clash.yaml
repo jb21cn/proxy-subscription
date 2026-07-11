@@ -6,12 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
-  port: 443
-  server: 165.140.216.142
+  port: 56688
+  server: 101.32.241.147
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 4c6bf87d-dbc0-4ab6-d774-ded20e5ed1c4
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 23793
+  server: kiri1.dlweb.info
+  type: vmess
+  uuid: 17483fa4-f518-4886-b85e-a5abd76f7314
 - alterId: 0
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
@@ -20,14 +28,6 @@ proxies:
   server: 103.201.131.66
   type: vmess
   uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -71,6 +71,14 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 5566
+  server: 47.76.127.88
+  type: vmess
+  uuid: 5d746f1e-7028-455f-bb00-1806249a5941
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 443
@@ -95,26 +103,28 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
