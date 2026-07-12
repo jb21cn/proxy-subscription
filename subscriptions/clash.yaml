@@ -8,6 +8,14 @@ proxies:
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
   port: 10086
   server: 43.153.94.24
   type: vmess
@@ -110,7 +118,7 @@ proxies:
   port: 5566
   server: 47.76.127.88
   type: vmess
-  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
+  uuid: 5d746f1e-7028-455f-bb00-1806249a5941
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -119,14 +127,6 @@ proxies:
   server: 165.140.216.142
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
-  network: tcp
-  port: 2026
-  server: 155.103.71.163
-  type: vmess
-  uuid: b2fcc775-1579-4b4b-9fe8-f8dde771c861
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -145,6 +145,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -156,13 +157,13 @@ proxy-groups:
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇸🇪[openproxylist.com] vmess-SE
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -174,7 +175,6 @@ proxy-groups:
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇹🇷[openproxylist.com] vmess-TR
   - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
