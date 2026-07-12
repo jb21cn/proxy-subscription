@@ -30,14 +30,6 @@ proxies:
   uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
 - alterId: 0
   cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
-  network: tcp
-  port: 110
-  server: 2.26.7.59
-  type: vmess
-  uuid: 958f5940-de3d-4466-bb30-b605993db27e
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 80
@@ -147,7 +139,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -165,7 +156,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
