@@ -63,6 +63,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 110
+  server: 31.77.149.131
+  type: vmess
+  uuid: 5ed7206a-cd8d-4b02-add1-4f7b787178c9
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 80
@@ -100,19 +108,6 @@ proxies:
   uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: zt-ai.cloud
-  tls: true
-  type: vmess
-  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
-  ws-opts:
-    headers:
-      Host: zt-ai.cloud
-    path: /v2ray
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
@@ -131,7 +126,7 @@ proxies:
   port: 5566
   server: 47.76.127.88
   type: vmess
-  uuid: aeff933f-0ae6-4465-85bf-12f1394f35af
+  uuid: ad298d1d-2ae9-46fa-895c-f0401f38b02c
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -149,11 +144,11 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
@@ -166,11 +161,11 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇲🇾[openproxylist.com] vmess-MY
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
