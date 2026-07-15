@@ -91,10 +91,10 @@ proxies:
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
-  port: 27489
+  port: 59912
   server: 107.161.82.89
   type: vmess
-  uuid: 1f111c76-69ce-4fa9-a55c-1ae21cd1ab2a
+  uuid: bda619b6-c5e7-444a-aed7-4d8716237bd7
   ws-opts:
     headers: {}
     path: /arki
