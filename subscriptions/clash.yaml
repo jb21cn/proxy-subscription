@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 18339
+  server: c87s5.portablesubmarines.com
+  type: vmess
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1546
@@ -38,14 +46,6 @@ proxies:
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
 - alterId: 0
   cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
-  network: tcp
-  port: 2078
-  server: 93.180.134.52
-  type: vmess
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 10086
@@ -58,21 +58,21 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
