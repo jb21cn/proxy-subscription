@@ -38,14 +38,6 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 8443
@@ -58,35 +50,6 @@ proxies:
     headers:
       Host: tg.hrmp.kdns.fr
     path: /tirexvmess
-- alterId: 0
-  cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 52525
-  server: 65.109.219.124
-  type: vmess
-  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
-- alterId: 0
-  cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
-  network: tcp
-  port: 10048
-  server: family.bucket.x9.kfc-520.com
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    headers: {}
-    path: /wsproxy
 proxy-groups:
 - name: PROXY
   proxies:
@@ -95,11 +58,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇰🇷[openproxylist.com] vmess-KR
   type: select
 - interval: 300
   name: 自动选择
@@ -108,11 +67,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇰🇷[openproxylist.com] vmess-KR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
