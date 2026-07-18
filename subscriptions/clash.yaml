@@ -14,10 +14,26 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 16025
-  server: c722s801.portablesubmarines.com
+  server: c722s5.portablesubmarines.com
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 16025
+  server: c722s4.portablesubmarines.com
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 16025
+  server: c722s3.portablesubmarines.com
   type: vmess
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
 - alterId: 0
@@ -32,35 +48,14 @@ proxies:
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
   port: 16025
   server: c722s801.portablesubmarines.com
   type: vmess
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷[openproxylist.com] vmess-KR
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    headers: {}
-    path: /wsproxy
 - alterId: 0
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
-  network: raw
+  network: tcp
   port: 10049
   server: family.bucket.x9.kfc-520.com
   type: vmess
@@ -134,11 +129,11 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇨🇦[openproxylist.com] vmess-CA
@@ -153,11 +148,11 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇨🇦[openproxylist.com] vmess-CA
