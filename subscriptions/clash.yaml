@@ -50,6 +50,14 @@ proxies:
     headers:
       Host: tg.hrmp.kdns.fr
     path: /tirexvmess
+- alterId: 0
+  cipher: auto
+  name: 🇹🇷[openproxylist.com] vmess-TR
+  network: tcp
+  port: 10048
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 proxy-groups:
 - name: PROXY
   proxies:
@@ -59,6 +67,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇹🇷[openproxylist.com] vmess-TR
   type: select
 - interval: 300
   name: 自动选择
@@ -68,6 +77,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇹🇷[openproxylist.com] vmess-TR
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
