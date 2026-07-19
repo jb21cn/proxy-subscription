@@ -38,14 +38,6 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 10037
@@ -58,6 +50,7 @@ proxies:
   network: ws
   port: 8443
   server: tg.hrmp.kdns.fr
+  servername: tg.hrmp.kdns.fr
   tls: true
   type: vmess
   uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
@@ -67,12 +60,28 @@ proxies:
     path: /tirexvmess
 - alterId: 0
   cipher: auto
+  name: 🇫🇮[openproxylist.com] vmess-FI
+  network: tcp
+  port: 52525
+  server: 65.109.219.124
+  type: vmess
+  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
+- alterId: 0
+  cipher: auto
   name: 🇹🇷[openproxylist.com] vmess-TR
   network: tcp
   port: 10048
   server: family.bucket.x9.kfc-520.com
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
   name: 🇮🇳[openproxylist.com] vmess-IN
@@ -113,10 +122,11 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🏳[openproxylist.com] vmess-
@@ -129,10 +139,11 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇦🇪[openproxylist.com] vmess-AE
   - 🏳[openproxylist.com] vmess-
