@@ -14,18 +14,6 @@ proxies:
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2086
-  server: 154.17.234.39
-  type: vmess
-  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
@@ -53,31 +41,12 @@ proxies:
   server: 165.140.216.142
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
@@ -85,10 +54,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
