@@ -6,18 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
-- alterId: 0
-  cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 36809
@@ -97,6 +85,29 @@ proxies:
   server: 47.86.167.194
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 🇲🇽[openproxylist.com] vmess-MX
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: 192.204.57.30
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
+  ws-opts:
+    headers: {}
+    path: /speed
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -359,19 +370,10 @@ proxies:
     headers:
       Host: www.bing.com
     path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇺🇸[openproxylist.com] vmess-US
@@ -379,6 +381,8 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -400,12 +404,10 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇺🇸[openproxylist.com] vmess-US
@@ -413,6 +415,8 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇲🇽[openproxylist.com] vmess-MX
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -434,7 +438,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
