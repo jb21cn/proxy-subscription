@@ -41,7 +41,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 443
-  server: 172.67.176.245
+  server: 104.21.43.81
   servername: cg1c12.waimaojd.com
   tls: true
   type: vmess
@@ -116,7 +116,7 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 27726
-  server: fj260404.freechatup.com
+  server: fj260205.freechatup.com
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -310,14 +310,14 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 47.83.207.148
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
     headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -337,14 +337,13 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 47.83.198.38
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
     headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -435,7 +434,7 @@ proxies:
   ws-opts:
     headers:
       Host: www.bing.com
-    path: /7e25875e-50bb-47ed-9627-261e6d232f69-vm
+    path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
 proxy-groups:
 - name: PROXY
   proxies:
