@@ -6,6 +6,30 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 10119
+  server: Chdxgih.viranix.ir
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: tcp
+  port: 10053
+  server: Chdxgih.viranix.ir
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 51185
+  server: 89.34.230.135
+  type: vmess
+  uuid: af6b6c9b-62bc-46c2-9147-81ec34885899
+- alterId: 0
+  cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
   network: ws
   port: 2096
@@ -32,38 +56,6 @@ proxies:
   server: 165.140.216.142
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 10053
-  server: Chdxgih.viranix.ir
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10136
-  server: Chdxgih.viranix.ir
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 10119
-  server: Chdxgih.viranix.ir
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 10053
-  server: Chdxgih.viranix.ir
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - alterId: 0
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
@@ -96,7 +88,7 @@ proxies:
   uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
 - alterId: 0
   cipher: auto
-  name: 🇲🇽[openproxylist.com] vmess-MX
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 36801
   server: cindy50.ceoiii.com
@@ -144,7 +136,7 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 27726
-  server: fj260204.freechatup.com
+  server: fj260404.freechatup.com
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -158,15 +150,7 @@ proxies:
   ws-opts:
     headers:
       Host: www.bing.com
-    path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+    path: /b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -184,7 +168,8 @@ proxies:
   type: vmess
   uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
   ws-opts:
-    headers: {}
+    headers:
+      Host: www.bing.com
     path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
 - alterId: 0
   cipher: auto
@@ -240,20 +225,6 @@ proxies:
   ws-opts:
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 443
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  servername: cE0gedPXwOU6cqoN.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -339,13 +310,12 @@ proxies:
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -406,13 +376,14 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 2b9hwy8ocx7q74nm.v.3dns.vip
+  server: 8.210.189.158
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
     headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -433,13 +404,11 @@ proxies:
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    headers: {}
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -471,17 +440,16 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🏳[openproxylist.com] vmess-
   - 🇲🇾[openproxylist.com] vmess-MY
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -489,8 +457,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -515,17 +481,16 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🏳[openproxylist.com] vmess-
   - 🇲🇾[openproxylist.com] vmess-MY
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -533,8 +498,6 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
