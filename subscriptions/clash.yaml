@@ -6,20 +6,12 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
-  port: 46962
-  server: 65.109.208.236
+  port: 30000
+  server: 176.65.151.89
   type: vmess
-  uuid: c896406b-ccc4-4c37-8b8c-15964f32a9a2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 0c31de50-ac14-43bd-8907-57dfadf24201
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -49,7 +41,7 @@ proxies:
     path: /mU5O3LNBc0Byn1BgoYh8
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 36801
   server: cindy50.ceoiii.com
@@ -80,40 +72,26 @@ proxies:
   server: 140.235.37.128
   type: vmess
   uuid: 0e288730-2200-4578-8e70-bc2b562bef7f
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 1234
-  server: 159.223.13.109
-  servername: supervpn.super.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
