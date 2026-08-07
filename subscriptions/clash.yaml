@@ -22,10 +22,19 @@ proxies:
   uuid: 0c31de50-ac14-43bd-8907-57dfadf24201
 - alterId: 0
   cipher: auto
+  name: 🇫🇮[openproxylist.com] vmess-FI
+  network: tcp
+  port: 46962
+  server: 65.109.208.236
+  type: vmess
+  uuid: c896406b-ccc4-4c37-8b8c-15964f32a9a2
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
   server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
   tls: true
   type: vmess
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
@@ -49,7 +58,7 @@ proxies:
     path: /mU5O3LNBc0Byn1BgoYh8
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 36801
   server: cindy50.ceoiii.com
@@ -78,9 +87,10 @@ proxy-groups:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🏳[openproxylist.com] vmess-
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
@@ -88,9 +98,10 @@ proxy-groups:
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇹🇷[openproxylist.com] vmess-TR
-  - 🏳[openproxylist.com] vmess-
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
