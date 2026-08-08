@@ -6,6 +6,84 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: US032010.westmgreen.com
+  tls: true
+  type: vmess
+  uuid: 238879d6-f2ea-4f0d-9fe9-0972a2995f78
+  ws-opts:
+    headers:
+      Host: US032010.westmgreen.com
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: JP032008.ssgreen.org
+  tls: true
+  type: vmess
+  uuid: fdd5c90a-96f7-44dd-9adc-58413bd85981
+  ws-opts:
+    headers:
+      Host: JP032008.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: US032017.ssgreen.org
+  tls: true
+  type: vmess
+  uuid: 51ca2c43-70e5-4537-b7fd-cd52e24ac2c2
+  ws-opts:
+    headers:
+      Host: US032017.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: US032013.ssgreen.org
+  tls: true
+  type: vmess
+  uuid: 58968a6c-2def-4bfb-b20a-8cbc4baed978
+  ws-opts:
+    headers:
+      Host: US032013.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: JP032002.ssgreen.org
+  tls: true
+  type: vmess
+  uuid: 5a412bde-b31d-4f75-bedb-375195b9cf41
+  ws-opts:
+    headers:
+      Host: JP032002.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: JP032001.ssgreen.org
+  tls: true
+  type: vmess
+  uuid: 842bf7b4-1c6b-478f-8edb-5b93abde9691
+  ws-opts:
+    headers:
+      Host: JP032001.ssgreen.org
+    path: /wes
+- alterId: 0
+  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 36801
@@ -18,46 +96,52 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
-  port: 30000
-  server: 176.65.151.89
+  port: 46962
+  server: 65.109.208.236
   type: vmess
-  uuid: 0c31de50-ac14-43bd-8907-57dfadf24201
+  uuid: eea1090b-71a9-42df-a617-c6c4ba5bc3d4
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 1234
-  server: 159.223.13.109
-  servername: supervpn.super.com
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
   tls: true
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇫🇮[openproxylist.com] vmess-FI
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
