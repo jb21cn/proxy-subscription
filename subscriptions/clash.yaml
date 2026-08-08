@@ -26,30 +26,28 @@ proxies:
   uuid: 0c31de50-ac14-43bd-8907-57dfadf24201
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 36801
-  server: 130.33.89.201
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 1234
+  server: 159.223.13.109
+  servername: supervpn.super.com
+  tls: true
   type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
