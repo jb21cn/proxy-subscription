@@ -101,7 +101,7 @@ proxies:
   port: 46962
   server: 65.109.208.236
   type: vmess
-  uuid: eea1090b-71a9-42df-a617-c6c4ba5bc3d4
+  uuid: c896406b-ccc4-4c37-8b8c-15964f32a9a2
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -116,6 +116,16 @@ proxies:
     headers:
       Host: deapp.jisuyun.top
     path: /devm
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 1234
+  server: 159.223.13.109
+  servername: supervpn.super.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 proxy-groups:
 - name: PROXY
   proxies:
@@ -129,6 +139,7 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: select
 - interval: 300
   name: 自动选择
@@ -142,6 +153,7 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱[openproxylist.com] vmess-NL
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
