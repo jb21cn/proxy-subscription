@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 41963
   server: us.klxiaogou.com
@@ -182,6 +182,14 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 46962
@@ -206,7 +214,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -220,13 +228,14 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -240,6 +249,7 @@ proxy-groups:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🏳[openproxylist.com] vmess-
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
