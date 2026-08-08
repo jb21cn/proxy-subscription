@@ -45,53 +45,6 @@ proxies:
     path: /wes
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
-  server: JP032009.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 011fca93-33cd-4c3b-a584-7960621e0a3b
-  ws-opts:
-    headers:
-      Host: JP032009.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
-  server: JP032006.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 2f4b5909-0ae6-484e-b528-2a570d474e56
-  ws-opts:
-    headers:
-      Host: JP032006.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
-  server: JP032010.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 114af209-c748-49eb-9e45-629986aacfbb
-  ws-opts:
-    headers:
-      Host: JP032010.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🇧🇩[openproxylist.com] vmess-BD
-  network: tcp
-  port: 11885
-  server: board-02.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -108,45 +61,6 @@ proxies:
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
-  server: JP032008.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: fdd5c90a-96f7-44dd-9adc-58413bd85981
-  ws-opts:
-    headers:
-      Host: JP032008.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: US032017.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 51ca2c43-70e5-4537-b7fd-cd52e24ac2c2
-  ws-opts:
-    headers:
-      Host: US032017.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 443
-  server: US032013.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 58968a6c-2def-4bfb-b20a-8cbc4baed978
-  ws-opts:
-    headers:
-      Host: US032013.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
   server: JP032002.ssgreen.org
   tls: true
   type: vmess
@@ -154,19 +68,6 @@ proxies:
   ws-opts:
     headers:
       Host: JP032002.ssgreen.org
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 443
-  server: JP032001.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 842bf7b4-1c6b-478f-8edb-5b93abde9691
-  ws-opts:
-    headers:
-      Host: JP032001.ssgreen.org
     path: /wes
 - alterId: 0
   cipher: auto
@@ -190,14 +91,6 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 46962
-  server: 65.109.208.236
-  type: vmess
-  uuid: c896406b-ccc4-4c37-8b8c-15964f32a9a2
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
@@ -217,19 +110,10 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇧🇩[openproxylist.com] vmess-BD
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🏳[openproxylist.com] vmess-
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🏳[openproxylist.com] vmess-
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
@@ -238,19 +122,10 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇧🇩[openproxylist.com] vmess-BD
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🏳[openproxylist.com] vmess-
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🏳[openproxylist.com] vmess-
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
