@@ -6,6 +6,17 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇲🇾[openproxylist.com] vmess-MY
+  network: ws
+  port: 27533
+  server: 166.88.35.128
+  type: vmess
+  uuid: ac3e705e-3713-40b0-c0fe-0342c328eed3
+  ws-opts:
+    headers: {}
+    path: /ac3e705e
+- alterId: 0
+  cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 2070
@@ -51,6 +62,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇲🇾[openproxylist.com] vmess-MY
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -59,6 +71,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇲🇾[openproxylist.com] vmess-MY
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
