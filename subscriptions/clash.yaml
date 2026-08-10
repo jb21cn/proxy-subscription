@@ -6,6 +6,20 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 41963
+  server: us.klxiaogou.com
+  servername: us.klxiaogou.com
+  tls: true
+  type: vmess
+  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
+  ws-opts:
+    headers:
+      Host: us.klxiaogou.com
+    path: /124
+- alterId: 0
+  cipher: auto
   name: 🇫🇮[openproxylist.com] vmess-FI
   network: tcp
   port: 40873
@@ -16,11 +30,13 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
   type: url-test
   url: http://www.gstatic.com/generate_204
