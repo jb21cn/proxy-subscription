@@ -15,10 +15,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 9027
+  server: select-us.ddnskunlun.com
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 41963
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
@@ -26,14 +33,6 @@ proxies:
     headers:
       Host: us.klxiaogou.com
     path: /124
-- alterId: 0
-  cipher: auto
-  name: 🇧🇩[openproxylist.com] vmess-BD
-  network: tcp
-  port: 11885
-  server: board-02.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -54,7 +53,7 @@ proxy-groups:
   - 自动选择
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇧🇩[openproxylist.com] vmess-BD
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
@@ -62,7 +61,7 @@ proxy-groups:
   proxies:
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇧🇩[openproxylist.com] vmess-BD
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
