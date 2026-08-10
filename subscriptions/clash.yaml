@@ -34,6 +34,20 @@ proxies:
   server: board-02.ddnskunlun.com
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: 104.105.28.164
+  servername: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
 proxy-groups:
 - name: PROXY
   proxies:
@@ -41,6 +55,7 @@ proxy-groups:
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇧🇩[openproxylist.com] vmess-BD
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
@@ -48,6 +63,7 @@ proxy-groups:
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇧🇩[openproxylist.com] vmess-BD
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
