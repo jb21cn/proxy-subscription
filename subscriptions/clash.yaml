@@ -36,6 +36,20 @@ proxies:
     path: /video/o2nwt7/r0r2dmbb.m3u8
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: n1761296892.4u9ma.icu
+  servername: n1761296892.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
+  ws-opts:
+    headers:
+      Host: n1761296892.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2054
@@ -45,14 +59,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /p
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: tcp
-  port: 11973
-  server: board-04.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -80,13 +86,11 @@ proxies:
   network: ws
   port: 2053
   server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
   tls: true
   type: vmess
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
+    headers: {}
     path: /devm
 proxy-groups:
 - name: PROXY
@@ -95,8 +99,8 @@ proxy-groups:
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -107,8 +111,8 @@ proxy-groups:
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
   - 🇩🇪[openproxylist.com] vmess-DE
