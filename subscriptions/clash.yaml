@@ -6,6 +6,22 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 27118
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 🇵🇱[openproxylist.com] vmess-PL
+  network: tcp
+  port: 80
+  server: 168.222.49.188
+  type: vmess
+  uuid: 2571f762-03af-4c30-8eb9-6652102e7cd3
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 443
@@ -65,7 +81,7 @@ proxies:
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - alterId: 0
   cipher: auto
-  name: 🇲🇽[openproxylist.com] vmess-MX
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 29053
   server: 366-1095.rabbitpro-in-3.com
@@ -95,26 +111,30 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇹🇭[openproxylist.com] vmess-TH
-  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇹🇭[openproxylist.com] vmess-TH
-  - 🇲🇽[openproxylist.com] vmess-MX
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
