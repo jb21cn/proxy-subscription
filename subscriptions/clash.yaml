@@ -6,6 +6,18 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers: {}
+    path: /devm
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 53168
@@ -42,14 +54,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇵🇱[openproxylist.com] vmess-PL
-  network: tcp
-  port: 80
-  server: 168.222.49.188
-  type: vmess
-  uuid: 76405455-4679-4a8d-94d6-64a338187c8a
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2054
@@ -81,28 +85,43 @@ proxies:
     headers:
       Host: us.klxiaogou.com
     path: /124
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: 104.105.28.164
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
