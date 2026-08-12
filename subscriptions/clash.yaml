@@ -6,10 +6,19 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 53168
+  server: lt.badns.help
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 443
   server: rush-72frf.meeopp.site
+  servername: rush-72frf.meeopp.site
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -52,33 +61,47 @@ proxies:
     path: /p
 - alterId: 0
   cipher: auto
+  name: 🇹🇭[openproxylist.com] vmess-TH
+  network: tcp
+  port: 29009
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 41963
   server: us.klxiaogou.com
+  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
-    headers: {}
+    headers:
+      Host: us.klxiaogou.com
     path: /124
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇵🇱[openproxylist.com] vmess-PL
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
