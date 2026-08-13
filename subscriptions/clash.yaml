@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
   name: 🇵🇭[openproxylist.com] vmess-PH
   network: tcp
   port: 27136
@@ -62,13 +70,14 @@ proxies:
   network: ws
   port: 443
   server: rush-72frf.meeopp.site
+  servername: rush-72frf.meeopp.site
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: rush-72frf.meeopp.site
-    path: /
+    path: /video/o2nwt7/r0r2dmbb.m3u8
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -113,19 +122,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 9028
+  server: select-us.ddnskunlun.com
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 9027
+  server: select-us.ddnskunlun.com
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 41963
   server: us.klxiaogou.com
+  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
-    headers: {}
+    headers:
+      Host: us.klxiaogou.com
     path: /124
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇵🇭[openproxylist.com] vmess-PH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -135,12 +163,15 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇵🇱[openproxylist.com] vmess-PL
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇵🇭[openproxylist.com] vmess-PH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -150,6 +181,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇵🇱[openproxylist.com] vmess-PL
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
