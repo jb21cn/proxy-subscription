@@ -30,18 +30,6 @@ proxies:
   uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 2052
-  server: 207.56.229.202
-  type: vmess
-  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -74,14 +62,13 @@ proxies:
   network: ws
   port: 443
   server: rush-72frf.meeopp.site
-  servername: rush-72frf.meeopp.site
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: rush-72frf.meeopp.site
-    path: /video/o2nwt7/r0r2dmbb.m3u8
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -129,13 +116,11 @@ proxies:
   network: ws
   port: 41963
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
-    headers:
-      Host: us.klxiaogou.com
+    headers: {}
     path: /124
 proxy-groups:
 - name: PROXY
@@ -144,7 +129,6 @@ proxy-groups:
   - 🇵🇭[openproxylist.com] vmess-PH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
@@ -160,7 +144,6 @@ proxy-groups:
   - 🇵🇭[openproxylist.com] vmess-PH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
