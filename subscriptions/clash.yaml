@@ -7,14 +7,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇹🇼[openproxylist.com] vmess-TW
-  network: tcp
-  port: 27120
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼[openproxylist.com] vmess-TW
   network: ws
   port: 10000
   server: 117.27.228.29
@@ -25,15 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 56723
-  server: 35.212.204.142
-  type: vmess
-  uuid: 987dc12e-cd35-4df9-9542-6e96908c754a
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 38998
   server: 178.83.45.29
@@ -45,7 +29,6 @@ proxies:
   network: ws
   port: 443
   server: rush-w1niu.teeopp.online
-  servername: rush-w1niu.teeopp.online
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -55,7 +38,21 @@ proxies:
     path: /video/v4sx3q/zxzrurkc.m3u8
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 443
   server: rush-72frf.meeopp.site
@@ -65,7 +62,7 @@ proxies:
   ws-opts:
     headers:
       Host: rush-72frf.meeopp.site
-    path: /video/o2nwt7/r0r2dmbb.m3u8
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -97,13 +94,11 @@ proxies:
   network: ws
   port: 41963
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
-    headers:
-      Host: us.klxiaogou.com
+    headers: {}
     path: /124
 - alterId: 0
   cipher: auto
@@ -118,11 +113,10 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -132,11 +126,10 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇹🇼[openproxylist.com] vmess-TW
-  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
