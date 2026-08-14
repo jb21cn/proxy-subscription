@@ -128,7 +128,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 2054
   server: 132.145.200.43
@@ -151,7 +151,6 @@ proxies:
   network: ws
   port: 41963
   server: us.klxiaogou.com
-  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
@@ -190,7 +189,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
@@ -210,7 +209,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇮[openproxylist.com] vmess-FI
