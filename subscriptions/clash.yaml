@@ -6,6 +6,35 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 80
+  server: ar.paydar.site
+  type: vmess
+  uuid: 00104263-5b99-491f-85bd-5f296d8447df
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 2087
+  server: neo.novaro.ir
+  type: vmess
+  uuid: 260270e9-c25c-491a-8777-ea4e5173d49c
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: 198.23.184.122
+  servername: xc163.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
+  ws-opts:
+    headers: {}
+    path: /837279ad9b4a
+- alterId: 0
+  cipher: auto
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 28809
@@ -56,15 +85,43 @@ proxies:
     path: /cae68626f3fa
 - alterId: 0
   cipher: auto
+  name: 🇹🇭[openproxylist.com] vmess-TH
+  network: ws
+  port: 80
+  server: www.true.th
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: sg.11160321.de5.net
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
-  server: deapp.jisuyun.top
+  server: cf.levikogjgfdd.ir
+  servername: deapp.jisuyun.top
   tls: true
   type: vmess
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
-    headers: {}
+    headers:
+      Host: deapp.jisuyun.top
     path: /devm
 - alterId: 0
   cipher: auto
@@ -98,12 +155,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇵🇭[openproxylist.com] vmess-PH
+  network: tcp
+  port: 27136
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 38998
   server: 178.83.45.29
   type: vmess
   uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
+- alterId: 0
+  cipher: auto
+  name: 🇵🇰[openproxylist.com] vmess-PK
+  network: tcp
+  port: 29035
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2052
+  server: 207.56.229.202
+  type: vmess
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers: {}
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -148,6 +232,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 29010
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 2054
@@ -159,84 +251,74 @@ proxies:
     path: /p
 - alterId: 0
   cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: tcp
-  port: 11973
-  server: board-04.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭[openproxylist.com] vmess-TH
-  network: tcp
-  port: 29009
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 41963
   server: us.klxiaogou.com
+  servername: us.klxiaogou.com
   tls: true
   type: vmess
   uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
   ws-opts:
-    headers: {}
+    headers:
+      Host: us.klxiaogou.com
     path: /124
-- alterId: 0
-  cipher: auto
-  name: 🇧🇩[openproxylist.com] vmess-BD
-  network: tcp
-  port: 11885
-  server: board-02.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇵🇭[openproxylist.com] vmess-PH
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇵🇰[openproxylist.com] vmess-PK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇧🇩[openproxylist.com] vmess-BD
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇵🇭[openproxylist.com] vmess-PH
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇵🇰[openproxylist.com] vmess-PK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇹🇼[openproxylist.com] vmess-TW
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇧🇩[openproxylist.com] vmess-BD
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
