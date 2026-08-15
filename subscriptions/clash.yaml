@@ -15,7 +15,7 @@ proxies:
   uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
 - alterId: 0
   cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 58304
   server: 193.111.78.106
@@ -24,14 +24,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -70,19 +62,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: 198.23.184.122
-  servername: xc163.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
-  ws-opts:
-    headers: {}
-    path: /837279ad9b4a
-- alterId: 0
-  cipher: auto
   name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 28809
@@ -94,7 +73,7 @@ proxies:
     path: /ebca559c-a4a1-4062-9453-6412d8ff5255
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇹🇭[openproxylist.com] vmess-TH
   network: ws
   port: 80
   server: www.true.th
@@ -164,14 +143,12 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -182,14 +159,12 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇹🇷[openproxylist.com] vmess-TR
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇭🇰[openproxylist.com] vmess-HK
