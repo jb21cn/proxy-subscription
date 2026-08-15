@@ -49,6 +49,19 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
+  server: 157.254.227.87
+  servername: xc162.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 5b411308-d796-4694-b58d-d252e35bb475
+  ws-opts:
+    headers: {}
+    path: /d252e35bb475
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
   server: rush-6it6b.teeopp.quest
   tls: true
   type: vmess
@@ -150,6 +163,17 @@ proxies:
   uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
 - alterId: 0
   cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2052
+  server: 207.56.229.202
+  type: vmess
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers: {}
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
@@ -168,13 +192,14 @@ proxies:
   network: ws
   port: 443
   server: rush-72frf.meeopp.site
+  servername: rush-72frf.meeopp.site
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: rush-72frf.meeopp.site
-    path: /
+    path: /video/o2nwt7/r0r2dmbb.m3u8
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -189,39 +214,6 @@ proxies:
     headers:
       Host: n1761296892.4u9ma.icu
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 2054
-  server: 132.145.200.43
-  type: vmess
-  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
-  ws-opts:
-    headers: {}
-    path: /p
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: tcp
-  port: 11973
-  server: board-04.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 41963
-  server: us.klxiaogou.com
-  servername: us.klxiaogou.com
-  tls: true
-  type: vmess
-  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
-  ws-opts:
-    headers:
-      Host: us.klxiaogou.com
-    path: /124
 proxy-groups:
 - name: PROXY
   proxies:
@@ -231,6 +223,7 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇦[openproxylist.com] vmess-CA
@@ -239,12 +232,10 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -254,6 +245,7 @@ proxy-groups:
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇦[openproxylist.com] vmess-CA
@@ -262,12 +254,10 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
