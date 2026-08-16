@@ -6,6 +6,27 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: grpc
+  port: 443
+  server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+  servername: www.12306.cn
+  tls: true
+  type: vmess
+  uuid: f018361c-3d66-4635-80c9-22be36b70ac4
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: 74.48.28.190
+  type: vmess
+  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: tcp
   port: 2053
@@ -158,10 +179,28 @@ proxies:
   ws-opts:
     headers: {}
     path: /dkfjh222
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 800
+  server: 47.83.247.150
+  type: vmess
+  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 38998
+  server: 178.83.45.29
+  type: vmess
+  uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
@@ -175,10 +214,14 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇺🇸[openproxylist.com] vmess-US
@@ -192,6 +235,8 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
