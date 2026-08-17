@@ -14,15 +14,12 @@ proxies:
   uuid: 0f6d91ec-0c88-45f9-b359-1520d7b30e66
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 80
-  server: 74.48.28.190
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: tcp
+  port: 11985
+  server: board-02.ddnskunlun.com
   type: vmess
-  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
-  ws-opts:
-    headers: {}
-    path: /cctv13.m3u8
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -144,22 +141,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 2053
-  server: 104.105.18.214
-  tls: true
+  network: tcp
+  port: 38998
+  server: 178.83.45.29
   type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
+  uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
@@ -176,7 +168,7 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
