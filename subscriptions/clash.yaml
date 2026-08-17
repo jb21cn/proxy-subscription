@@ -111,11 +111,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 38998
-  server: 178.83.45.29
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  tls: true
   type: vmess
-  uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
 proxy-groups:
 - name: PROXY
   proxies:
