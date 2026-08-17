@@ -17,6 +17,17 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: 74.48.28.190
+  type: vmess
+  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: tcp
   port: 11985
@@ -175,11 +186,37 @@ proxies:
   server: 178.83.45.29
   type: vmess
   uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2052
+  server: 207.56.229.202
+  type: vmess
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: rush-w1niu.teeopp.online
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-w1niu.teeopp.online
+    path: /video/v4sx3q/zxzrurkc.m3u8
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
@@ -194,11 +231,14 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇹🇷[openproxylist.com] vmess-TR
@@ -213,6 +253,8 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇮🇩[openproxylist.com] vmess-ID
   - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
