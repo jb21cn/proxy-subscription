@@ -6,6 +6,14 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 5001
+  server: trf-nld.ip-static.com
+  type: vmess
+  uuid: 03bda96d-604a-4839-a087-fea6749f2918
+- alterId: 0
+  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 443
@@ -54,12 +62,15 @@ proxies:
   uuid: 38b27114-7714-4748-b488-3c49d4c7dcab
 - alterId: 0
   cipher: auto
-  name: 🇨🇦[openproxylist.com] vmess-CA
-  network: tcp
-  port: 11985
-  server: board-02.ddnskunlun.com
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: 74.48.28.190
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -81,59 +92,32 @@ proxies:
   tls: true
   type: vmess
   uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers: {}
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
