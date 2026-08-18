@@ -6,6 +6,17 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 80
+  server: 68.183.209.180
+  type: vmess
+  uuid: d5121154-ced6-460d-a9fd-5892027ab4a0
+  ws-opts:
+    headers: {}
+    path: /graphql
+- alterId: 0
+  cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 53224
@@ -36,7 +47,8 @@ proxies:
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
-    headers: {}
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -131,33 +143,11 @@ proxies:
   ws-opts:
     headers: {}
     path: /837279ad9b4a
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦[openproxylist.com] vmess-CA
-  network: ws
-  port: 28809
-  server: 216.128.176.166
-  type: vmess
-  uuid: ebca559c-a4a1-4062-9453-6412d8ff5255
-  ws-opts:
-    headers: {}
-    path: /ebca559c-a4a1-4062-9453-6412d8ff5255
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭[openproxylist.com] vmess-TH
-  network: ws
-  port: 80
-  server: www.true.th
-  type: vmess
-  uuid: a150d554-e962-4632-829f-ee583ada3f95
-  ws-opts:
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-    path: /htun
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -169,12 +159,11 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇹🇭[openproxylist.com] vmess-TH
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -186,8 +175,6 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇹🇭[openproxylist.com] vmess-TH
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
