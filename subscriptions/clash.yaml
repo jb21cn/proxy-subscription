@@ -6,6 +6,26 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇮🇳[openproxylist.com] vmess-IN
+  network: ws
+  port: 8998
+  server: cc35.goingside.site
+  type: vmess
+  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
+  ws-opts:
+    headers:
+      Host: cc35.goingside.site
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 5001
@@ -20,18 +40,6 @@ proxies:
   server: 64.83.12.153
   type: vmess
   uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 8998
-  server: cc28.goingside.site
-  type: vmess
-  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-  ws-opts:
-    headers:
-      Host: cc28.goingside.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -51,7 +59,7 @@ proxies:
   port: 28110
   server: 91.107.255.181
   type: vmess
-  uuid: be711f12-6fb3-42d8-8025-18551677363f
+  uuid: 753fa7bf-b0be-4c2e-adbe-7e49977f1e3d
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -59,7 +67,7 @@ proxies:
   port: 28111
   server: 46.224.171.220
   type: vmess
-  uuid: 38b27114-7714-4748-b488-3c49d4c7dcab
+  uuid: c8157082-1ed4-4504-9245-57425320c465
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -71,53 +79,30 @@ proxies:
   ws-opts:
     headers: {}
     path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 2053
-  server: node-uk.connectsuite.org
-  tls: true
-  type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇬🇧[openproxylist.com] vmess-GB
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇬🇧[openproxylist.com] vmess-GB
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
