@@ -18,14 +18,6 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
   port: 5001
@@ -84,7 +76,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -96,7 +87,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
