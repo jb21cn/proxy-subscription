@@ -4,14 +4,6 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 29008
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - alterId: 64
   cipher: auto
   name: 🇨🇳[openproxylist.com] vmess-CN
@@ -20,26 +12,6 @@ proxies:
   server: 112.132.215.108
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: ws
-  port: 8998
-  server: cc35.goingside.site
-  type: vmess
-  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-  ws-opts:
-    headers:
-      Host: cc35.goingside.site
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 5001
-  server: trf-nld.ip-static.com
-  type: vmess
-  uuid: 03bda96d-604a-4839-a087-fea6749f2918
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -61,24 +33,31 @@ proxies:
     headers:
       Host: v2p-us-d.ywandy.top
     path: /blog
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: 74.48.28.190
+  type: vmess
+  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
