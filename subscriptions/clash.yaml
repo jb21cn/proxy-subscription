@@ -58,19 +58,9 @@ proxies:
   type: vmess
   uuid: b831381d-6324-4d53-ad4f-8cda48b30811
   ws-opts:
-    headers: {}
+    headers:
+      Host: v2p-us-d.ywandy.top
     path: /blog
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 80
-  server: 74.48.28.190
-  type: vmess
-  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
-  ws-opts:
-    headers: {}
-    path: /cctv13.m3u8
 proxy-groups:
 - name: PROXY
   proxies:
@@ -81,7 +71,6 @@ proxy-groups:
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -90,7 +79,6 @@ proxy-groups:
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
