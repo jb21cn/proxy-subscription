@@ -60,13 +60,11 @@ proxies:
   network: ws
   port: 2053
   server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
   tls: true
   type: vmess
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
+    headers: {}
     path: /devm
 - alterId: 64
   cipher: auto
