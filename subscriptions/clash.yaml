@@ -6,17 +6,26 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
+  name: 🇹🇼[openproxylist.com] vmess-TW
+  network: tcp
+  port: 794
+  server: 2.27.174.110
+  type: vmess
+  uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
-  port: 443
-  server: tokyo02.zgjok.com
-  servername: tokyo02.zgjok.com
+  port: 2053
+  server: cf.levikogjgfdd.ir
+  servername: deapp.jisuyun.top
   tls: true
   type: vmess
-  uuid: 3fe113f9-e564-4111-b8c7-11f597687689
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   ws-opts:
-    headers: {}
-    path: /
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
 - alterId: 64
   cipher: auto
   name: 🇨🇳[openproxylist.com] vmess-CN
@@ -57,7 +66,8 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
@@ -66,7 +76,8 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇹🇼[openproxylist.com] vmess-TW
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
