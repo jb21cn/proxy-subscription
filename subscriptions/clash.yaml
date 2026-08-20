@@ -27,16 +27,12 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 8998
-  server: cc28.goingside.site
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 64.83.12.153
   type: vmess
-  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-  ws-opts:
-    headers:
-      Host: cc28.goingside.site
-    path: /
+  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -49,22 +45,35 @@ proxies:
   ws-opts:
     headers: {}
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 80
+  server: 74.48.28.190
+  type: vmess
+  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
