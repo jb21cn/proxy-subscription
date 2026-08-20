@@ -17,25 +17,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 80
-  server: 46.8.237.242
-  type: vmess
-  uuid: 7d85828a-906b-43c4-8dc9-0785cd4801af
-- alterId: 0
-  cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: ws
-  port: 42034
-  server: 46.8.237.242
-  type: vmess
-  uuid: 7d85828a-906b-43c4-8dc9-0785cd4801af
-  ws-opts:
-    headers: {}
-    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇳[openproxylist.com] vmess-CN
@@ -93,8 +74,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -105,8 +84,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇫🇮[openproxylist.com] vmess-FI
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
