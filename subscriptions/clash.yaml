@@ -9,7 +9,43 @@ proxies:
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 443
+  server: node.socks5.kdns.fr
+  servername: brake-substance-shared-dual.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
+  ws-opts:
+    headers:
+      Host: brake-substance-shared-dual.trycloudflare.com
+    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  tls: true
+  type: vmess
+  uuid: 36dba83c-5b10-48aa-aee3-6d85790a9bf3
+  ws-opts:
+    headers:
+      Host: smaller-independently-ball-mil.trycloudflare.com
+    path: /36dba83c-5b10-48aa-aee3-6d85790a9bf3-vm
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 45002
+  server: 91.107.153.232
+  type: vmess
+  uuid: 518814fb-79a7-4e6f-ae8a-ab5bf0e77381
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: ws
+  port: 443
   server: singapore01.zgjok.com
+  servername: singapore01.zgjok.com
   tls: true
   type: vmess
   uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94
@@ -23,7 +59,6 @@ proxies:
   network: ws
   port: 443
   server: node.socks5.kdns.fr
-  servername: ericsson-lab-managed-oem.trycloudflare.com
   tls: true
   type: vmess
   uuid: f683235c-54b0-4442-bf0d-812d3804946e
@@ -136,6 +171,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -149,6 +187,9 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇺🇸[openproxylist.com] vmess-US
