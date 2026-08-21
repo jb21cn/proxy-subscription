@@ -6,24 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 30011
-  server: 23.137.249.110
-  servername: 23.137.249.110
-  tls: true
-  type: vmess
-  uuid: a7aee69e-6e02-47d1-8172-701866bbb28c
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 80
-  server: 167.233.242.189
-  type: vmess
-  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
@@ -57,34 +39,20 @@ proxies:
   ws-opts:
     headers: {}
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦[openproxylist.com] vmess-CA
-  network: tcp
-  port: 11985
-  server: board-02.ddnskunlun.com
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇨🇦[openproxylist.com] vmess-CA
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇨🇦[openproxylist.com] vmess-CA
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
