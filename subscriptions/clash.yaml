@@ -10,20 +10,6 @@ proxies:
   network: ws
   port: 443
   server: node.socks5.kdns.fr
-  servername: written-maple-inquiries-exceptional.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: ca63bc09-a7b3-47c2-8fe5-7233c38ad489
-  ws-opts:
-    headers:
-      Host: written-maple-inquiries-exceptional.trycloudflare.com
-    path: /ca63bc09-a7b3-47c2-8fe5-7233c38ad489-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
   servername: ward-encourages-cleanup-notre.trycloudflare.com
   tls: true
   type: vmess
@@ -32,56 +18,6 @@ proxies:
     headers:
       Host: ward-encourages-cleanup-notre.trycloudflare.com
     path: /118eba6a-21f3-45d4-af0b-2a9344f2487e-vm
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: booth-moreover-framework-thereafter.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
-  ws-opts:
-    headers:
-      Host: booth-moreover-framework-thereafter.trycloudflare.com
-    path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: brake-substance-shared-dual.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
-  ws-opts:
-    headers:
-      Host: brake-substance-shared-dual.trycloudflare.com
-    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 45002
-  server: 91.107.153.232
-  type: vmess
-  uuid: 518814fb-79a7-4e6f-ae8a-ab5bf0e77381
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: ericsson-lab-managed-oem.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: f683235c-54b0-4442-bf0d-812d3804946e
-  ws-opts:
-    headers:
-      Host: ericsson-lab-managed-oem.trycloudflare.com
-    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -112,34 +48,6 @@ proxies:
     path: /3d6fb203-616e-4bb2-851b-e37a0903a4bc-vm
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: pas-seo-delays-safe.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 20a16a21-6468-4e63-96e1-d9cecf0035ce
-  ws-opts:
-    headers:
-      Host: pas-seo-delays-safe.trycloudflare.com
-    path: /20a16a21-6468-4e63-96e1-d9cecf0035ce-vm
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: willing-relative-las-legislative.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 3e1c7cc6-6324-48bf-9855-05c8afae90b3
-  ws-opts:
-    headers:
-      Host: willing-relative-las-legislative.trycloudflare.com
-    path: /3e1c7cc6-6324-48bf-9855-05c8afae90b3-vm
-- alterId: 0
-  cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 443
@@ -158,7 +66,6 @@ proxies:
   network: ws
   port: 2053
   server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
   tls: true
   type: vmess
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
@@ -193,14 +100,7 @@ proxy-groups:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
@@ -211,14 +111,7 @@ proxy-groups:
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
