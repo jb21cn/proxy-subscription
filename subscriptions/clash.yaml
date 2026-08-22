@@ -21,17 +21,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 53267
-  server: 167.150.100.81
-  type: vmess
-  uuid: 0a4e5d12-f804-4991-a3bf-e45dbfcb1201
-  ws-opts:
-    headers: {}
-    path: /gx5hemjvd8
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
   port: 47630
   server: 43.228.126.187
@@ -85,7 +74,6 @@ proxy-groups:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇳[openproxylist.com] vmess-CN
@@ -95,7 +83,6 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
