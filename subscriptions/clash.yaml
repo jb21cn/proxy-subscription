@@ -6,18 +6,27 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 2053
-  server: cf.levikogjgfdd.ir
-  servername: deapp.jisuyun.top
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 30011
+  server: 23.137.249.110
+  servername: 23.137.249.110
   tls: true
   type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  uuid: a7aee69e-6e02-47d1-8172-701866bbb28c
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: tokyo02.zgjok.com
+  servername: tokyo02.zgjok.com
+  tls: true
+  type: vmess
+  uuid: 3fe113f9-e564-4111-b8c7-11f597687689
   ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
+    headers: {}
+    path: /
 - alterId: 64
   cipher: auto
   name: 🇨🇳[openproxylist.com] vmess-CN
@@ -26,33 +35,20 @@ proxies:
   server: 112.132.215.108
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇳[openproxylist.com] vmess-CN
-  - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
