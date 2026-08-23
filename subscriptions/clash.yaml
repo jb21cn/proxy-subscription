@@ -65,7 +65,6 @@ proxies:
   network: ws
   port: 443
   server: Aim7HqTuvNOofcsx.v.3dns.vip
-  servername: Aim7HqTuvNOofcsx.v.3dns.vip
   tls: true
   type: vmess
   uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad
@@ -79,7 +78,6 @@ proxies:
   network: ws
   port: 443
   server: UcKniXjfd2JOKBmx.v.3dns.vip
-  servername: UcKniXjfd2JOKBmx.v.3dns.vip
   tls: true
   type: vmess
   uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad
@@ -93,7 +91,6 @@ proxies:
   network: ws
   port: 443
   server: 3j41E63Msh9TgXvR.v.3dns.vip
-  servername: 3j41E63Msh9TgXvR.v.3dns.vip
   tls: true
   type: vmess
   uuid: 1abe49dedb6e4f65a0f0a5ea79ddefad
@@ -125,14 +122,6 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
-  port: 47630
-  server: 43.228.126.187
-  type: vmess
-  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
-- alterId: 0
-  cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
   network: ws
   port: 443
@@ -144,6 +133,14 @@ proxies:
   ws-opts:
     headers: {}
     path: /
+- alterId: 64
+  cipher: auto
+  name: 🇨🇳[openproxylist.com] vmess-CN
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: PROXY
   proxies:
@@ -157,8 +154,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇨🇳[openproxylist.com] vmess-CN
   type: select
 - interval: 300
   name: 自动选择
@@ -172,8 +169,8 @@ proxy-groups:
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇬[openproxylist.com] vmess-SG
   - 🇯🇵[openproxylist.com] vmess-JP
+  - 🇨🇳[openproxylist.com] vmess-CN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
