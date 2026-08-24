@@ -36,31 +36,12 @@ proxies:
     path: /video/ke716z/7x219hzy.m3u8
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 2053
-  server: cf.levikogjgfdd.ir
-  servername: deapp.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
   port: 443
-  server: tokyo02.zgjok.com
-  servername: tokyo02.zgjok.com
-  tls: true
+  server: 165.140.216.142
   type: vmess
-  uuid: 3fe113f9-e564-4111-b8c7-11f597687689
-  ws-opts:
-    headers: {}
-    path: /
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 64
   cipher: auto
   name: 🇨🇳[openproxylist.com] vmess-CN
@@ -75,12 +56,12 @@ proxies:
   network: ws
   port: 443
   server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
-    headers: {}
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -103,7 +84,8 @@ proxies:
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers: {}
+    headers:
+      Host: rush-6it6b.teeopp.quest
     path: /
 - alterId: 0
   cipher: auto
@@ -116,44 +98,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦[openproxylist.com] vmess-CA
-  network: ws
-  port: 28809
-  server: 216.128.176.166
-  type: vmess
-  uuid: ebca559c-a4a1-4062-9453-6412d8ff5255
-  ws-opts:
-    headers: {}
-    path: /ebca559c-a4a1-4062-9453-6412d8ff5255
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬[openproxylist.com] vmess-SG
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: sg.11160321.de5.net
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: rush-w1niu.teeopp.online
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /video/v4sx3q/zxzrurkc.m3u8
 proxy-groups:
 - name: PROXY
   proxies:
@@ -161,16 +105,12 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
@@ -178,16 +118,12 @@ proxy-groups:
   - 🇹🇷[openproxylist.com] vmess-TR
   - 🇫🇮[openproxylist.com] vmess-FI
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇨🇦[openproxylist.com] vmess-CA
-  - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
