@@ -18,6 +18,7 @@ proxies:
   network: ws
   port: 443
   server: rush-t2tvv.ceeopp.site
+  servername: rush-t2tvv.ceeopp.site
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -27,10 +28,18 @@ proxies:
     path: /video/ke716z/7x219hzy.m3u8
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
-  server: cf.levikogjgfdd.ir
+  server: deapp.jisuyun.top
   servername: deapp.jisuyun.top
   tls: true
   type: vmess
@@ -73,8 +82,7 @@ proxies:
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: tcp
   port: 2053
-  server: 51.38.71.147
-  servername: node-uk.connectsuite.org
+  server: node-uk.connectsuite.org
   tls: true
   type: vmess
   uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
@@ -82,6 +90,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -93,6 +102,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
