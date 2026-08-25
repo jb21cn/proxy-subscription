@@ -34,7 +34,7 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 2053
-  server: deapp.jisuyun.top
+  server: cf.levikogjgfdd.ir
   servername: deapp.jisuyun.top
   tls: true
   type: vmess
