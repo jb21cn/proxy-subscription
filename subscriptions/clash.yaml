@@ -69,14 +69,6 @@ proxies:
     headers:
       Host: rush-t2tvv.ceeopp.site
     path: /
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
-  network: tcp
-  port: 50002
-  server: 112.132.215.108
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -112,7 +104,7 @@ proxies:
   ws-opts:
     headers:
       Host: rush-6it6b.teeopp.quest
-    path: /
+    path: /video/kz49hf/gbin5jve.m3u8
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -124,6 +116,20 @@ proxies:
   ws-opts:
     headers: {}
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬[openproxylist.com] vmess-SG
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: sg.11160321.de5.net
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
@@ -134,11 +140,11 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   type: select
 - interval: 300
   name: 自动选择
@@ -149,11 +155,11 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇬🇧[openproxylist.com] vmess-GB
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇸🇬[openproxylist.com] vmess-SG
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
