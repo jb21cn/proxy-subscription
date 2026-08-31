@@ -8,26 +8,10 @@ proxies:
   cipher: auto
   name: 🇬🇧[openproxylist.com] vmess-GB
   network: tcp
-  port: 16113
+  port: 16112
   server: zfd-hkv2.kunlun01dns.com
   type: vmess
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 16114
-  server: zfd-hkv1.kunlun01dns.com
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳[openproxylist.com] vmess-CN
-  network: tcp
-  port: 2648
-  server: 150.242.244.116
-  type: vmess
-  uuid: 5d746f1e-7028-455f-bb00-1806249a5941
 - alterId: 0
   cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
@@ -36,6 +20,14 @@ proxies:
   server: 13.250.114.194
   type: vmess
   uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: tcp
+  port: 21019
+  server: dog-hk.kunlun01dns.com
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
@@ -70,9 +62,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -81,9 +72,8 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇬🇧[openproxylist.com] vmess-GB
-  - 🇨🇳[openproxylist.com] vmess-CN
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇩🇪[openproxylist.com] vmess-DE
