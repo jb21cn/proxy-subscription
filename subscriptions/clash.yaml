@@ -38,17 +38,6 @@ proxies:
     path: /about/7678
 - alterId: 0
   cipher: auto
-  name: 🇹🇭[openproxylist.com] vmess-TH
-  network: ws
-  port: 49667
-  server: 118.193.57.167
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers: {}
-    path: /d46bf492
-- alterId: 0
-  cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: ws
   port: 14812
@@ -58,6 +47,18 @@ proxies:
   ws-opts:
     headers: {}
     path: /777d0ead
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers: {}
+    path: /devm
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -88,14 +89,6 @@ proxies:
   uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 21019
-  server: dog-hk.kunlun01dns.com
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- alterId: 0
-  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 110
@@ -117,12 +110,11 @@ proxy-groups:
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇿🇦[openproxylist.com] vmess-ZA
-  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   type: select
@@ -132,12 +124,11 @@ proxy-groups:
   - 🇮🇳[openproxylist.com] vmess-IN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇿🇦[openproxylist.com] vmess-ZA
-  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
