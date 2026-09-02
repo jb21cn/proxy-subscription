@@ -6,36 +6,15 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
+  name: 🇹🇭[openproxylist.com] vmess-TH
   network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
+  port: 49667
+  server: 118.193.57.167
   type: vmess
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 21020
-  server: dog-hk.kunlun01dns.com
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- alterId: 0
-  cipher: auto
-  name: 🇿🇦[openproxylist.com] vmess-ZA
-  network: ws
-  port: 443
-  server: za-a-zzy.glnyhlgc.com
-  tls: true
-  type: vmess
-  uuid: 5583af50-f464-4df6-e2ef-34592311e5c6
+  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
   ws-opts:
     headers: {}
-    path: /about/7678
+    path: /d46bf492
 - alterId: 0
   cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
@@ -47,18 +26,6 @@ proxies:
   ws-opts:
     headers: {}
     path: /777d0ead
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers: {}
-    path: /devm
 - alterId: 0
   cipher: auto
   name: 🇫🇷[openproxylist.com] vmess-FR
@@ -73,26 +40,26 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: tcp
-  port: 16114
-  server: zfd-hkv1.kunlun01dns.com
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-- alterId: 0
-  cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: tcp
   port: 8443
-  server: 13.250.114.194
+  server: awlix4.pcjxq.digital
   type: vmess
   uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: tcp
+  port: 21041
+  server: dog-hk.kunlun01dns.com
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 110
-  server: newrelax.relaxedboy.online
+  server: 94.156.170.102
   type: vmess
   uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
@@ -107,28 +74,22 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇿🇦[openproxylist.com] vmess-ZA
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇮🇳[openproxylist.com] vmess-IN
-  - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇿🇦[openproxylist.com] vmess-ZA
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇮🇩[openproxylist.com] vmess-ID
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇷[openproxylist.com] vmess-FR
-  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇯🇵[openproxylist.com] vmess-JP
   type: url-test
