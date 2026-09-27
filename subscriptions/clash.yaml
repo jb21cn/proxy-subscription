@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 1070
-  server: nlp1.hupcloud.com
-  type: vmess
-  uuid: da410df7-cde1-415c-a46e-87637e9748f9
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -25,6 +17,19 @@ proxies:
   ws-opts:
     headers: {}
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 2083
+  server: or.521166.xyz
+  servername: or.521166.xyz
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers: {}
+    path: /or3
 - alterId: 0
   cipher: auto
   name: 🇯🇵[openproxylist.com] vmess-JP
@@ -93,7 +98,8 @@ proxies:
   name: 🇪🇸[openproxylist.com] vmess-ES
   network: ws
   port: 443
-  server: 66.163.118.73
+  server: mygptagent.org
+  servername: mygptagent.org
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -106,7 +112,7 @@ proxies:
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 443
-  server: 158.51.121.123
+  server: mygptagent.org
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -168,7 +174,7 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 443
-  server: 216.106.187.60
+  server: kentspark.org
   servername: kentspark.org
   tls: true
   type: vmess
@@ -221,20 +227,6 @@ proxies:
   cipher: auto
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
-  port: 443
-  server: 139.64.166.25
-  servername: pahobac.org
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: pahobac.org
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: ws
   port: 33736
   server: 151.243.173.119
   type: vmess
@@ -242,12 +234,20 @@ proxies:
   ws-opts:
     headers: {}
     path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 12004
+  server: 47.85.188.30
+  type: vmess
+  uuid: 8b5552bd-4cc7-4cac-af08-81c21686fd4f
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -267,13 +267,13 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -293,7 +293,7 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇳🇱[openproxylist.com] vmess-NL
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
