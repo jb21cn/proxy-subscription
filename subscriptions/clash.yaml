@@ -10,13 +10,13 @@ proxies:
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
-  servername: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -37,7 +37,8 @@ proxies:
   name: 🇧🇷[openproxylist.com] vmess-BR
   network: ws
   port: 443
-  server: aksai.org
+  server: 89.39.161.157
+  servername: aksai.org
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -58,7 +59,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: aksai.org
+  server: 194.99.79.26
   servername: aksai.org
   tls: true
   type: vmess
@@ -99,10 +100,9 @@ proxies:
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers: {}
     path: /ws-vmess
@@ -177,7 +177,7 @@ proxies:
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 443
-  server: mygptagent.org
+  server: 158.51.121.123
   servername: mygptagent.org
   tls: true
   type: vmess
@@ -207,12 +207,14 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 443
-  server: aidrivercat.org
+  server: 193.108.117.54
+  servername: aidrivercat.org
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers: {}
+    headers:
+      Host: aidrivercat.org
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -286,19 +288,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: vspeedfast.org
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vspeedfast.org
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: tcp
   port: 22324
@@ -310,8 +299,7 @@ proxies:
   name: 🇳🇱[openproxylist.com] vmess-NL
   network: ws
   port: 443
-  server: pahobac.org
-  servername: pahobac.org
+  server: 139.64.166.25
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -359,7 +347,6 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇳🇱[openproxylist.com] vmess-NL
   - 🇳🇱[openproxylist.com] vmess-NL
@@ -390,7 +377,6 @@ proxy-groups:
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇨🇦[openproxylist.com] vmess-CA
