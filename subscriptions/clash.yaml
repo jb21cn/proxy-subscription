@@ -6,16 +6,24 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇩🇰[openproxylist.com] vmess-DK
+  network: tcp
+  port: 16305
+  server: zfd-boardv2.kunlun01dns.com
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
   server: qtkdr8jxe3wefxjm.v.3dns.vip
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
-    headers: {}
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -88,7 +96,7 @@ proxies:
   name: 🇧🇷[openproxylist.com] vmess-BR
   network: ws
   port: 443
-  server: aksai.org
+  server: 89.39.161.157
   servername: aksai.org
   tls: true
   type: vmess
@@ -118,7 +126,7 @@ proxies:
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 194.99.79.26
+  server: aksai.org
   servername: aksai.org
   tls: true
   type: vmess
@@ -133,6 +141,7 @@ proxies:
   network: ws
   port: 443
   server: i2psm3knof5qjjix.v.3dns.vip
+  servername: i2psm3knof5qjjix.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
@@ -144,6 +153,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇩🇰[openproxylist.com] vmess-DK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -160,6 +170,7 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇩🇰[openproxylist.com] vmess-DK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇩🇪[openproxylist.com] vmess-DE
