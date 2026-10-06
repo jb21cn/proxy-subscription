@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇮🇳[openproxylist.com] vmess-IN
   network: ws
   port: 443
   server: aksai.org
@@ -19,24 +19,26 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇦🇺[openproxylist.com] vmess-AU
   network: ws
-  port: 55002
-  server: 45.127.32.220
+  port: 443
+  server: aksai.org
+  servername: aksai.org
+  tls: true
   type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+      Host: aksai.org
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇰🇷[openproxylist.com] vmess-KR
   network: tcp
-  port: 2110
-  server: lucas.ehsanazizi-speed-server.com
+  port: 21004
+  server: dog-kr.kunlun01dns.com
   type: vmess
-  uuid: 06d4d001-4168-4876-9416-7caecf578f40
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -47,7 +49,7 @@ proxies:
   uuid: d49a2534-7ac4-429f-879d-de48296d19b4
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇭🇰[openproxylist.com] vmess-HK
   network: tcp
   port: 9999
   server: 8.217.230.196
@@ -110,16 +112,25 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 21036
+  server: dog-tw.kunlun01dns.com
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427c1f94373876c2f43e9f790f3
   ws-opts:
     headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -149,40 +160,62 @@ proxies:
     headers:
       Host: aksai.org
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 50551
+  server: 31.76.11.83
+  type: vmess
+  uuid: 57160c16-b7db-40d8-bd06-ced30edd4df6
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: tcp
+  port: 22324
+  server: 198.57.27.190
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇦[openproxylist.com] vmess-CA
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🏳[openproxylist.com] vmess-
-  - 🏳[openproxylist.com] vmess-
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇮🇳[openproxylist.com] vmess-IN
+  - 🇦🇺[openproxylist.com] vmess-AU
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇬🇧[openproxylist.com] vmess-GB
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇨🇦[openproxylist.com] vmess-CA
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
