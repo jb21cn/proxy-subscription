@@ -6,15 +6,15 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
+  name: 🇿🇦[openproxylist.com] vmess-ZA
   network: tcp
-  port: 16121
-  server: zfd-jpv2.kunlun01dns.com
+  port: 16266
+  server: zfd-boardv2.kunlun01dns.com
   type: vmess
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 33736
   server: nl-2a972c8052.shamanapp.online
@@ -55,15 +55,15 @@ proxies:
   uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇻🇳[openproxylist.com] vmess-VN
   network: tcp
-  port: 2110
-  server: lucas.ehsanazizi-speed-server.com
+  port: 16256
+  server: zfd-boardv2.kunlun01dns.com
   type: vmess
-  uuid: 06d4d001-4168-4876-9416-7caecf578f40
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 2053
   server: 45.39.255.99
@@ -142,20 +142,35 @@ proxies:
     headers:
       Host: jmp1.907737.xyz
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: 47.243.153.153
+  servername: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /ws-vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇿🇦[openproxylist.com] vmess-ZA
+  - 🏳[openproxylist.com] vmess-
   - 🇮🇪[openproxylist.com] vmess-IE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇻🇳[openproxylist.com] vmess-VN
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -163,16 +178,17 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇿🇦[openproxylist.com] vmess-ZA
+  - 🏳[openproxylist.com] vmess-
   - 🇮🇪[openproxylist.com] vmess-IE
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇻🇳[openproxylist.com] vmess-VN
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇨🇳[openproxylist.com] vmess-CN
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
