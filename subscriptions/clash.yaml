@@ -19,7 +19,15 @@ proxies:
     path: /truth
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 80
+  server: turknew.net-flowa.com
+  type: vmess
+  uuid: cd96479e-9c39-4a7f-ba0c-806a83af19ca
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
   network: ws
   port: 443
   server: rib9jxayoqjgn2kw.v.3dns.vip
@@ -33,92 +41,33 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: 172.66.203.67
-  servername: vmess.lbw666.dpdns.org
-  tls: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇮🇪[openproxylist.com] vmess-IE
-  network: tcp
-  port: 59236
-  server: 54.229.151.97
-  type: vmess
-  uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
-- alterId: 0
-  cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 52080
-  server: 185.212.149.7
-  type: vmess
-  uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 22366
-  server: 31.76.11.83
-  type: vmess
-  uuid: 632cfa69-ae00-49d1-81e0-554979d1e9fa
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 47.243.153.153
+  server: 47.76.57.83
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
-  network: ws
-  port: 443
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /ws-vmess
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇪[openproxylist.com] vmess-IE
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇮🇪[openproxylist.com] vmess-IE
-  - 🇫🇮[openproxylist.com] vmess-FI
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇭🇰[openproxylist.com] vmess-HK
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
