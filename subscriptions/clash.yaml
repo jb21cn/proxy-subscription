@@ -6,10 +6,53 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇫🇷[openproxylist.com] vmess-FR
+  network: ws
+  port: 443
+  server: www.windowssearchtools.com
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 443
+  server: www.windowsmsidownloads.com
+  servername: www.windowsmsidownloads.com
+  tls: true
+  type: vmess
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  ws-opts:
+    headers:
+      Host: www.windowsmsidownloads.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: ws
+  port: 443
+  server: www.ubuntuupdates.com
+  servername: www.ubuntuupdates.com
+  tls: true
+  type: vmess
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  ws-opts:
+    headers:
+      Host: www.ubuntuupdates.com
+    path: /truth
+- alterId: 0
+  cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 443
   server: www.gptcloudai.com
+  servername: www.gptcloudai.com
   tls: true
   type: vmess
   uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
@@ -38,14 +81,14 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: Rib9JXAYoqjGN2KW.v.3dns.vip
-  servername: Rib9JXAYoqjGN2KW.v.3dns.vip
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
   tls: true
   type: vmess
   uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
     headers:
-      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+      Host: rib9jxayoqjgn2kw.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -66,7 +109,8 @@ proxies:
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: tcp
   port: 443
-  server: 45.131.153.149
+  server: de.zhou-yufan.com
+  servername: de.zhu-yufan.com
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
@@ -89,7 +133,20 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: 104.17.136.198
+  server: node8.liudonghoe.com
+  servername: node8.liudonghoe.com
+  tls: true
+  type: vmess
+  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  ws-opts:
+    headers: {}
+    path: /hoe8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: ws
+  port: 443
+  server: 172.64.229.21
   servername: vmess.lbw666.dpdns.org
   tls: true
   type: vmess
@@ -102,6 +159,9 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -109,11 +169,15 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇫🇷[openproxylist.com] vmess-FR
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -121,6 +185,7 @@ proxy-groups:
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   type: url-test
   url: http://www.gstatic.com/generate_204
