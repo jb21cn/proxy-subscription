@@ -27,7 +27,7 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 443
-  server: www.windowssearchtools.com
+  server: 104.21.15.251
   servername: www.windowssearchtools.com
   tls: true
   type: vmess
@@ -47,8 +47,7 @@ proxies:
   type: vmess
   uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
   ws-opts:
-    headers:
-      Host: www.windowsmsidownloads.com
+    headers: {}
     path: /truth
 - alterId: 0
   cipher: auto
@@ -61,7 +60,8 @@ proxies:
   type: vmess
   uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
   ws-opts:
-    headers: {}
+    headers:
+      Host: www.ubuntuupdates.com
     path: /truth
 - alterId: 0
   cipher: auto
@@ -74,7 +74,8 @@ proxies:
   type: vmess
   uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
   ws-opts:
-    headers: {}
+    headers:
+      Host: www.gptcloudai.com
     path: /truth
 - alterId: 0
   cipher: auto
@@ -82,6 +83,7 @@ proxies:
   network: tcp
   port: 24212
   server: 158.160.180.165
+  servername: 158.160.180.165
   tls: true
   type: vmess
   uuid: c58c1205-b308-416f-8503-c04557abf93d
@@ -93,6 +95,20 @@ proxies:
   server: 47.242.81.94
   type: vmess
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: ws
+  port: 30330
+  server: sg-transit-3.nebulacloud.win
+  servername: sg-transit-3.nebulacloud.win
+  tls: true
+  type: vmess
+  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
+  ws-opts:
+    headers:
+      Host: sg-transit-3.nebulacloud.win
+    path: /ca/getData
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -113,7 +129,6 @@ proxies:
   network: ws
   port: 443
   server: wjofHsQtEuEywxEq.v.3dns.vip
-  servername: wjofHsQtEuEywxEq.v.3dns.vip
   tls: true
   type: vmess
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
@@ -123,17 +138,23 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 21012
+  server: dog-us.kunlun01dns.com
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
-  server: 47.76.57.83
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    headers: {}
     path: /ws-vmess
 proxy-groups:
 - name: PROXY
@@ -147,8 +168,10 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   type: select
 - interval: 300
@@ -162,8 +185,10 @@ proxy-groups:
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇷🇺[openproxylist.com] vmess-RU
   - 🇭🇰[openproxylist.com] vmess-HK
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   type: url-test
   url: http://www.gstatic.com/generate_204
