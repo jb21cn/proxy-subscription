@@ -6,30 +6,28 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: ws
-  port: 443
-  server: w12.luoli.de
-  servername: w12.luoli.de
-  tls: true
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: tcp
+  port: 800
+  server: 129.154.61.196
   type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-  ws-opts:
-    headers:
-      Host: w12.luoli.de
-    path: /v2ws
+  uuid: a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0
 - alterId: 0
   cipher: auto
-  name: 🇹🇷[openproxylist.com] vmess-TR
-  network: ws
-  port: 8080
-  server: octpus1.gsmonline.ir
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 34029
+  server: 185.19.33.123
   type: vmess
-  uuid: ea183122-9b4a-4dc3-afe2-adb114e2019d
-  ws-opts:
-    headers:
-      Host: snapp.ir
-    path: /
+  uuid: 12f4bc22-31c7-41a3-b5f3-b7cd39b2a53b
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 33625
+  server: tun.xelnivo.ir
+  type: vmess
+  uuid: f6547466-a44a-41e7-9b71-473c5bf05723
 - alterId: 0
   cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
@@ -45,17 +43,6 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 80
-  server: 130.94.16.109
-  type: vmess
-  uuid: f88c14b4-056d-4731-93f4-66a2cb09672b
-  ws-opts:
-    headers: {}
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 443
@@ -65,8 +52,7 @@ proxies:
   type: vmess
   uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
   ws-opts:
-    headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
+    headers: {}
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -119,7 +105,6 @@ proxies:
   network: ws
   port: 443
   server: www.windowsmsidownloads.com
-  servername: www.windowsmsidownloads.com
   tls: true
   type: vmess
   uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
@@ -133,6 +118,7 @@ proxies:
   network: ws
   port: 443
   server: www.ubuntuupdates.com
+  servername: www.ubuntuupdates.com
   tls: true
   type: vmess
   uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
@@ -146,12 +132,12 @@ proxies:
   network: ws
   port: 443
   server: www.gptcloudai.com
+  servername: www.gptcloudai.com
   tls: true
   type: vmess
   uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
   ws-opts:
-    headers:
-      Host: www.gptcloudai.com
+    headers: {}
     path: /truth
 - alterId: 0
   cipher: auto
@@ -175,10 +161,10 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -193,10 +179,10 @@ proxy-groups:
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇹🇷[openproxylist.com] vmess-TR
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇩🇪[openproxylist.com] vmess-DE
