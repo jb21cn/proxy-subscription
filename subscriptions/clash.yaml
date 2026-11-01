@@ -9,17 +9,17 @@ proxies:
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 443
-  server: wjofHsQtEuEywxEq.v.3dns.vip
+  server: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
   tls: true
   type: vmess
   uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
   ws-opts:
-    headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    headers: {}
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 80
   server: mdk.mdmekjll.best
@@ -28,6 +28,18 @@ proxies:
   ws-opts:
     headers:
       Host: mdk.mdmekjll.best
+    path: /game/resources
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 53617
+  server: az-1.linkaa.xyz
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: az-1.linkaa.xyz
     path: /game/resources
 - alterId: 0
   cipher: auto
@@ -106,20 +118,21 @@ proxies:
   type: vmess
   uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
   ws-opts:
-    headers: {}
+    headers:
+      Host: www.windowsmsidownloads.com
     path: /truth
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
+  name: 🇬🇧[openproxylist.com] vmess-GB
   network: ws
   port: 443
   server: www.ubuntuupdates.com
+  servername: www.ubuntuupdates.com
   tls: true
   type: vmess
   uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
   ws-opts:
-    headers:
-      Host: www.ubuntuupdates.com
+    headers: {}
     path: /truth
 - alterId: 0
   cipher: auto
@@ -143,20 +156,13 @@ proxies:
   tls: true
   type: vmess
   uuid: c58c1205-b308-416f-8503-c04557abf93d
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 20250
-  server: 51.83.6.5
-  type: vmess
-  uuid: de883d6d-4099-41bc-ba86-82ffed64a380
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🏳[openproxylist.com] vmess-
+  - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -164,16 +170,16 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇨🇦[openproxylist.com] vmess-CA
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🏳[openproxylist.com] vmess-
+  - 🇸🇬[openproxylist.com] vmess-SG
+  - 🇭🇰[openproxylist.com] vmess-HK
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇭🇰[openproxylist.com] vmess-HK
@@ -181,10 +187,9 @@ proxy-groups:
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇨🇦[openproxylist.com] vmess-CA
-  - 🏳[openproxylist.com] vmess-
+  - 🇬🇧[openproxylist.com] vmess-GB
   - 🇩🇪[openproxylist.com] vmess-DE
   - 🇷🇺[openproxylist.com] vmess-RU
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
