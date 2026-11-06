@@ -22,7 +22,7 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: Rib9JXAYoqjGN2KW.v.3dns.vip
+  server: rib9jxayoqjgn2kw.v.3dns.vip
   servername: Rib9JXAYoqjGN2KW.v.3dns.vip
   tls: true
   type: vmess
@@ -41,6 +41,18 @@ proxies:
   uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
 - alterId: 0
   cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: ws
+  port: 8018
+  server: d2.anonix.cloud
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  ws-opts:
+    headers:
+      Host: shit.67133767.xyz
+    path: /websocket/transfer/gayporn
+- alterId: 0
+  cipher: auto
   name: 🇰🇷[openproxylist.com] vmess-KR
   network: tcp
   port: 800
@@ -52,7 +64,7 @@ proxies:
   name: 🇫🇷[openproxylist.com] vmess-FR
   network: ws
   port: 443
-  server: 188.114.97.1
+  server: www.windowssearchtools.com
   servername: www.windowssearchtools.com
   tls: true
   type: vmess
@@ -66,21 +78,20 @@ proxies:
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: ws
   port: 443
-  server: 188.114.96.1
+  server: www.windowsmsidownloads.com
   servername: www.windowsmsidownloads.com
   tls: true
   type: vmess
   uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
   ws-opts:
-    headers:
-      Host: www.windowsmsidownloads.com
+    headers: {}
     path: /truth
 - alterId: 0
   cipher: auto
   name: 🇩🇪[openproxylist.com] vmess-DE
   network: ws
   port: 443
-  server: 172.67.156.121
+  server: www.gptcloudai.com
   servername: www.gptcloudai.com
   tls: true
   type: vmess
@@ -89,47 +100,6 @@ proxies:
     headers:
       Host: www.gptcloudai.com
     path: /truth
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 443
-  server: rib9jxayoqjgn2kw.v.3dns.vip
-  servername: rib9jxayoqjgn2kw.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  ws-opts:
-    headers: {}
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: ws
-  port: 80
-  server: 172.67.187.145
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 59236
-  server: 54.229.151.97
-  type: vmess
-  uuid: 2387bfbc-10a6-4bd7-dc55-7cba954ce6e8
-- alterId: 0
-  cipher: auto
-  name: 🇫🇮[openproxylist.com] vmess-FI
-  network: tcp
-  port: 52080
-  server: 185.212.149.7
-  type: vmess
-  uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
 proxy-groups:
 - name: PROXY
   proxies:
@@ -137,14 +107,11 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🇫🇮[openproxylist.com] vmess-FI
   type: select
 - interval: 300
   name: 自动选择
@@ -152,14 +119,11 @@ proxy-groups:
   - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇰🇷[openproxylist.com] vmess-KR
   - 🇫🇷[openproxylist.com] vmess-FR
   - 🇨🇦[openproxylist.com] vmess-CA
   - 🇩🇪[openproxylist.com] vmess-DE
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
-  - 🇫🇮[openproxylist.com] vmess-FI
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
