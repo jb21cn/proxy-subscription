@@ -14,14 +14,6 @@ proxies:
   uuid: 88be793c-c368-4eb1-8809-057e5df96606
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: tcp
-  port: 1288
-  server: 107.175.76.215
-  type: vmess
-  uuid: 29a72eac-a4d1-4526-8fa0-d3ecc4e38b44
-- alterId: 0
-  cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1270
@@ -32,78 +24,25 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🇳🇱[openproxylist.com] vmess-NL
   network: tcp
-  port: 1270
-  server: 172.111.36.147
-  servername: xmfhlpy.com
-  tls: true
+  port: 11674
+  server: 176.65.151.175
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 162.251.61.46
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 162.251.62.44
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
   network: ws
   port: 443
-  server: Rib9JXAYoqjGN2KW.v.3dns.vip
-  servername: Rib9JXAYoqjGN2KW.v.3dns.vip
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  servername: rib9jxayoqjgn2kw.v.3dns.vip
   tls: true
   type: vmess
   uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
   ws-opts:
-    headers:
-      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+    headers: {}
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
-  network: tcp
-  port: 1270
-  server: 138.199.55.230
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧[openproxylist.com] vmess-GB
-  network: tcp
-  port: 1270
-  server: 149.7.16.228
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 172.111.38.246
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
   name: 🇹🇭[openproxylist.com] vmess-TH
@@ -129,14 +68,8 @@ proxy-groups:
   proxies:
   - 自动选择
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇪[openproxylist.com] vmess-SE
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇩🇪[openproxylist.com] vmess-DE
@@ -145,14 +78,8 @@ proxy-groups:
   name: 自动选择
   proxies:
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇸🇪[openproxylist.com] vmess-SE
-  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇳🇱[openproxylist.com] vmess-NL
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇹🇭[openproxylist.com] vmess-TH
   - 🇩🇪[openproxylist.com] vmess-DE
