@@ -6,32 +6,26 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 1270
-  server: 193.108.117.61
-  servername: xmfhlpy.com
-  tls: true
+  name: 🇸🇪[openproxylist.com] vmess-SE
+  network: grpc
+  port: 80
+  server: 16.171.159.75
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  uuid: 5b2e2e5f-1302-4d65-ab39-27f6f0ca5562
 - alterId: 0
   cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
-  network: tcp
-  port: 10086
-  server: 195.133.135.238
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 23.150.152.65
-  servername: xmfhlpy.com
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: matrix.phonicsindia.mobi
   tls: true
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -65,56 +59,6 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1270
-  server: 216.106.182.225
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 1270
-  server: 193.108.119.87
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 172.111.36.253
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 172.111.36.137
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
-  server: 172.111.36.126
-  servername: xmfhlpy.com
-  tls: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
-  network: tcp
-  port: 1270
   server: 167.88.63.47
   servername: xmfhlpy.com
   tls: true
@@ -132,7 +76,7 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 🇺🇸[openproxylist.com] vmess-US
+  name: 🏳[openproxylist.com] vmess-
   network: tcp
   port: 1270
   server: 167.88.62.134
@@ -172,10 +116,90 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
+  name: 🇨🇦[openproxylist.com] vmess-CA
   network: tcp
   port: 1270
-  server: 185.177.229.95
+  server: 158.51.121.246
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 1270
+  server: 151.241.19.44
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 1270
+  server: 149.50.215.240
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 1270
+  server: 149.50.215.238
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 1270
+  server: 149.22.91.20
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 1270
+  server: 142.202.48.87
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: tcp
+  port: 1270
+  server: 134.195.196.154
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 1270
+  server: 167.88.63.39
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 1270
+  server: 167.88.62.56
   servername: xmfhlpy.com
   tls: true
   type: vmess
@@ -184,44 +208,48 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇯🇵[openproxylist.com] vmess-JP
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🏳[openproxylist.com] vmess-
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
+  - 🏳[openproxylist.com] vmess-
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇨🇦[openproxylist.com] vmess-CA
   - 🇺🇸[openproxylist.com] vmess-US
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇺🇸[openproxylist.com] vmess-US
-  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
