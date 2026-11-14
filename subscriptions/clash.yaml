@@ -6,17 +6,12 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🏳[openproxylist.com] vmess-
-  network: ws
-  port: 443
-  server: US122201.ssgreen.org
-  tls: true
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 26032
+  server: 123466.ru
   type: vmess
-  uuid: 7a8f7391-1711-4fcc-b29b-562a00f357f3
-  ws-opts:
-    headers:
-      Host: US122201.ssgreen.org
-    path: /wes
+  uuid: 804334e2-04ca-434c-8311-3ccee8218175
 - alterId: 0
   cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
@@ -33,42 +28,62 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇯🇵[openproxylist.com] vmess-JP
-  network: ws
-  port: 443
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
+  name: 🇧🇷[openproxylist.com] vmess-BR
+  network: tcp
+  port: 1270
+  server: 103.88.232.55
+  servername: xmfhlpy.com
   tls: true
   type: vmess
-  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
+  name: 🇮🇩[openproxylist.com] vmess-ID
   network: tcp
-  port: 11674
-  server: 176.65.151.175
+  port: 16298
+  server: zfd-boardv2.kunlun01dns.com
   type: vmess
-  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦[openproxylist.com] vmess-CA
+  network: tcp
+  port: 1270
+  server: 158.51.121.246
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🏳[openproxylist.com] vmess-
+  network: tcp
+  port: 1270
+  server: 134.195.196.154
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🏳[openproxylist.com] vmess-
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🏳[openproxylist.com] vmess-
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🏳[openproxylist.com] vmess-
+  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
-  - 🇯🇵[openproxylist.com] vmess-JP
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇨🇦[openproxylist.com] vmess-CA
+  - 🏳[openproxylist.com] vmess-
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
