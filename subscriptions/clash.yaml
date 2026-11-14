@@ -6,14 +6,6 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪[openproxylist.com] vmess-DE
-  network: tcp
-  port: 26032
-  server: 123466.ru
-  type: vmess
-  uuid: 804334e2-04ca-434c-8311-3ccee8218175
-- alterId: 0
-  cipher: auto
   name: 🇸🇬[openproxylist.com] vmess-SG
   network: ws
   port: 8443
@@ -38,6 +30,14 @@ proxies:
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: tcp
+  port: 32515
+  server: 141.11.139.102
+  type: vmess
+  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
+- alterId: 0
+  cipher: auto
   name: 🇮🇩[openproxylist.com] vmess-ID
   network: tcp
   port: 16298
@@ -46,10 +46,44 @@ proxies:
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
 - alterId: 0
   cipher: auto
+  name: 🇯🇵[openproxylist.com] vmess-JP
+  network: ws
+  port: 443
+  server: 162.159.128.17
+  servername: v2ray.ryin.vip
+  tls: true
+  type: vmess
+  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
+  ws-opts:
+    headers:
+      Host: v2ray.ryin.vip
+    path: /ryinsocksv2board
+- alterId: 0
+  cipher: auto
   name: 🇨🇦[openproxylist.com] vmess-CA
   network: tcp
   port: 1270
   server: 158.51.121.246
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱[openproxylist.com] vmess-NL
+  network: tcp
+  port: 1270
+  server: 151.241.19.44
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 1270
+  server: 142.202.48.87
   servername: xmfhlpy.com
   tls: true
   type: vmess
@@ -64,26 +98,88 @@ proxies:
   tls: true
   type: vmess
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪[openproxylist.com] vmess-SE
+  network: tcp
+  port: 1270
+  server: 138.199.55.230
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧[openproxylist.com] vmess-GB
+  network: tcp
+  port: 1270
+  server: 149.7.16.228
+  servername: xmfhlpy.com
+  tls: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭[openproxylist.com] vmess-TH
+  network: tcp
+  port: 37515
+  server: 119.46.51.45
+  type: vmess
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: tcp
+  port: 800
+  server: 129.154.61.196
+  type: vmess
+  uuid: a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪[openproxylist.com] vmess-DE
+  network: tcp
+  port: 443
+  server: de.zhou-yufan.com
+  servername: de.zhou-yufan.com
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
+  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: select
 - interval: 300
   name: 自动选择
   proxies:
-  - 🇩🇪[openproxylist.com] vmess-DE
   - 🇸🇬[openproxylist.com] vmess-SG
   - 🇧🇷[openproxylist.com] vmess-BR
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇮🇩[openproxylist.com] vmess-ID
+  - 🇯🇵[openproxylist.com] vmess-JP
   - 🇨🇦[openproxylist.com] vmess-CA
+  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
   - 🏳[openproxylist.com] vmess-
+  - 🇸🇪[openproxylist.com] vmess-SE
+  - 🇬🇧[openproxylist.com] vmess-GB
+  - 🇹🇭[openproxylist.com] vmess-TH
+  - 🇰🇷[openproxylist.com] vmess-KR
+  - 🇩🇪[openproxylist.com] vmess-DE
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
