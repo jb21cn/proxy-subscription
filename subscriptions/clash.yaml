@@ -18,10 +18,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇪[openproxylist.com] vmess-SE
+  name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1270
-  server: 62.93.166.184
+  server: 172.111.36.126
   servername: xmfhlpy.com
   tls: true
   type: vmess
@@ -31,37 +31,38 @@ proxies:
   name: 🇺🇸[openproxylist.com] vmess-US
   network: tcp
   port: 1270
-  server: 172.111.36.253
+  server: 167.88.62.51
   servername: xmfhlpy.com
   tls: true
   type: vmess
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
 - alterId: 0
   cipher: auto
-  name: 🇳🇱[openproxylist.com] vmess-NL
-  network: tcp
-  port: 1270
-  server: 151.241.19.44
-  servername: xmfhlpy.com
-  tls: true
+  name: 🇮🇳[openproxylist.com] vmess-IN
+  network: ws
+  port: 80
+  server: 152.67.8.205
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers: {}
+    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇳[openproxylist.com] vmess-IN
   type: select
 - interval: 300
   name: 自动选择
   proxies:
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇸🇪[openproxylist.com] vmess-SE
   - 🇺🇸[openproxylist.com] vmess-US
-  - 🇳🇱[openproxylist.com] vmess-NL
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇮🇳[openproxylist.com] vmess-IN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
