@@ -6,12 +6,26 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇭🇰[openproxylist.com] vmess-HK
+  name: 🇹🇭[openproxylist.com] vmess-TH
   network: tcp
-  port: 16116
-  server: zfd-hkv2.kunlun01dns.com
+  port: 18565
+  server: 8.213.211.160
   type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+  uuid: 853a251f-de85-40cc-84a6-ab8748c7258c
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰[openproxylist.com] vmess-HK
+  network: ws
+  port: 443
+  server: 47.86.90.31
+  servername: bywxdhirqkjj8xaz.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: bywxdhirqkjj8xaz.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: 🇺🇸[openproxylist.com] vmess-US
@@ -25,6 +39,26 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
+  name: 🇺🇸[openproxylist.com] vmess-US
+  network: tcp
+  port: 18000
+  server: 169.197.142.22
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷[openproxylist.com] vmess-KR
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: 132.145.80.230
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
   name: 🇭🇰[openproxylist.com] vmess-HK
   network: ws
   port: 44867
@@ -35,33 +69,26 @@ proxies:
     headers:
       Host: 47.244.120.197
     path: /arki
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳[openproxylist.com] vmess-IN
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers: {}
-    path: /
 proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇮🇳[openproxylist.com] vmess-IN
   type: select
 - interval: 300
   name: 自动选择
   proxies:
+  - 🇹🇭[openproxylist.com] vmess-TH
   - 🇭🇰[openproxylist.com] vmess-HK
   - 🇺🇸[openproxylist.com] vmess-US
+  - 🇺🇸[openproxylist.com] vmess-US
+  - 🇰🇷[openproxylist.com] vmess-KR
   - 🇭🇰[openproxylist.com] vmess-HK
-  - 🇮🇳[openproxylist.com] vmess-IN
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
